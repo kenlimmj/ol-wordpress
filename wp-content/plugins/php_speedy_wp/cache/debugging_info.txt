@@ -1,0 +1,207 @@
+Array
+(
+    [plugins] => Array
+        (
+            [0] => cimy-user-extra-fields/cimy_user_extra_fields.php
+            [1] => cimy-user-manager/cimy_user_manager.php
+            [2] => csv-importer/csv_importer.php
+            [3] => enable-media-replace/enable-media-replace.php
+            [4] => google-analytics-for-wordpress/googleanalytics.php
+            [5] => google-sitemap-generator/sitemap.php
+            [6] => gravityforms/gravityforms.php
+            [7] => grimp-php/grimp-php.php
+            [8] => import-users-from-csv/import-users-from-csv.php
+            [9] => php_speedy_wp/php_speedy_wp.php
+            [10] => secure-wordpress/secure-wordpress.php
+            [11] => twitter-widget-premium/twitter.php
+            [12] => user-photo/user-photo.php
+            [13] => verve-meta-boxes/verve-meta-boxes.php
+            [14] => w3-total-cache/w3-total-cache.php
+            [15] => wp-dbmanager/wp-dbmanager.php
+            [16] => wp-email-login/email-login.php
+            [17] => wp-total-hacks/wp-total-hacks.php
+        )
+
+    [post] => Array
+        (
+            [blog_name] => ROV Courses
+            [url] => http://www.subnetservices.com/rovcourse
+            [title] => Feast for thought
+            [excerpt] => If you\'d like a tip - you might think to write at high school education level for more mass appeal.
+        )
+
+    [wp_query] => WP_Query Object
+        (
+            [query_vars] => Array
+                (
+                    [category_name] => trackback
+                    [error] => 
+                    [m] => 0
+                    [p] => 0
+                    [post_parent] => 
+                    [subpost] => 
+                    [subpost_id] => 
+                    [attachment] => 
+                    [attachment_id] => 0
+                    [name] => 
+                    [static] => 
+                    [pagename] => 
+                    [page_id] => 0
+                    [second] => 
+                    [minute] => 
+                    [hour] => 
+                    [day] => 0
+                    [monthnum] => 0
+                    [year] => 0
+                    [w] => 0
+                    [tag] => 
+                    [cat] => 
+                    [tag_id] => 
+                    [author_name] => 
+                    [feed] => 
+                    [tb] => 
+                    [paged] => 0
+                    [comments_popup] => 
+                    [meta_key] => 
+                    [meta_value] => 
+                    [preview] => 
+                    [s] => 
+                    [sentence] => 
+                    [fields] => 
+                    [category__in] => Array
+                        (
+                        )
+
+                    [category__not_in] => Array
+                        (
+                        )
+
+                    [category__and] => Array
+                        (
+                        )
+
+                    [post__in] => Array
+                        (
+                        )
+
+                    [post__not_in] => Array
+                        (
+                        )
+
+                    [tag__in] => Array
+                        (
+                        )
+
+                    [tag__not_in] => Array
+                        (
+                        )
+
+                    [tag__and] => Array
+                        (
+                        )
+
+                    [tag_slug__in] => Array
+                        (
+                        )
+
+                    [tag_slug__and] => Array
+                        (
+                        )
+
+                    [ignore_sticky_posts] => 
+                    [suppress_filters] => 
+                    [cache_results] => 
+                    [update_post_term_cache] => 1
+                    [update_post_meta_cache] => 1
+                    [post_type] => 
+                    [posts_per_page] => 10
+                    [nopaging] => 
+                    [comments_per_page] => 50
+                    [no_found_rows] => 
+                    [order] => DESC
+                )
+
+            [tax_query] => WP_Tax_Query Object
+                (
+                    [queries] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [taxonomy] => category
+                                    [terms] => Array
+                                        (
+                                            [0] => trackback
+                                        )
+
+                                    [include_children] => 1
+                                    [field] => slug
+                                    [operator] => IN
+                                )
+
+                        )
+
+                    [relation] => AND
+                )
+
+            [meta_query] => WP_Meta_Query Object
+                (
+                    [queries] => Array
+                        (
+                        )
+
+                    [relation] => 
+                )
+
+            [post_count] => 0
+            [current_post] => -1
+            [in_the_loop] => 
+            [comment_count] => 0
+            [current_comment] => -1
+            [found_posts] => 0
+            [max_num_pages] => 0
+            [max_num_comment_pages] => 0
+            [is_single] => 
+            [is_preview] => 
+            [is_page] => 
+            [is_archive] => 
+            [is_date] => 
+            [is_year] => 
+            [is_month] => 
+            [is_day] => 
+            [is_time] => 
+            [is_author] => 
+            [is_category] => 
+            [is_tag] => 
+            [is_tax] => 
+            [is_search] => 
+            [is_feed] => 
+            [is_comment_feed] => 
+            [is_trackback] => 
+            [is_home] => 
+            [is_404] => 1
+            [is_comments_popup] => 
+            [is_paged] => 
+            [is_admin] => 
+            [is_attachment] => 
+            [is_singular] => 
+            [is_robots] => 
+            [is_posts_page] => 
+            [is_post_type_archive] => 
+            [query_vars_hash] => e64ffb8295aefb456a29a1318e18b902
+            [query_vars_changed] => 
+            [thumbnails_cached] => 
+            [query] => Array
+                (
+                    [category_name] => trackback
+                )
+
+            [request] =>  SELECT SQL_CALC_FOUND_ROWS  wp_posts.* FROM wp_posts  WHERE 1=1  AND 0 = 1 AND wp_posts.post_type = 'post' AND (wp_posts.post_status = 'publish') GROUP BY wp_posts.ID ORDER BY wp_posts.post_date DESC LIMIT 0, 10
+            [posts] => Array
+                (
+                )
+
+            [queried_object] => 
+            [queried_object_id] => 0
+        )
+
+)

@@ -1,0 +1,425 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Secure WordPres 0.8.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-06-16 15:22+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Team Blogos <wordpress@blogos.dk>\n"
+"Language-Team: Team Blogos <wordpress@blogos.dk>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=n != 1;\n"
+"X-Poedit-Language: Danish\n"
+"X-Poedit-Country: DENMARK\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;__ngettext:1,2;__ngettext_noop:1,2;_nc:1,2;_nx:1,2;_n_noop:1,2;_nx_noop;_x;_c;esc_html__;esc_html_e;esc_html_x;esc_attr__;esc_attr_e;esc_attr_x\n"
+"X-Poedit-Basepath: d:\\wordpress\\plugins\\secure-wordpress\n"
+"X-Poedit-SearchPath-0: d:\\wordpress\\plugins\\secure-wordpress\n"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:364
+msgid "Settings"
+msgstr "Indstillinger"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:393
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:440
+msgid "<a href=\"http://wordpress.org/extend/plugins/secure-wordpress/\">Documentation</a>"
+msgstr "<a href=\"http://wordpress.org/extend/plugins/secure-wordpress/\">Dokumentation</a>"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:416
+msgid "Options update."
+msgstr "Update om indstillinger"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:418
+msgid "All entries in the database was cleared. Now deactivate this plugin."
+msgstr "Alle pluginnets poster i databasen blev ryddet. Deaktivér dette plugin nu."
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:432
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:443
+msgid "Secure WP"
+msgstr "Secure WP"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:439
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:738
+msgid "Secure WordPress"
+msgstr "Secure WordPress"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:463
+msgid "Version"
+msgstr "version"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:463
+msgid "History"
+msgstr "Historik"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:463
+msgid "Author"
+msgstr "Forfatter"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:664
+msgid "Options not updated - you don&lsquo;t have the privileges to do this!"
+msgstr "Indstillingerne blev ikke opdateret &ndash; du har ikke rettigheder til at gøre dette!"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:684
+msgid "Entries were not deleted - you don&lsquo;t have the privileges to do this!"
+msgstr "Posterne blev ikke slettet &ndash; du har ikke rettigheder til at gøre dette!"
+
+# type: deleted
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:692
+msgid "Entries were not deleted - check the checkbox!"
+msgstr "Posterne blev ikke slettet &ndash; tjek afkrydsningsfeltet!"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:712
+msgid "All entries in the database were cleared."
+msgstr "Alle poster i databasen blev tømt."
+
+# typo: deleted
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:716
+msgid "Entries were not deleted - check the checkbox or you don&lsquo;t have the privileges to do this!"
+msgstr "Posterne blev ikke slettet &ndash; tjek afkrydsningsfeltet. Eller også har du ikke rettigheder til at gøre dette!"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:743
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:878
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:988
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:1101
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:1121
+msgid "Click to toggle"
+msgstr "Klik for slå til/fra"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:744
+msgid "Configuration"
+msgstr "Opsætning"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:754
+msgid "Error-Messages"
+msgstr "Fejlmeddelelser"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:758
+msgid "Deactivates tooltip and error message at login of WordPress"
+msgstr "Deaktiverer tooltip og fejlmeddelelse ved login til WordPress"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:764
+msgid "WordPress Version"
+msgstr "WordPress-version"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:768
+msgid "Removes version of WordPress in all areas, including feed, not in admin"
+msgstr "Fjerner WordPress-version alle steder, også i feeds, men ikke i admin"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:774
+msgid "WordPress Version in Backend"
+msgstr "WordPress-version i kontrolpanel"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:778
+msgid "Removes version of WordPress on admin-area for non-admins. Show WordPress version of your blog only to users with the rights to edit plugins."
+msgstr "Fjern WordPress-version i admin-området for ikke-admins. Vis kun meddelelse om WordPress-version til de brugere, der har rettigheder til at redigere plugins."
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:784
+msgid "index.php"
+msgstr "index.php"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:788
+msgid "creates an <code>index.php</code> file in <code>/plugins/</code> and <code>/themes/</code> to keep it from showing your directory listing"
+msgstr "Opretter en <code>index.php</code> fil i <code>/plugins/</code>-mappen, så der ikke bliver vist nogen mappeoversigt"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:794
+msgid "Really Simple Discovery"
+msgstr "Really Simple Discovery"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:798
+msgid "Remove Really Simple Discovery link in <code>wp_head</code> of the frontend"
+msgstr "Fjern Really Simple Discovery-linket i <code>wp_head</code> ude i bloggen"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:804
+msgid "Windows Live Writer"
+msgstr "Windows Live Writer"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:808
+msgid "Remove Windows Live Writer link in <code>wp_head</code> of the frontend"
+msgstr "Fjern Windows Live Writer-linket i <code>wp_head</code> ude i bloggen"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:814
+msgid "Core Update"
+msgstr "Kerne-opdatering"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:818
+msgid "Remove WordPress Core update for non-admins. Show message of a new WordPress version only to users with the right to update."
+msgstr "Fjern WordPress Core-opdatering fra ikke-admins. Vis kun meddelelse om ny WordPress-version til de brugere, der har rettigheder til at opdatere."
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:824
+msgid "Plugin Update"
+msgstr "Plugin-opdatering"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:828
+msgid "Remove the plugin update for non-admins. Show message for a new version of a plugin in the install of your blog only to users with the rights to edit plugins."
+msgstr "Fjern plugin-opdatering for ikke-admins. Vis kun meddelelse om ny version af et plugin i din WordPress-installation til de brugere, der har rettigheder til at redigere plugins."
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:835
+msgid "Theme Update"
+msgstr "Tema-opdatering"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:839
+msgid "Remove the theme update for non-admins. Show message for a new version of a theme in the install of your blog only to users with the rights to edit themes."
+msgstr "Fjern tema-opdatering for ikke-admins. Vis kun meddelelse om ny version af et tema i din blogs installation til de brugere, der har rettigheder til at redigere temaer."
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:846
+msgid "WP Scanner"
+msgstr "WP-scanner"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:850
+msgid "WordPress scanner is a free online resource that blog administrators can use to provide a measure of their wordpress security level. To run wp-scanner check this option and add <code>&lt;!-- wpscanner --&gt;</code> to your current WordPress template. After this go to <a href=\"http://blogsecurity.net/wpscan\">http://blogsecurity.net/wpscan</a> and scan your site."
+msgstr "WordPress-scanner er en gratis online-ressource, som blogadministratorer kan bruge til at undersøge niveauet af deres WordPress-sikkerhed. Hvis du vil køre WP-scanner, så markér denne indstilling og tilføj <code>&lt;!-- wpscanner --&gt;</code> til dit aktuelle WordPress-tema. Gå derefter til <a href=\"http://blogsecurity.net/wpscan\">http://blogsecurity.net/wpscan</a> og scan din site."
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:856
+msgid "Block bad queries"
+msgstr "Blokér ondsindede forespørgsler"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:860
+msgid "Protect WordPress against malicious URL requests, read more information at the <a href=\"http://perishablepress.com/press/2009/12/22/protect-wordpress-against-malicious-url-requests/\" title=\"read this post\" >post from Jeff Starr</a>"
+msgstr "Beskyt WordPress mod ondsindede URL-forespørgsler; få flere oplysninger i <a href=\"http://perishablepress.com/press/2009/12/22/protect-wordpress-against-malicious-url-requests/\" title=\"læs dette indlæg\" >indlæg fra Jeff Starr</a>"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:868
+msgid "Save Changes"
+msgstr "Gem ændringer"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:879
+msgid "Validate your site with a free malware scan from www.sitesecuritymonitor.com"
+msgstr "Validér din site med en gratis malware-scan fra www.sitesecuritymonitor.com"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:882
+msgid "Take us for a Test Drive - Free Scan"
+msgstr "Lad os teste &ndash; Gratis scan"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:883
+msgid "We understand you may have questions:"
+msgstr "Det er forståeligt, hvis du har et spørgsmål:"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:884
+msgid "What does this do for me?"
+msgstr "Hvad får jeg ud af det?"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:885
+msgid "Am I really safe? I need to be sure."
+msgstr "Er jeg helt sikret? Jeg skal være sikker!"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:886
+msgid "Rest Assured, Site Security Monitor has you covered."
+msgstr "Du kan være sikker på, at Site Security Monitor sikrer dig."
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:888
+msgid "FREE scan looks for malware"
+msgstr "Gratis scan søger efter malware"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:889
+msgid "FREE report of website vulnerabilities found"
+msgstr "Gratis rapport over fundne sårbarheder på din site"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:890
+msgid "No setup, tuning and installation on your site - scan begins immediately"
+msgstr "Ingen opsætning, indstilling eller installation på din site &ndash; scan begynder med det samme"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:892
+msgid "We will deliver to you a detailed malware and web vulnerability report - FREE of charge.  You are free to use the report to resolve issues, show your boss that you are clean, or show your clients that the site you built is safe!"
+msgstr "Du får en detaljeret mailware- og websårbarhedsrapport &ndash; helt gratis. Du er velkommen til at bruge denne rapport til at løse problemer, at vise din chef, at siten er ok, eller at vise dine klienter, at den site, du har udviklet, er sikker!"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:893
+msgid "** Bonus: You will be able to use the Site Security Monitor \"Safe-Seal\" on your site after the scan - this shows the world that you are malware free!"
+msgstr "Bonus: Du vil få lov til at bruge Site Security Monitors <span title=\"Sikkerhedssegl\">Safe-Seal</span> på din site efter scanningen. Det viser verden, at du ikke har malware på din site!"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:895
+msgid "The form"
+msgstr "Formularen"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:896
+msgid "Use the follow form or use it on <a href=\"http://www.sitesecuritymonitor.com/free-scan-for-secure-wordpress\">our website</a>."
+msgstr "Brug den følgende formular eller brug den på <a href=\"http://www.sitesecuritymonitor.com/free-scan-for-secure-wordpress\">din website</a>."
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:928
+msgid "Full Name"
+msgstr "Fuld navn"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:931
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:939
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:947
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:955
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:971
+msgid "*required"
+msgstr "* skal udfyldes"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:936
+msgid "eMail Adress"
+msgstr "E-mail-adresse"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:939
+msgid ", eMail Address must match domain name"
+msgstr ", e-mail-adresse skal matche domænenavn"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:944
+msgid "Website"
+msgstr "Website"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:952
+msgid "Phone"
+msgstr "Telefon"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:960
+msgid "Yes, I need help!"
+msgstr "Ja, jeg har brug for hjælp!"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:963
+msgid "Call me"
+msgstr "Ring til mig"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:968
+msgid "Terms and Conditions"
+msgstr "Vilkår og betingelser"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:971
+msgid ", I accept"
+msgstr ", jeg accepterer"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:978
+msgid "Get my Free Web Scan"
+msgstr "Brug den gratis webscan"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:989
+msgid "Safe Seal"
+msgstr "<span title=\"Sikkerhedssegl\">Safe Seal</span>"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:992
+msgid "Thankyou for using our scan. You are free to use the scan below (outputs HTML for easy copy-pasting) into your blog.  This seal does not give you scanning services - it simple does the basics of wordpress security - as recommended by the community and our own experiences with our customers.<br/>Should you wish to get regular vulnerability and malware scanning services, please <a href=\"http://www.sitesecuritymonitor.com/wordpress-secure-plugin/\">see our main page here...</a>"
+msgstr "Tak, fordi du bruger vores scanner. Du er velkommen til at bruge scanneren nedenfor (den genererer HTML, som du slet kan indsætte) på din egen blog. Dette segl udfører ikke nogen scanning, men kun basal WordPress-sikkerhed, sådan som fællesskabet og vores egne kundeerfaringer anbefaler.<br/>Ønsker du at foretage regelmæssige skanninger for sårbarheder og malware, så <a href=\"http://www.sitesecuritymonitor.com/wordpress-secure-plugin/\">besøg vores hovedside ...</a>"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:1020
+msgid "Color"
+msgstr "Farve"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:1024
+msgid "Green"
+msgstr "Grøn"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:1025
+msgid "Blue"
+msgstr "Blå"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:1026
+msgid "Red"
+msgstr "Rød"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:1027
+msgid "Brown"
+msgstr "Brun"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:1028
+msgid "Gray"
+msgstr "Grå"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:1037
+msgid "Text"
+msgstr "Tekst"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:1041
+msgid "Protected"
+msgstr "Beskyttet"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:1042
+msgid "Secured"
+msgstr "Sikrer"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:1043
+msgid "Scanned"
+msgstr "Scannet"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:1044
+msgid "Protected by"
+msgstr "Beskyttet af"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:1050
+msgid "Orientation"
+msgstr "Retning"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:1054
+msgid "Horizontal"
+msgstr "Horisontalt"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:1055
+msgid "Vertical"
+msgstr "Vertikalt"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:1061
+msgid "Image border"
+msgstr "Billedramme"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:1069
+msgid "Language"
+msgstr "Sprog"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:1073
+msgid "English (US)"
+msgstr "Engelsk (US)"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:1074
+msgid "English (UK)"
+msgstr "Engelsk (UK)"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:1075
+msgid "Spanish"
+msgstr "Spansk"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:1076
+msgid "German"
+msgstr "Tysk"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:1077
+msgid "Italian"
+msgstr "Italiensk"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:1078
+msgid "Japanese"
+msgstr "Japansk"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:1079
+msgid "Chinese (Simplified)"
+msgstr "Kinesisk (Forsimplet)"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:1080
+msgid "Chinese (Traditional)"
+msgstr "Kinesisk (Traditionel)"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:1088
+msgid "Source"
+msgstr "Kilde"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:1089
+msgid "Here is your generated code. Place it on your website (as html widget) to show that you are protected."
+msgstr "Her er din genererede kode. Placér den (som HTML-widget) på din website for at vise, at du er beskyttet."
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:1102
+msgid "Clear Options"
+msgstr "Ryd indstillinger"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:1105
+msgid "Click this button to delete the settings of this plugin. Deactivating Secure WordPress plugin removes any data that may have been created."
+msgstr "Klik på denne knap, hvis du vil slette pluginnets indstillinger. Deaktivering af Secure WordPress-pluginnet fjerner al data, det måtte have oprettet."
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:1110
+msgid "Delete Options"
+msgstr "Slet indstillinger"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:1122
+msgid "About the plugin"
+msgstr "Om pluginnet"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:1127
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:1129
+msgid "Scan this QR Code to donate for me"
+msgstr "Scan denne QR-kode og foretag en donation på mine vegne"
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:1142
+msgid "Further information: Visit the <a href=\"http://bueltge.de/wordpress-login-sicherheit-plugin/652/\">plugin homepage</a> for further information or to grab the latest version of this plugin."
+msgstr "Yderligere information: Besøg <a href=\"http://bueltge.de/wordpress-login-sicherheit-plugin/652/\">pluginnets hjemmeside</a> for mere information eller for at hente den seneste udgave af dette plugin."
+
+#: d:\wordpress\plugins\secure-wordpress/secure-wordpress.php:1142
+msgid "You want to thank me? Visit my <a href=\"http://bueltge.de/wunschliste/\">wishlist</a>."
+msgstr "Ønsker du at takke mig? Kig på min <a href=\"http://bueltge.de/wunschliste/\">ønskeliste</a>."
+

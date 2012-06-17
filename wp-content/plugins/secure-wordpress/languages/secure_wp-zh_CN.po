@@ -1,0 +1,236 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Secure WordPress v0.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2010-01-22 18:08+0800\n"
+"Last-Translator: 老顽童 <tanghaiwei@dd54.net>\n"
+"Language-Team: 老顽童 <tanghaiwei@dd54.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: CHINA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: secure-wordpress.php:330
+msgid "Settings"
+msgstr "设置"
+
+#@ secure_wp
+#: secure-wordpress.php:359
+#: secure-wordpress.php:406
+msgid "<a href=\"http://wordpress.org/extend/plugins/secure-wordpress/\">Documentation</a>"
+msgstr "<a href=\"http://wordpress.org/extend/plugins/secure-wordpress/\">文档</a>,<a href=\"http://dd54.net/\">支持</a>"
+
+#@ secure_wp
+#: secure-wordpress.php:382
+msgid "Options update."
+msgstr "选项更新。"
+
+#@ secure_wp
+#: secure-wordpress.php:384
+msgid "All entries in the database was cleared. Now deactivate this plugin."
+msgstr "数据库中的所有项目已清除。现在停用这个插件。"
+
+#@ secure_wp
+#: secure-wordpress.php:398
+#: secure-wordpress.php:409
+msgid "Secure WP"
+msgstr "Secure WP"
+
+#@ secure_wp
+#: secure-wordpress.php:405
+#: secure-wordpress.php:652
+msgid "Secure WordPress"
+msgstr "Secure WordPress"
+
+#: secure-wordpress.php:429
+msgid "Version"
+msgstr "版本"
+
+#@ secure_wp
+#: secure-wordpress.php:429
+msgid "History"
+msgstr "历史"
+
+#: secure-wordpress.php:429
+msgid "Author"
+msgstr "作者"
+
+#@ secure_wp
+#: secure-wordpress.php:579
+msgid "Options not update - you don&lsquo;t have the privilidges to do this!"
+msgstr "选项不更新 - 没有权限"
+
+#@ secure_wp
+#: secure-wordpress.php:599
+msgid "Entries was not delleted - you don&lsquo;t have the privilidges to do this!"
+msgstr "项目没有删除 - 没有权限"
+
+#@ secure_wp
+#: secure-wordpress.php:607
+msgid "Entries was not delleted - check the checkbox!"
+msgstr "项目没有删除 - 选中复选框!"
+
+#@ secure_wp
+#: secure-wordpress.php:627
+msgid "All entries in the database was cleared."
+msgstr "数据库中的所有项目已清除。"
+
+#@ secure_wp
+#: secure-wordpress.php:631
+msgid "Entries was not delleted - check the checkbox or you don&lsquo;t have the privilidges to do this!"
+msgstr "项目没有删除 - 选中复选框或者没有权限!"
+
+#: secure-wordpress.php:657
+#: secure-wordpress.php:782
+#: secure-wordpress.php:802
+msgid "Click to toggle"
+msgstr "点击切换"
+
+#@ secure_wp
+#: secure-wordpress.php:658
+msgid "Configuration"
+msgstr "配置"
+
+#@ secure_wp
+#: secure-wordpress.php:668
+msgid "Error-Messages"
+msgstr "错误信息"
+
+#@ secure_wp
+#: secure-wordpress.php:672
+msgid "Deactivates tooltip and error message at login of WordPress"
+msgstr "停用在WordPress登录提示和错误信息"
+
+#@ secure_wp
+#: secure-wordpress.php:678
+msgid "WordPress Version"
+msgstr "WordPress版本"
+
+#@ secure_wp
+#: secure-wordpress.php:682
+msgid "Removes version of WordPress in all areas, including feed, not in admin"
+msgstr "隐藏WordPress版本号，除了管理页面"
+
+#@ secure_wp
+#: secure-wordpress.php:688
+msgid "WordPress Version in Backend"
+msgstr "WordPress版本号在后台"
+
+#@ secure_wp
+#: secure-wordpress.php:692
+msgid "Removes version of WordPress on admin-area for non-admins. Show WordPress version of your blog only to users with the rights to edit plugins."
+msgstr "对非管理员隐藏WordPress版本号在管理区域。"
+
+#@ secure_wp
+#: secure-wordpress.php:698
+msgid "index.php"
+msgstr "index.php"
+
+#@ secure_wp
+#: secure-wordpress.php:702
+msgid "creates an <code>index.php</code> file in <code>/plugins/</code> and <code>/themes/</code> to keep it from showing your directory listing"
+msgstr "创建一个 <code>index.php</code> 文件在 <code>/plugins/</code> 和 <code>/themes/</code> 目录"
+
+#@ secure_wp
+#: secure-wordpress.php:708
+msgid "Really Simple Discovery"
+msgstr "RSD离线编辑接口"
+
+#@ secure_wp
+#: secure-wordpress.php:712
+msgid "Remove Really Simple Discovery link in <code>wp_head</code> of the frontend"
+msgstr "隐藏RSD离线编辑接口在 <code>wp_head</code> 前端"
+
+#@ secure_wp
+#: secure-wordpress.php:718
+msgid "Windows Live Writer"
+msgstr "Windows Live Writer"
+
+#@ secure_wp
+#: secure-wordpress.php:722
+msgid "Remove Windows Live Writer link in <code>wp_head</code> of the frontend"
+msgstr "隐藏windows live writer 识别标记在 <code>wp_head</code> 前端"
+
+#@ secure_wp
+#: secure-wordpress.php:728
+msgid "Core Update"
+msgstr "核心更新"
+
+#@ secure_wp
+#: secure-wordpress.php:732
+msgid "Remove WordPress Core update for non-admins. Show message of a new WordPress version only to users with the right to update."
+msgstr "隐藏WordPress核心更新对非管理员。"
+
+#@ secure_wp
+#: secure-wordpress.php:738
+msgid "Plugin Update"
+msgstr "插件更新"
+
+#@ secure_wp
+#: secure-wordpress.php:742
+msgid "Remove the plugin update for non-admins. Show message for a new version of a plugin in the install of your blog only to users with the rights to edit plugins."
+msgstr "隐藏WordPress插件更新对非管理员。"
+
+#@ secure_wp
+#: secure-wordpress.php:749
+msgid "Theme Update"
+msgstr "主题更新"
+
+#@ secure_wp
+#: secure-wordpress.php:753
+msgid "Remove the theme update for non-admins. Show message for a new version of a theme in the install of your blog only to users with the rights to edit themes."
+msgstr "隐藏WordPress插件更新对非管理员。"
+
+#@ secure_wp
+#: secure-wordpress.php:760
+msgid "WP Scanner"
+msgstr "WP 扫描"
+
+#@ secure_wp
+#: secure-wordpress.php:764
+msgid "WordPress scanner is a free online resource that blog administrators can use to provide a measure of their wordpress security level. To run wp-scanner check this option and is add <code>&lt;!-- wpscanner --&gt;</code> to your current WordPress template. After this go to <a href=\"http://blogsecurity.net/wpscan\">http://blogsecurity.net/wpscan</a> and scan your site."
+msgstr "WordPress scanner 是一个免费的在线安全扫描服务。为了运行在线安全检测，需要将<!-- wpscanner -->这一行代码加到主题中，然后浏览 <a href=\"http://blogsecurity.net/wpscan\">http://blogsecurity.net/wpscan</a> 扫描你的网站."
+
+#@ secure_wp
+#: secure-wordpress.php:772
+msgid "Save Changes"
+msgstr "保存更改"
+
+#@ secure_wp
+#: secure-wordpress.php:783
+msgid "Clear Options"
+msgstr "清除选项"
+
+#@ secure_wp
+#: secure-wordpress.php:786
+msgid "Click this button to delete settings of this plugin. Deactivating Secure WordPress plugin remove any data that may have been created."
+msgstr "点击此按钮可删除此插件的设置。"
+
+#@ secure_wp
+#: secure-wordpress.php:791
+msgid "Delete Options"
+msgstr "删除选项"
+
+#@ secure_wp
+#: secure-wordpress.php:803
+msgid "About the plugin"
+msgstr "关于插件"
+
+#@ secure_wp
+#: secure-wordpress.php:816
+msgid "Further information: Visit the <a href=\"http://bueltge.de/wordpress-login-sicherheit-plugin/652/\">plugin homepage</a> for further information or to grab the latest version of this plugin."
+msgstr "更多信息：访问 <a href=\"http://bueltge.de/wordpress-login-sicherheit-plugin/652/\">插件页面</a> 和 <a href=\"http://dd54.net/\">汉化者网站</a> 了解进一步的信息或查找这个插件的最新版本。"
+
+#@ secure_wp
+#: secure-wordpress.php:816
+msgid "You want to thank me? Visit my <a href=\"http://bueltge.de/wunschliste/\">wishlist</a>."
+msgstr "你要感谢我呢？访问我的 <a href=\"http://bueltge.de/wunschliste/\">心愿</a> 和 <a href=\"http://dd54.net/\">汉化者网站</a>."
+

@@ -1,0 +1,269 @@
+/* @override 
+	http://fab.avenueverve.com/wp-content/plugins/verve-meta-boxes/css/verve-meta.css
+	http://www.newfabstore.info/wp-content/plugins/verve-meta-boxes/css/verve-meta.css
+	http://wp.newnewvideo.info/wp-content/plugins/verve-meta-boxes/css/verve-meta.css
+	http://test.newnewvideo.info/wp-content/plugins/verve-meta-boxes/css/verve-meta.css
+	http://baystate.avenueverve.com/wp-content/plugins/verve-meta-boxes/css/verve-meta.css
+*/
+
+#verve_meta_box_product_specs ul span {
+	display: block;
+	float: left;
+	margin-right: 9px;
+}
+
+#verve_meta_box_product_specs ul li {
+	padding-right: 50px;
+}
+
+#verve_meta_box_product_specs ul span.line-description {
+	width: 165px;
+}
+
+#verve_meta_box_product_specs ul span.character-count {
+	width: 165px;
+}
+
+#verve_meta_box_product_specs ul span.text-case {
+	width: 110px;
+}
+
+#verve_meta_box_product_specs label {
+	display: block;
+	font-size: 11px;
+	clear: both;
+}
+
+#verve_meta_box_product_specs ul {
+	clear: both;
+}
+
+#verve_meta_box_product_specs ul:after {
+content:"."; 
+display:block;
+height:0; 
+clear:both; 
+visibility:hidden;
+
+}
+
+#verve_meta_box_product_specs ul li:after {
+content:"."; 
+display:block;
+height:0; 
+clear:both; 
+visibility:hidden;
+
+}
+
+.verve-meta-boxes input.small-text {
+	width: 50px;
+}
+
+.verve_meta_box_content input[type=text] {
+	width: 100%;
+}
+.verve_meta_box_content input.date-pick {
+	width: 50%;
+}
+
+img.addrow {
+	position: absolute; bottom: 5px; right: 10px;
+}
+img.deleterow {
+	position: absolute; bottom: 5px; right: 28px;
+}
+
+.verve_meta_box_content p {
+	display: block;
+	clear: both;
+}
+
+.verve_meta_box_content p:after {
+content:"."; 
+display:block;
+height:0; 
+clear:both; 
+visibility:hidden;
+
+}
+
+.verve_meta_box_content label {
+	display: block;
+	clear: both;
+}
+
+.verve_meta_box_content span.radio {
+	margin-right: 1em;
+}
+
+table#verve_meta_boxes_table {
+	background-color: white;
+	border: 1px solid #ddd;
+	padding: 6px;
+	margin: 6px 0;
+}
+
+table#verve_meta_boxes_table td {
+	padding-right: 18px;
+}
+table#verve_meta_boxes_table h5 {
+	margin: 0;
+}
+
+table#verve_meta_boxes_table li {
+	line-height: 18px;
+	margin-bottom: 0;
+	font-size: 11px;
+}
+
+table#verve_meta_boxes_table li span {
+	width: 75px;
+	display: block;
+	float: left;
+	position: relative; top: 3px;
+}
+
+table#verve_meta_boxes_table ul#verve_meta_remove_field img {
+	position: relative; top: 3px;
+}
+
+/* META BOXES CONFIG STYLES */
+#box-new {
+	background-color: #F7F8DA;
+}
+
+tr.add-field th,
+tr.add-field td {
+	padding-bottom: 9px;
+	border-bottom: 2px solid #ddd;
+}
+
+tr.existing-fields th,
+tr.existing-fields td {
+	border-bottom: 0;
+}
+
+.verve-meta-boxes tr.box-def th.check-column {
+	text-align: center;
+}
+
+tr.box-def th.check-column,
+tr.box-def td {
+	padding-top: 9px !important;
+}
+
+tr.box-def th.check-column input {
+}
+
+tr.box-def td strong span.box_name {
+	color: #256676;
+	font-size: 13px;
+}
+
+.field_list {
+	list-style: none;
+}
+
+.field_list li {
+	display: block;
+	padding: 6px 30px 6px 10px; 
+	margin-bottom: 3px;
+	margin-right: 18px;
+	background-color: #fff;
+	border: 1px dotted #83D3E4;
+	position: relative;
+}
+
+.field_list li:after {
+content:"."; 
+display:block;
+height:0; 
+clear:both; 
+visibility:hidden;
+}
+
+.field_list li img.handle {
+	margin-right: 20px;
+	cursor: move;
+}
+
+#field_editor {
+	width: 16px;
+	position: absolute; right: 12px; top: 6px;
+}
+
+#field_editor img.deletefield {
+	width: 16px; position: static;
+}
+
+.field_list li span {
+	padding: 0 6px;
+	display: block;
+	float: left;
+}
+
+.field_options b {
+	float: left;
+	padding-right: .5em;
+}
+
+span.jeditable {
+	float: none;
+	display: inline;
+	background-image: url(../icons/wand.jpg);
+	background-repeat: no-repeat;
+	background-position: center left;
+	padding: 0 0 0 12px !important;
+}
+
+span.jeditable form {
+	display: inline;
+}
+
+span.jeditable form input {
+	font-size: 10px;
+	width: auto;
+}
+
+span.field_sequence {
+	padding: 0 !important;
+	width: 2em;
+	text-align: center;
+}
+
+span.field_name {
+	font-weight: bold;
+	width: 170px;
+}
+
+span.field_key {
+	width: 125px;
+}
+
+span.field_type {
+	width: 75px;
+}
+
+
+div.field_description {
+	clear: both;
+	margin-left: 54px;
+	color: #999;
+}
+
+ul.verve_meta_checkbox {
+	margin:6px 6px 8px;	
+}
+
+.sticky-note {
+	position: relative; top: 2px;
+}
+
+.sticky-note-content {
+	border: 1px solid #ffe58f;
+	padding: 4px 8px;
+	background-color: #fff8e1;
+	position: relative;
+	display: none;
+}

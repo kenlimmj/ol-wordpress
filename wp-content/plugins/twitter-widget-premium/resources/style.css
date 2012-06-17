@@ -1,0 +1,19 @@
+a.twitter-link div.tweet-thumb {
+	float:left;
+	margin:0 8px 2px 0;
+}
+
+li.tweet {
+	clear:both;
+	list-style:none;
+	margin-bottom:12px;
+}
+
+div.tweet-date {
+	font-style: italic;
+}
+
+#main .widget-area ul ul.tweets {
+	margin-left:0;
+	margin-top:12px;
+}

@@ -1,0 +1,246 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Secure WordPress v0.8.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-06-22 12:29+0100\n"
+"PO-Revision-Date: 2010-03-24 18:51+0100\n"
+"Last-Translator: WordPressPluginGuide.com <info@wppg.me>\n"
+"Language-Team: WPwebshop.com <info@wppg.me>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-Language: Dutch\n"
+"X-Poedit-Country: NETHERLANDS\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: secure-wordpress.php:337
+msgid "Settings"
+msgstr "Instellingen"
+
+# @ secure_wp
+#: secure-wordpress.php:366
+#: secure-wordpress.php:413
+msgid "<a href=\"http://wordpress.org/extend/plugins/secure-wordpress/\">Documentation</a>"
+msgstr "<a href=\"http://wordpress.org/extend/plugins/secure-wordpress/\">Documentatie (Engels)</a>"
+
+# @ secure_wp
+#: secure-wordpress.php:389
+msgid "Options update."
+msgstr "Opties bijwerken."
+
+# @ secure_wp
+#: secure-wordpress.php:391
+msgid "All entries in the database was cleared. Now deactivate this plugin."
+msgstr "Alle vermeldingen in de database werden verwijderd. Deactiveer nu deze plugin."
+
+# @ secure_wp
+#: secure-wordpress.php:405
+#: secure-wordpress.php:416
+msgid "Secure WP"
+msgstr "Secure WP"
+
+# @ secure_wp
+#: secure-wordpress.php:412
+#: secure-wordpress.php:703
+msgid "Secure WordPress"
+msgstr "Secure WordPress"
+
+#: secure-wordpress.php:436
+msgid "Version"
+msgstr "Versie"
+
+# @ secure_wp
+#: secure-wordpress.php:436
+msgid "History"
+msgstr "Historie"
+
+#: secure-wordpress.php:436
+msgid "Author"
+msgstr "Auteur"
+
+# @ secure_wp
+#: secure-wordpress.php:629
+msgid "Options not update - you don&lsquo;t have the privilidges to do this!"
+msgstr "Opties zijn niet bijgewerkt - je hebt geen rechten om dit te doen !"
+
+# @ secure_wp
+#: secure-wordpress.php:649
+msgid "Entries was not delleted - you don&lsquo;t have the privilidges to do this!"
+msgstr "Vermeldingen werden niet verwijderd - je hebt geen rechten om dit te doen!"
+
+# @ secure_wp
+#: secure-wordpress.php:657
+msgid "Entries was not delleted - check the checkbox!"
+msgstr "Vermeldingen werden niet verwijderd - controleer het selectievakje!"
+
+# @ secure_wp
+#: secure-wordpress.php:677
+msgid "All entries in the database was cleared."
+msgstr "Alle vermeldingen in de database zijn verwijderd."
+
+# @ secure_wp
+#: secure-wordpress.php:681
+msgid "Entries was not delleted - check the checkbox or you don&lsquo;t have the privilidges to do this!"
+msgstr "Vermeldingen werden niet verwijderd - je hebt geen rechten om dit te doen!"
+
+#: secure-wordpress.php:708
+#: secure-wordpress.php:843
+#: secure-wordpress.php:863
+msgid "Click to toggle"
+msgstr "Klik om te wisselen"
+
+# @ secure_wp
+#: secure-wordpress.php:709
+msgid "Configuration"
+msgstr "Configuratie"
+
+# @ secure_wp
+#: secure-wordpress.php:719
+msgid "Error-Messages"
+msgstr "Foutmeldingen"
+
+# @ secure_wp
+#: secure-wordpress.php:729
+msgid "WordPress Version"
+msgstr "WordPress Versie"
+
+# @ secure_wp
+#: secure-wordpress.php:733
+msgid "Removes version of WordPress in all areas, including feed, not in admin"
+msgstr "Verwijder de WordPress versie van alle pagina's, inclusief feed, niet van de admin interface"
+
+# @ secure_wp
+#: secure-wordpress.php:759
+msgid "Really Simple Discovery"
+msgstr "Really Simple Discovery"
+
+# @ secure_wp
+#: secure-wordpress.php:763
+msgid "Remove Really Simple Discovery link in <code>wp_head</code> of the frontend"
+msgstr "Verwijder de Really Simple Discovery link in <code>wp_head</code> van de front-end gebruikersomgeving"
+
+# @ secure_wp
+#: secure-wordpress.php:769
+msgid "Windows Live Writer"
+msgstr "Windows Live Writer"
+
+# @ secure_wp
+#: secure-wordpress.php:773
+msgid "Remove Windows Live Writer link in <code>wp_head</code> of the frontend"
+msgstr "Verwijder de Windows Live Writer link in <code>wp_head</code> van de front-end gebruikersomgeving"
+
+# @ secure_wp
+#: secure-wordpress.php:779
+msgid "Core Update"
+msgstr "Kern Update"
+
+# @ secure_wp
+#: secure-wordpress.php:783
+msgid "Remove WordPress Core update for non-admins. Show message of a new WordPress version only to users with the right to update."
+msgstr "Verwijder de WordPress Kern update voor gebruikers die geen admin zijn. Laat alleen een boodschap zien over een nieuwe WordPress versie aan gebruikers met update rechten."
+
+# @ secure_wp
+#: secure-wordpress.php:789
+msgid "Plugin Update"
+msgstr "Plugin Update"
+
+# @ secure_wp
+#: secure-wordpress.php:793
+msgid "Remove the plugin update for non-admins. Show message for a new version of a plugin in the install of your blog only to users with the rights to edit plugins."
+msgstr "Verwijder de plugin update voor gebruikers die geen admin zijn. Laat alleen een boodschap zien over een nieuwe versie van een plugin aan gebruikers met rechten om plugins te kunnen bewerken."
+
+# @ secure_wp
+#: secure-wordpress.php:800
+msgid "Theme Update"
+msgstr "Thema Update"
+
+# @ secure_wp
+#: secure-wordpress.php:804
+msgid "Remove the theme update for non-admins. Show message for a new version of a theme in the install of your blog only to users with the rights to edit themes."
+msgstr "Verwijder de thema update voor gebruikers die geen admin zijn. Laat alleen een boodschap zien over een nieuwe versie van een thema aan gebruikers met rechten om thema's te kunnen bewerken."
+
+# @ secure_wp
+#: secure-wordpress.php:811
+msgid "WP Scanner"
+msgstr "WP Scanner"
+
+# @ secure_wp
+#: secure-wordpress.php:815
+msgid "WordPress scanner is a free online resource that blog administrators can use to provide a measure of their wordpress security level. To run wp-scanner check this option and is add <code>&lt;!-- wpscanner --&gt;</code> to your current WordPress template. After this go to <a href=\"http://blogsecurity.net/wpscan\">http://blogsecurity.net/wpscan</a> and scan your site."
+msgstr "WordPress scanner is een gratis online informatiebron die blog beheerders kunnen gebruiken om hun WordPress veiligheidsniveau te handhaven. Om wp-scanner te starten selecteer deze optie en voeg de code <code>&lt;!-- wpscanner --&gt;</code> toe aan je huidige WordPress template. Ga hierna naar <a href=\"http://blogsecurity.net/wpscan\">http://blogsecurity.net/wpscan</a> en scan je website."
+
+# @ secure_wp
+#: secure-wordpress.php:833
+msgid "Save Changes"
+msgstr "Bewaar Wijzigingen"
+
+# @ secure_wp
+#: secure-wordpress.php:844
+msgid "Clear Options"
+msgstr "Opties Verwijderen"
+
+# @ secure_wp
+#: secure-wordpress.php:847
+msgid "Click this button to delete settings of this plugin. Deactivating Secure WordPress plugin remove any data that may have been created."
+msgstr "Klik op deze knop om de instellingen van deze plugin te wissen. Deactiveren van de Secure WordPress plugin verwijderd alle data die is aangemaakt."
+
+# @ secure_wp
+#: secure-wordpress.php:852
+msgid "Delete Options"
+msgstr "Verwijder Opties"
+
+# @ secure_wp
+#: secure-wordpress.php:864
+msgid "About the plugin"
+msgstr "Over de plugin"
+
+# @ secure_wp
+#: secure-wordpress.php:877
+msgid "Further information: Visit the <a href=\"http://bueltge.de/wordpress-login-sicherheit-plugin/652/\">plugin homepage</a> for further information or to grab the latest version of this plugin."
+msgstr "Voor meer informatie: Bezoek de <a href=\"http://bueltge.de/wordpress-login-sicherheit-plugin/652/\">homepage van de plugin</a> voor meer informatie of download de laatste versie van deze plugin."
+
+# @ secure_wp
+#: secure-wordpress.php:877
+msgid "You want to thank me? Visit my <a href=\"http://bueltge.de/wunschliste/\">wishlist</a>."
+msgstr "Wil je mij bedanken ? Bezoek mijn <a href=\"http://bueltge.de/wunschliste/\">verlanglijst</a>."
+
+# @ secure_wp
+#: secure-wordpress.php:753
+msgid "creates an <code>index.php</code> file in <code>/plugins/</code> and <code>/themes/</code> to keep it from showing your directory listing"
+msgstr "creëert een <code>index.php</code> bestand in <code>/plugins/</code> en <code>/themes/</code> om te zorgen dat het je map inhoud niet laat zien"
+
+# @ secure_wp
+#: secure-wordpress.php:739
+msgid "WordPress Version in Backend"
+msgstr "WordPress versie in back-end gebruikersinterface"
+
+# @ secure_wp
+#: secure-wordpress.php:749
+msgid "index.php"
+msgstr "index.php"
+
+# @ secure_wp
+#: secure-wordpress.php:743
+msgid "Removes version of WordPress on admin-area for non-admins. Show WordPress version of your blog only to users with the rights to edit plugins."
+msgstr "Verwijderd de WordPress versie in de admin interface voor gebruikers die geen admin zijn. Laat alleen de WordPress versie van je blog zien aan gebruikers met rechten om plugins te kunnen bewerken."
+
+# @ secure_wp
+#: secure-wordpress.php:723
+msgid "Deactivates tooltip and error message at login of WordPress"
+msgstr "Deactiveert de tekstballon en foutmelding bij het inloggen van WordPress"
+
+# @ secure_wp
+#: secure-wordpress.php:821
+msgid "Block bad queries"
+msgstr "Blokkeer verkeerde raadplegingen"
+
+# @ secure_wp
+#: secure-wordpress.php:825
+msgid "Protect WordPress against malicious URL requests, see more informations on the <a href=\"http://perishablepress.com/press/2009/12/22/protect-wordpress-against-malicious-url-requests/\" title=\"read this post\" >post from Jeff Starr</a>"
+msgstr "Bescherm WordPress tegen tegen kwaadaardige URL-aanvragen, lees meer informatie hierover in het <a href=\"http://perishablepress.com/press/2009/12/22/protect-wordpress-against-malicious-url-requests/\" title=\"read this post\" >bericht van Jeff Starr</a> (Engels)"
+

@@ -1,0 +1,290 @@
+/* LAYOUT */
+/* Pushes body down by 40px to account for the navbar, and pushes the footer down so it won't be so tight */
+body {
+  padding-top:40px;
+  padding-bottom:20px;
+  background-image:url('texture.png');
+  background-repeat:repeat;
+}
+/* Additional push for pages that don't implement .page-header */
+.pushdown {
+  padding-top:30px;
+}
+.lectures {
+  overflow-y:auto;
+  height:150px;
+}
+/* Sets height of lecture sidebar to match video player height. Used on single.php*/
+.sidebar {
+  overflow-y:auto;
+  padding: 8px 0 !important;
+}
+/* Implementation of the Intrinsic Ratio Method to make the video player responsive */
+/* Temporary hack until JWPlayer itself comes up with a responsive solution. Used whenever JWPlayer is displayed.*/
+.video {
+  position:relative;
+}
+.video>embed, .video>#container_wrapper>object, .video>div {
+  position:absolute !important;
+}
+/* Sets bottom padding for when the controlbar position is set to "over". Used whenever JWPlayer is displayed. */
+.cbar-none {
+  padding-bottom:56.25%;
+}
+/* Sets bottom padding for when the controlbar position is set to "bottom" Used whenever JWPlayer is displayed. */
+.cbar-bottom {
+  padding-bottom:62%;
+}
+/* Creates a more exact column width for the pictures on press>leadership */
+.spanpic {
+  width:100px;
+}
+/* Creates a more exact column width for the biographies on press>leadership */
+.spanbio {
+  width: 620px;
+}
+/* Sets the width of TimelineXML to be dependent on the enclosing div so it becomes responsive. Used on /press Temporary hack */
+#my-timeline, .timeline-events {
+  width:100%;
+}
+/* Prevents large images from causing the modal to scroll */
+.modal-body>img {
+  max-width:100%;
+}
+.picture>img {
+  border: 1px solid #33CCCC !important;
+  border-radius: 10px !important;
+  -webkit-border-radius: 10px !important;
+  -moz-border-radius: 10px !important;
+  margin-right: 20px !important;
+}
+/* FORMATTING */
+p small {
+  font-size: 13px !important;
+  color: #404040 !important;
+  text-transform: uppercase !important;
+}
+/* Left, right, and center align classes for convenience */
+.alignright { text-align:right; }
+.alignleft { text-align:left; }
+.aligncenter { text-align:center; }
+.alignjustify { text-align:justify; }
+/* Used to decrease the font size of the blockquote style for the press>leadership page */
+blockquote p.bio {
+  font-size:14px !important;
+}
+/* Sets font families for header and body text */
+@font-face {
+  font-family: 'cmunbmr';
+  src: url('/wp-content/themes/olresponsive/font/cmunbmr.eot');
+  src: url('/wp-content/themes/olresponsive/font/cmunbmr.eot?#iefix') format('embedded-opentype'),
+  url('/wp-content/themes/olresponsive/font/cmunbmr.woff') format('woff'),
+  url('/wp-content/themes/olresponsive/font/cmunbmr.ttf') format('truetype'),
+  url('/wp-content/themes/olresponsive/font/cmunbmr.svg#webfont') format('svg');
+}
+/* Allows rendering of the ol logo in the correct font */
+.openlectures { font-family: "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif; }
+
+/* Changes the color of the default progress bar from blue to #33CCCC. Used on single.php. */
+.progress .bar {
+  background-color: #33CCCC !important;
+  background-image: -moz-linear-gradient(top, #33CCCC, #33CCCC) !important;
+  background-image: -ms-linear-gradient(top, #33CCCC, #33CCCC) !important;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#33CCCC), to(#33CCCC)) !important;
+  background-image: -webkit-linear-gradient(top, #33CCCC, #33CCCC) !important;
+  background-image: -o-linear-gradient(top, #33CCCC, #33CCCC) !important;
+  background-image: linear-gradient(top, #33CCCC, #33CCCC) !important;
+  background-repeat: repeat-x !important;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#33CCCC', endColorstr='#33CCCC', GradientType=0);
+}
+/* Adds a fade effect to the edges of the normal <hr> class */
+hr.soften {
+  background-image: -moz-linear-gradient(left center , transparent, rgba(0, 0, 0, 0.1), transparent) !important;
+  border: 0 none  !important;
+  height: 1px  !important;
+}
+
+/* NAVIGATION */
+/* Ensures that the main navbar dropdown does not disappear under a fixed subnav. Used on all pages.*/
+.navbar-fixed-top {
+  z-index: 1230 !important;
+}
+/* Prevents shadow on the navbar text from making text hard to see. Used on all pages. */
+.navbar .nav > li > a {
+  text-shadow: 0 -1px 0 transparent !important;
+}
+@media (max-width: 979px) {
+  .navbar-fixed-top {
+    margin-bottom: 0px;
+  }
+}
+/* Removes drop shadow from the main navbar so it fits the 2D theme of the site. Used on all pages. */
+.navbar-inner {
+  -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, 0.25), inset 0 0px 0 rgba(0, 0, 0, 0.1) !important;
+  -moz-box-shadow: 0 0px 0px rgba(0, 0, 0, 0.25), inset 0 0px 0 rgba(0, 0, 0, 0.1) !important;
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.25), inset 0 0px 0 rgba(0, 0, 0, 0.1) !important;
+}
+.btn-navbar {
+  -webkit-box-shadow: inset 0 0px 0 rgba(255, 255, 255, 0.1), 0 0px 0 rgba(255, 255, 255, 0.075) !important;
+  -moz-box-shadow: inset 0 0px 0 rgba(255, 255, 255, 0.1), 0 0px 0 rgba(255, 255, 255, 0.075) !important;
+  box-shadow: inset 0 0px 0 rgba(255, 255, 255, 0.1), 0 0px 0 rgba(255, 255, 255, 0.075) !important;
+}
+.subnav {
+  width: 100%;
+  height: 36px;
+  background-color: #eeeeee; /* Old browsers */
+  background-repeat: repeat-x; /* Repeat the gradient */
+  background-image: -moz-linear-gradient(top, #f5f5f5 0%, #eeeeee 100%); /* FF3.6+ */
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f5f5f5), color-stop(100%,#eeeeee)); /* Chrome,Safari4+ */
+  background-image: -webkit-linear-gradient(top, #f5f5f5 0%,#eeeeee 100%); /* Chrome 10+,Safari 5.1+ */
+  background-image: -ms-linear-gradient(top, #f5f5f5 0%,#eeeeee 100%); /* IE10+ */
+  background-image: -o-linear-gradient(top, #f5f5f5 0%,#eeeeee 100%); /* Opera 11.10+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#eeeeee',GradientType=0 ); /* IE6-9 */
+  background-image: linear-gradient(top, #f5f5f5 0%,#eeeeee 100%); /* W3C */
+  border: 1px solid #e5e5e5;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  margin-bottom:20px;
+}
+.subnav .nav > li > a {
+  margin: 0;
+  padding-top:    11px;
+  padding-bottom: 11px;
+  border-left: 1px solid #f5f5f5;
+  border-right: 1px solid #e5e5e5;
+  -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+          border-radius: 0;
+}
+.subnav .nav > .active > a,
+.subnav .nav > .active > a:hover {
+  padding-left: 13px;
+  color: #777;
+  background-color: #e9e9e9;
+  border-right-color: #ddd;
+  border-left: 0;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,.05);
+     -moz-box-shadow: inset 0 3px 5px rgba(0,0,0,.05);
+          box-shadow: inset 0 3px 5px rgba(0,0,0,.05);
+}
+.subnav .nav > .active > a .caret,
+.subnav .nav > .active > a:hover .caret {
+  border-top-color: #777;
+}
+.subnav .nav > li:first-child > a,
+.subnav .nav > li:first-child > a:hover {
+  border-left: 0;
+  padding-left: 12px;
+  -webkit-border-radius: 4px 0 0 4px;
+     -moz-border-radius: 4px 0 0 4px;
+          border-radius: 4px 0 0 4px;
+}
+.subnav .nav > li:last-child > a {
+  border-right: 0;
+}
+.subnav .dropdown-menu {
+  -webkit-border-radius: 0 0 4px 4px;
+     -moz-border-radius: 0 0 4px 4px;
+          border-radius: 0 0 4px 4px;
+}
+
+/* Fixed subnav on scroll, but only for 980px and up (sorry IE!) */
+@media (min-width: 980px) {
+  .subnav-fixed {
+    position: fixed;
+    top: 40px;
+    left: 0;
+    right: 0;
+    z-index: 1030;
+    border-color: #d5d5d5;
+    border-width: 0 0 1px; /* drop the border on the fixed edges */
+    -webkit-border-radius: 0;
+       -moz-border-radius: 0;
+            border-radius: 0;
+    -webkit-box-shadow: inset 0 1px 0 #fff, 0 1px 5px rgba(0,0,0,.1);
+       -moz-box-shadow: inset 0 1px 0 #fff, 0 1px 5px rgba(0,0,0,.1);
+            box-shadow: inset 0 1px 0 #fff, 0 1px 5px rgba(0,0,0,.1);
+  }
+  .subnav-fixed .nav {
+    width: 938px;
+    margin: 0 auto;
+    padding: 0 1px;
+  }
+  .subnav .nav > li:first-child > a,
+  .subnav .nav > li:first-child > a:hover {
+    -webkit-border-radius: 0;
+       -moz-border-radius: 0;
+            border-radius: 0;
+  }
+}
+
+/* Media Queries for Subnav */
+@media (max-width: 768px) {
+  .subnav {
+    position: static;
+    top: auto;
+    z-index: auto;
+    width: auto;
+    height: auto;
+    background: #fff; /* whole background property since we use a background-image for gradient */
+    -webkit-box-shadow: none;
+       -moz-box-shadow: none;
+            box-shadow: none;
+  }
+  .subnav .nav > li {
+    float: none;
+  }
+  .subnav .nav > li > a {
+    border: 0;
+  }
+  .subnav .nav > li + li > a {
+    border-top: 1px solid #e5e5e5;
+  }
+  .subnav .nav > li:first-child > a,
+  .subnav .nav > li:first-child > a:hover {
+      -webkit-border-radius: 4px 4px 0 0;
+         -moz-border-radius: 4px 4px 0 0;
+              border-radius: 4px 4px 0 0;
+  }
+}
+@media (min-width: 1210px) {
+
+  /* Update subnav container */
+  .subnav-fixed .nav {
+    width: 1168px; /* 2px less to account for left/right borders being removed when in fixed mode */
+  }
+
+}
+
+/* Enlarges the size of the default button so it looks good. Used on /opportunities.  */
+.btn-fuckingbig {
+    border-radius: 6px 6px 6px 6px !important;
+    font-size: 20px !important;
+    font-weight: normal !important;
+    margin-right: 10px !important;
+    padding: 14px 24px !important;
+}
+/* Widens the default button to span 90% of the enclosing div width. Used on /opportunities. */
+.btn-wide {
+  width:90%;
+  margin:10px 0 0;
+}
+
+.tweet {
+  text-align: center;
+  background-color:#33CCCC;
+  padding:5px 10px;
+  border-radius: 0 0 20px 20px;
+  -webkit-border-radius: 0 0 20px 20px;
+  -moz-border-radius: 0 0 20px 20px;
+  margin-left: 630px;
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  .tweet {display:none;}
+}
+
+@media (max-width: 767px) {
+  .tweet {display:none;}
+  .nav, .nav-pills {margin-bottom:0 !important;}
+}

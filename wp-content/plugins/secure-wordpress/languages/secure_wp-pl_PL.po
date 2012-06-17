@@ -1,0 +1,530 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Secure WordPress\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-05-16 12:34+0100\n"
+"PO-Revision-Date: 2011-02-16 00:38+0100\n"
+"Last-Translator: RafalDesign <admin@rafaldesign.pl>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#@ secure_wp
+#. translators: plugin header field 'Description'
+#: secure-wordpress.php:0
+msgid "Little basics for secure your WordPress-installation."
+msgstr "Podstawowe zabezpieczenie dla twojej witryny opartej na WordPress"
+
+#@ default
+#: secure-wordpress.php:370
+msgid "Settings"
+msgstr "Ustawienia"
+
+#@ secure_wp
+#: secure-wordpress.php:399
+#: secure-wordpress.php:446
+msgid "<a href=\"http://wordpress.org/extend/plugins/secure-wordpress/\">Documentation</a>"
+msgstr "<a href=\"http://wordpress.org/extend/plugins/secure-wordpress/\">Dokumentacja</a>"
+
+#@ secure_wp
+#: secure-wordpress.php:422
+msgid "Options update."
+msgstr "Aktualizacja opcji."
+
+#@ secure_wp
+#: secure-wordpress.php:424
+msgid "All entries in the database was cleared. Now deactivate this plugin."
+msgstr "Wszystkie wpisy w bazie danych zostały usunięte. Możesz teraz deaktywować wtyczkę."
+
+#@ secure_wp
+#: secure-wordpress.php:438
+#: secure-wordpress.php:449
+msgid "Secure WP"
+msgstr "Secure WP"
+
+#@ secure_wp
+#. translators: plugin header field 'Name'
+#: secure-wordpress.php:0
+#: secure-wordpress.php:445
+#: secure-wordpress.php:773
+msgid "Secure WordPress"
+msgstr "Zabezpiecz WordPress"
+
+#@ default
+#: secure-wordpress.php:469
+msgid "Version"
+msgstr "Wersja"
+
+#@ secure_wp
+#: secure-wordpress.php:469
+msgid "History"
+msgstr "Historia"
+
+#@ default
+#: secure-wordpress.php:469
+msgid "Author"
+msgstr "Autor"
+
+#@ secure_wp
+#: secure-wordpress.php:698
+msgid "Options not updated - you don&lsquo;t have the privileges to do this!"
+msgstr "Opcje nie zostały zaktualizowane. Nie masz wystarczających uprawnień ."
+
+#@ secure_wp
+#: secure-wordpress.php:718
+msgid "Entries were not deleted - you don&lsquo;t have the privileges to do this!"
+msgstr "Wpisy nie zostały usunięte. Nie masz wystarczających uprawnień ."
+
+#@ secure_wp
+#: secure-wordpress.php:726
+msgid "Entries were not deleted - check the checkbox!"
+msgstr "Wpisy nie zostały usunięte - zaznacz checkbox!"
+
+#@ secure_wp
+#: secure-wordpress.php:746
+msgid "All entries in the database were cleared."
+msgstr "Wszystkie wpisy w bazie danych zostały wyczyszczone."
+
+#@ secure_wp
+#: secure-wordpress.php:750
+msgid "Entries were not deleted - check the checkbox or you don&lsquo;t have the privileges to do this!"
+msgstr "Wpisy nie zostały skasowane - upewnij się że checkbox jest zaznaczony,  bądź też nie masz wystarczających uprawnień."
+
+#@ default
+#: secure-wordpress.php:778
+#: secure-wordpress.php:914
+#: secure-wordpress.php:1027
+#: secure-wordpress.php:1141
+msgid "Click to toggle"
+msgstr "Kliknij aby przełączyć"
+
+#@ secure_wp
+#: secure-wordpress.php:779
+msgid "Configuration"
+msgstr "Konfiguracja"
+
+#@ secure_wp
+#: secure-wordpress.php:789
+msgid "Error-Messages"
+msgstr "Komunikaty błędów"
+
+#@ secure_wp
+#: secure-wordpress.php:793
+msgid "Deactivates tooltip and error message at login of WordPress"
+msgstr "Deaktywuje podpowiedzi oraz komunikaty błędów podczas logowania do WordPress"
+
+#@ secure_wp
+#: secure-wordpress.php:799
+msgid "WordPress Version"
+msgstr "Wersja WordPress"
+
+#@ secure_wp
+#: secure-wordpress.php:803
+msgid "Removes version of WordPress in all areas, including feed, not in admin"
+msgstr "Usuwa informację o wersji WordPressa, łącznie z 'feed'. Nie dotyczy administratorów."
+
+#@ secure_wp
+#: secure-wordpress.php:809
+msgid "WordPress Version in Backend"
+msgstr "Wersja WordPress  na zapleczu"
+
+#@ secure_wp
+#: secure-wordpress.php:813
+msgid "Removes version of WordPress on admin-area for non-admins. Show WordPress version of your blog only to users with the rights to edit plugins."
+msgstr "Usuwa informację o wersji WordPress w panelu administratora dla osób nie będących administratorami. Pokazuje wersję twojego blogu tylko użytkownikom mającym prawa do edycji wtyczek."
+
+#@ secure_wp
+#: secure-wordpress.php:819
+msgid "index.php"
+msgstr "index.php"
+
+#@ secure_wp
+#: secure-wordpress.php:823
+msgid "creates an <code>index.php</code> file in <code>/plugins/</code> and <code>/themes/</code> to keep it from showing your directory listing"
+msgstr "Tworzy plik <code>index.php</code>w<code>/plugins/</code> i<code>/themes/</code> aby uniemożliwić listowanie folderów."
+
+#@ secure_wp
+#: secure-wordpress.php:829
+msgid "Really Simple Discovery"
+msgstr "Really Simple Discovery"
+
+#@ secure_wp
+#: secure-wordpress.php:833
+msgid "Remove Really Simple Discovery link in <code>wp_head</code> of the frontend"
+msgstr "Usuwa link do Really Simple Discovery w <code>wp_head</code> witryny"
+
+#@ secure_wp
+#: secure-wordpress.php:839
+msgid "Windows Live Writer"
+msgstr "Windows Live Writer"
+
+#@ secure_wp
+#: secure-wordpress.php:843
+msgid "Remove Windows Live Writer link in <code>wp_head</code> of the frontend"
+msgstr "Usuwa link do Windows Lice Writer w <code>wp_head</code> witryny"
+
+#@ secure_wp
+#: secure-wordpress.php:849
+msgid "Core Update"
+msgstr "Aktualizacja WordPress"
+
+#@ secure_wp
+#: secure-wordpress.php:853
+msgid "Remove WordPress Core update for non-admins. Show message of a new WordPress version only to users with the right to update."
+msgstr "Usuwa możliwość aktualizacji WordPress dla osób posiadających uprawnienia niższe niż administrator. Pokazuje komunikat o nowej wersji WordPressa tylko osobom z uprawnieniami do aktualizacji. "
+
+#@ secure_wp
+#: secure-wordpress.php:859
+msgid "Plugin Update"
+msgstr "Aktualizacja wtyczki"
+
+#@ secure_wp
+#: secure-wordpress.php:863
+msgid "Remove the plugin update for non-admins. Show message for a new version of a plugin in the install of your blog only to users with the rights to edit plugins."
+msgstr "Usuwa możliwość aktualizacji wtyczek dla osób posiadających uprawnienia niższe niż administrator. Pokazuje komunikat o nowej wersji wtyczke tylko osobom z uprawnieniami do aktualizacji. "
+
+#@ secure_wp
+#: secure-wordpress.php:870
+msgid "Theme Update"
+msgstr "Aktualizacja motywów"
+
+#@ secure_wp
+#: secure-wordpress.php:874
+msgid "Remove the theme update for non-admins. Show message for a new version of a theme in the install of your blog only to users with the rights to edit themes."
+msgstr "Usuwa możliwość aktualizacji motywów (themes) dla osób posiadających uprawnienia niższe niż administrator. Pokazuje komunikat o nowej wersji motywu tylko osobom z uprawnieniami do aktualizacji. "
+
+#@ secure_wp
+#: secure-wordpress.php:891
+msgid "Block bad queries"
+msgstr "Zablokuj błędne zapytania"
+
+#@ secure_wp
+#: secure-wordpress.php:895
+msgid "Protect WordPress against malicious URL requests, read more information at the <a href=\"http://perishablepress.com/press/2009/12/22/protect-wordpress-against-malicious-url-requests/\" title=\"read this post\" >post from Jeff Starr</a>"
+msgstr "Zabezpiecza WordPress przed  szkodliwymi żądaniami URL, możesz dowiedzież się więcej <a href=\"http://perishablepress.com/press/2009/12/22/protect-wordpress-against-malicious-url-requests/\" title=\"read this post\" > czytając ten wpis Jeffa Starr</a>"
+
+#@ secure_wp
+#: secure-wordpress.php:903
+msgid "Save Changes"
+msgstr "Zapisz zmiany"
+
+#@ secure_wp
+#: secure-wordpress.php:915
+msgid "Validate your site with a free malware scan from www.sitesecuritymonitor.com"
+msgstr "Sprawdź za darmo swoją witrynę pod względem zabezpieczeń na www.sitesecuritymonitor.com"
+
+#@ secure_wp
+#: secure-wordpress.php:918
+msgid "Take us for a Test Drive - Free Scan"
+msgstr "Wypróbuj nas - DARMOWY SKAN WITRYNY"
+
+#@ secure_wp
+#: secure-wordpress.php:919
+msgid "We understand you may have questions:"
+msgstr "Rozumiemy że możesz mieć jakieś pytania:"
+
+#@ secure_wp
+#: secure-wordpress.php:920
+msgid "What does this do for me?"
+msgstr "Co będę z tego miał?"
+
+#@ secure_wp
+#: secure-wordpress.php:921
+msgid "Am I really safe? I need to be sure."
+msgstr "Czy na pewno witryna jest bezpieczna? Muszę być pewny."
+
+#@ secure_wp
+#: secure-wordpress.php:922
+msgid "Rest Assured, Site Security Monitor has you covered."
+msgstr "Możesz być pewny, Site Security Monitor gwarantuje bezpieczeństwo witryny."
+
+#@ secure_wp
+#: secure-wordpress.php:924
+msgid "FREE scan looks for malware"
+msgstr "DARMOWY skan szuka luk  w zabezpieczeniach"
+
+#@ secure_wp
+#: secure-wordpress.php:925
+msgid "FREE report of website vulnerabilities found"
+msgstr "DARMOWY raport znalezionych luk w zabezpieczeniach witryny"
+
+#@ secure_wp
+#: secure-wordpress.php:926
+msgid "No setup, tuning and installation on your site - scan begins immediately"
+msgstr "Nie potrzeba ustawiać, instalować ani dopasowywać ustawień - skan zaczyna się natychmiast"
+
+#@ secure_wp
+#: secure-wordpress.php:928
+msgid "We will deliver to you a detailed malware and web vulnerability report - FREE of charge.  You are free to use the report to resolve issues, show your boss that you are clean, or show your clients that the site you built is safe!"
+msgstr "Dostarczymy ci dokładny raport wszystkich luk w zabezpieczeniach - całkowicie za DARMO. Możesz użyć tego raportu w celu poprawienia zabezpieczeń, albo aby pokazać swemu szefowi że wszystko robisz jak trzeba chroniąc waszą witrynę, bądź też swoim klientom że strona którą dla nich zrobiłeś jest bezpieczna!."
+
+#@ secure_wp
+#: secure-wordpress.php:929
+msgid "** Bonus: You will be able to use the Site Security Monitor \"Safe-Seal\" on your site after the scan - this shows the world that you are malware free!"
+msgstr "** BONUS: Będziesz mógł użyć loga \"Safe-Seal\" na swojej witrynie po skanowaniu - pokażesz światu że twoja witryna jest bezpieczna!."
+
+#@ secure_wp
+#: secure-wordpress.php:931
+msgid "The form"
+msgstr "Formularz"
+
+#@ secure_wp
+#: secure-wordpress.php:932
+msgid "Use the follow form or use it on <a href=\"http://www.sitesecuritymonitor.com/free-scan-for-secure-wordpress\">our website</a>."
+msgstr "Użyj poniższego formularza, bądż też wypełnij formularz<a href=\"http://www.sitesecuritymonitor.com/free-scan-for-secure-wordpress\">na naszej stronie</a>."
+
+#@ secure_wp
+#: secure-wordpress.php:967
+msgid "Full Name"
+msgstr "Imię i nazwisko"
+
+#@ secure_wp
+#: secure-wordpress.php:970
+#: secure-wordpress.php:978
+#: secure-wordpress.php:986
+#: secure-wordpress.php:994
+#: secure-wordpress.php:1010
+msgid "*required"
+msgstr "*wymagane"
+
+#@ secure_wp
+#: secure-wordpress.php:975
+msgid "eMail Adress"
+msgstr "adres e-mail"
+
+#@ secure_wp
+#: secure-wordpress.php:978
+msgid ", eMail Address must match domain name"
+msgstr ", adres e-mail musi być zgodny ze skanowaną witryną"
+
+#@ secure_wp
+#: secure-wordpress.php:983
+msgid "Website"
+msgstr "Strona internetowa"
+
+#@ secure_wp
+#: secure-wordpress.php:991
+msgid "Phone"
+msgstr "Telefon"
+
+#@ secure_wp
+#: secure-wordpress.php:999
+msgid "Yes, I need help!"
+msgstr "Tak, potrzebuję pomocy!"
+
+#@ secure_wp
+#: secure-wordpress.php:1002
+msgid "Call me"
+msgstr "Zadzwoń do mnie"
+
+#@ secure_wp
+#: secure-wordpress.php:1007
+msgid "Terms and Conditions"
+msgstr "Warunki umowy"
+
+#@ secure_wp
+#: secure-wordpress.php:1010
+msgid ", I accept"
+msgstr ", Akceptuję"
+
+#@ secure_wp
+#: secure-wordpress.php:1017
+msgid "Get my Free Web Scan"
+msgstr "Zacznij skanowanie mojej witryny"
+
+#@ secure_wp
+#: secure-wordpress.php:1028
+msgid "Safe Seal"
+msgstr "Safe Seal"
+
+#@ secure_wp
+#: secure-wordpress.php:1058
+msgid "Color"
+msgstr "Kolor"
+
+#@ secure_wp
+#: secure-wordpress.php:1062
+msgid "Green"
+msgstr "Zielony"
+
+#@ secure_wp
+#: secure-wordpress.php:1063
+msgid "Blue"
+msgstr "Niebieski"
+
+#@ secure_wp
+#: secure-wordpress.php:1064
+msgid "Red"
+msgstr "Czerwony"
+
+#@ secure_wp
+#: secure-wordpress.php:1065
+msgid "Brown"
+msgstr "Brązowy"
+
+#@ secure_wp
+#: secure-wordpress.php:1066
+msgid "Gray"
+msgstr "Szary"
+
+#@ secure_wp
+#: secure-wordpress.php:1075
+msgid "Text"
+msgstr "Tekst"
+
+#@ secure_wp
+#: secure-wordpress.php:1079
+msgid "Protected"
+msgstr "Chroniony"
+
+#@ secure_wp
+#: secure-wordpress.php:1080
+msgid "Secured"
+msgstr "Zabezpieczony"
+
+#@ secure_wp
+#: secure-wordpress.php:1081
+msgid "Scanned"
+msgstr "Skanowany"
+
+#@ secure_wp
+#: secure-wordpress.php:1082
+msgid "Protected by"
+msgstr "Chroniony przez"
+
+#@ secure_wp
+#: secure-wordpress.php:1088
+msgid "Orientation"
+msgstr "Orientacja"
+
+#@ secure_wp
+#: secure-wordpress.php:1092
+msgid "Horizontal"
+msgstr "Poziomo"
+
+#@ secure_wp
+#: secure-wordpress.php:1093
+msgid "Vertical"
+msgstr "Pionowo"
+
+#@ secure_wp
+#: secure-wordpress.php:1099
+msgid "Image border"
+msgstr "Obramowanie obrazka"
+
+#@ secure_wp
+#: secure-wordpress.php:1107
+msgid "Language"
+msgstr "Język"
+
+#@ secure_wp
+#: secure-wordpress.php:1111
+msgid "English (US)"
+msgstr "Angielski (US)"
+
+#@ secure_wp
+#: secure-wordpress.php:1112
+msgid "English (UK)"
+msgstr "Angielski (UK)"
+
+#@ secure_wp
+#: secure-wordpress.php:1113
+msgid "Spanish"
+msgstr "Hiszpański"
+
+#@ secure_wp
+#: secure-wordpress.php:1114
+msgid "German"
+msgstr "Niemiecki"
+
+#@ secure_wp
+#: secure-wordpress.php:1115
+msgid "Italian"
+msgstr "Włoski"
+
+#@ secure_wp
+#: secure-wordpress.php:1116
+msgid "Japanese"
+msgstr "Japoński"
+
+#@ secure_wp
+#: secure-wordpress.php:1117
+msgid "Chinese (Simplified)"
+msgstr "Chiński (uproszczony)"
+
+#@ secure_wp
+#: secure-wordpress.php:1118
+msgid "Chinese (Traditional)"
+msgstr "Chiński (Tradycyjny)"
+
+#@ secure_wp
+#: secure-wordpress.php:1127
+msgid "Here is your generated code. Place it on your website (as html widget) to show that you are protected."
+msgstr "Tutaj jest twój wygenerowany kod. Umieść go na stronie (jako widget HTML) aby pokazać że witryna jest chroniona."
+
+#@ secure_wp
+#: secure-wordpress.php:1142
+msgid "Clear Options"
+msgstr "Wyczyść opcje"
+
+#@ secure_wp
+#: secure-wordpress.php:1145
+msgid "Click this button to delete the settings of this plugin. Deactivating Secure WordPress plugin removes any data that may have been created."
+msgstr "Naciśnij przycisk poniżej aby usunąć ustawienia wtyczki. Deaktywacja wtyczki Secure WP usunie wszystkie ustwawienia które stworzyłeś przy jej pomocy."
+
+#@ secure_wp
+#: secure-wordpress.php:1150
+msgid "Delete Options"
+msgstr "Usuń opcje"
+
+#@ secure_wp
+#. translators: plugin header field 'PluginURI'
+#: secure-wordpress.php:0
+msgid "http://www.sitesecuritymonitor.com/secure-wordpress-plugin"
+msgstr "http://www.sitesecuritymonitor.com/secure-wordpress-plugin"
+
+#@ secure_wp
+#. translators: plugin header field 'Author'
+#: secure-wordpress.php:0
+msgid "jremillard"
+msgstr "http://www.sitesecuritymonitor.com/secure-wordpress-plugin"
+
+#@ secure_wp
+#. translators: plugin header field 'AuthorURI'
+#: secure-wordpress.php:0
+msgid "http://www.sitesecuritymonitor.com/"
+msgstr "http://www.sitesecuritymonitor.com/secure-wordpress-plugin"
+
+#@ secure_wp
+#: secure-wordpress.php:1031
+msgid "Thankyou for using our plugin! You are free to use the scan below (outputs HTML for easy copy-pasting) into your blog.  This seal does not give you scanning services - it simple does the basics of wordpress security - as recommended by the community and our own experiences with our customers.<br/>Should you wish to get regular vulnerability and malware scanning services, please <a href=\"http://www.sitesecuritymonitor.com/wordpress-secure-plugin/\">see our main page here...</a>"
+msgstr "Dziękujęmy za używanie naszej wtyczki! Możesz użyć kodu poniżej (HTML - dla łatwego kopiuj-wklej) i wkleić go na swoim blogu. Wtyczka ta co prawda nie oferuje skanowania twojej witryny w poszukiwaniu luk w zabezpieczeniach, ale dzięki niej możesz zabezpieczyć najbardziej podstawowe obszary WordPress. <br/>Jeżeli chcesz aby twoja domena była skanowana regularnie <a href=\"http://www.sitesecuritymonitor.com/wordpress-secure-plugin/\">odwiedź naszą stronę internetową...</a>"
+
+#@ secure_wp
+#: secure-wordpress.php:1126
+msgid "Source"
+msgstr "Źródło"
+
+#@ secure_wp
+#. translators: plugin header field 'Version'
+#: secure-wordpress.php:0
+msgid "1.0.5"
+msgstr ""
+
+#@ secure_wp
+#: secure-wordpress.php:881
+msgid "WP Version on Scripts/Styles"
+msgstr "Wersje skryptów/styli WP"
+
+#@ secure_wp
+#: secure-wordpress.php:885
+msgid "Removes version of WordPress on the url form scripts and stylesheets only on frontend."
+msgstr "Usuwa wersję WordPressa na URL ze skryptów i styli na witrynie (frontend)."
+

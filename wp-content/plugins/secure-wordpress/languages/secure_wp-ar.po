@@ -1,0 +1,225 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Secure WordPress\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-06-22 12:29+0100\n"
+"PO-Revision-Date: 2010-05-24 13:50+0300\n"
+"Last-Translator: www.r-sn.com <web.rsn@gmail.com>\n"
+"Language-Team: مدونة رسين <web.rsn@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-Language: Arabic\n"
+"X-Poedit-Country: SAUDI ARABIA\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: secure-wordpress.php:323
+msgid "Settings"
+msgstr "الإعدادات"
+
+#@ secure_wp
+#: secure-wordpress.php:352
+#: secure-wordpress.php:389
+msgid "<a href=\"http://wordpress.org/extend/plugins/secure-wordpress/\">Documentation</a>"
+msgstr "<a href=\"http://wordpress.org/extend/plugins/secure-wordpress/\">معلومات</a>"
+
+#@ secure_wp
+#: secure-wordpress.php:369
+msgid "Options update."
+msgstr "تحديث الإعدادات"
+
+#@ secure_wp
+#: secure-wordpress.php:371
+msgid "All entries in the database was cleared. Now deactivate this plugin."
+msgstr "تم مسح جميع الإدخالات في قاعدة البيانات. تم تعطيل الإضافة ."
+
+#@ secure_wp
+#: secure-wordpress.php:385
+#: secure-wordpress.php:392
+msgid "Secure WP"
+msgstr "تأمين WP"
+
+#@ secure_wp
+#: secure-wordpress.php:388
+#: secure-wordpress.php:614
+msgid "Secure WordPress"
+msgstr "تأمين الوورد بريس"
+
+#: secure-wordpress.php:412
+msgid "Version"
+msgstr "الإصدار"
+
+#@ secure_wp
+#: secure-wordpress.php:412
+msgid "History"
+msgstr "السجل"
+
+#: secure-wordpress.php:412
+msgid "Author"
+msgstr "الكاتب"
+
+#@ secure_wp
+#: secure-wordpress.php:542
+msgid "Options not update - you don&lsquo;t have the privilidges to do this!"
+msgstr "الخيارات لم يتم تحديثها .. لا تملك الصلاحيات"
+
+#@ secure_wp
+#: secure-wordpress.php:562
+msgid "Entries was not delleted - you don&lsquo;t have the privilidges to do this!"
+msgstr "لايمكن حذف الادخالات .. لا تملك الصلاحيات"
+
+#@ secure_wp
+#: secure-wordpress.php:570
+msgid "Entries was not delleted - check the checkbox!"
+msgstr "لايمكن حذف الادخالات .. تحقق من الصندوق"
+
+#@ secure_wp
+#: secure-wordpress.php:590
+msgid "All entries in the database was cleared."
+msgstr "تم مسح جميع الإدخالات في قاعدة البيانات."
+
+#@ secure_wp
+#: secure-wordpress.php:594
+msgid "Entries was not delleted - check the checkbox or you don&lsquo;t have the privilidges to do this!"
+msgstr "لا يمكن حذف الادخالات .. تحقق من الصندوق أو أنك لاتملك الصلاحيات"
+
+#: secure-wordpress.php:619
+#: secure-wordpress.php:734
+#: secure-wordpress.php:754
+msgid "Click to toggle"
+msgstr "انقر للتبديل"
+
+#@ secure_wp
+#: secure-wordpress.php:620
+msgid "Configuration"
+msgstr "التكوين"
+
+#@ secure_wp
+#: secure-wordpress.php:630
+msgid "Error-Messages"
+msgstr "رسالة خطأ"
+
+#@ secure_wp
+#: secure-wordpress.php:634
+msgid "deactivates tooltip and error message at login of WordPress"
+msgstr "تعطيل tooltip و إظهار رسالة خطأ عند تسجيل الدخول"
+
+#@ secure_wp
+#: secure-wordpress.php:640
+msgid "WordPress Version"
+msgstr "إصدار الوورد بريس"
+
+#@ secure_wp
+#: secure-wordpress.php:644
+msgid "Removes version of WordPress in all areas, including feed, not in admin"
+msgstr "إزالة إصدار الوورد بريس في جميع المجالات ، بما في ذلك الخلاصات ، وليس في الادارة"
+
+#@ secure_wp
+#: secure-wordpress.php:650
+msgid "index.html"
+msgstr "index.html"
+
+#@ secure_wp
+#: secure-wordpress.php:660
+msgid "Really Simple Discovery"
+msgstr "Really Simple Discovery"
+
+#@ secure_wp
+#: secure-wordpress.php:664
+msgid "Remove Really Simple Discovery link in <code>wp_head</code> of the frontend"
+msgstr "إزالة ارتباط  Really Simple Discovery  من <code>wp_head</code> من الواجهة"
+
+#@ secure_wp
+#: secure-wordpress.php:670
+msgid "Windows Live Writer"
+msgstr "Windows Live Writer"
+
+#@ secure_wp
+#: secure-wordpress.php:674
+msgid "Remove Windows Live Writer link in <code>wp_head</code> of the frontend"
+msgstr "إزالة ارتباط Windows Live Writer من <code>wp_head</code> من الواجهة"
+
+#@ secure_wp
+#: secure-wordpress.php:680
+msgid "Core Update"
+msgstr "تحديث الأصل"
+
+#@ secure_wp
+#: secure-wordpress.php:684
+msgid "Remove WordPress Core update for non-admins. Show message of a new WordPress version only to users with the right to update."
+msgstr "إزالة المطالبة بتحديث إصدار الوورد بريس لغير المدراء .. مع ظهور رسالة التحديث "
+
+#@ secure_wp
+#: secure-wordpress.php:690
+msgid "Plugin Update"
+msgstr "تحديث الإضافة"
+
+#@ secure_wp
+#: secure-wordpress.php:694
+msgid "Remove the plugin update for non-admins. Show message for a new version of a plugin in the install of your blog only to users with the rights to edit plugins."
+msgstr "إزالة المطالبة بتحديث إصدارات الإضافات لغير المدراء .. مع ظهور رسالة التحديث "
+
+#@ secure_wp
+#: secure-wordpress.php:701
+msgid "Theme Update"
+msgstr "تحديث القالب"
+
+#@ secure_wp
+#: secure-wordpress.php:705
+msgid "Remove the theme update for non-admins. Show message for a new version of a theme in the install of your blog only to users with the rights to edit themes."
+msgstr "إزالة المطالبة بتحديث إصدارات القوالب لغير المدراء .. مع ظهور رسالة التحديث "
+
+#@ secure_wp
+#: secure-wordpress.php:712
+msgid "WP Scanner"
+msgstr "WP مسح"
+
+#@ secure_wp
+#: secure-wordpress.php:716
+msgid "WordPress scanner is a free online resource that blog administrators can use to provide a measure of their wordpress security level. To run wp-scanner check this option and is add <code>&lt;!-- wpscanner --&gt;</code> to your current WordPress template. After this go to <a href=\"http://blogsecurity.net/wpscan\">http://blogsecurity.net/wpscan</a> and scan your site."
+msgstr "يجب عليك إضافة هذا الكود لقالبك <code>&lt;!-- wpscanner --&gt;</code> ثم إذهب لصفحة  <a href=\"http://blogsecurity.net/wpscan\">http://blogsecurity.net/wpscan</a> وأضغط مسح .."
+
+#@ secure_wp
+#: secure-wordpress.php:724
+msgid "Save Changes"
+msgstr "حفظ التغييرات"
+
+#@ secure_wp
+#: secure-wordpress.php:735
+msgid "Clear Options"
+msgstr "حذف الخيارات"
+
+#@ secure_wp
+#: secure-wordpress.php:738
+msgid "Click this button to delete settings of this plugin. Deactivating Secure WordPress plugin remove any data that may have been created."
+msgstr "عند الضغط على زر الحذف سيتم حذف جميع إعدادات الإضافة التي تم إنشاؤها من قبل"
+
+#@ secure_wp
+#: secure-wordpress.php:743
+msgid "Delete Options"
+msgstr "حذف الخيارات"
+
+#@ secure_wp
+#: secure-wordpress.php:755
+msgid "About the plugin"
+msgstr "معلومات عن الإضافة"
+
+#@ secure_wp
+#: secure-wordpress.php:768
+msgid "Further information: Visit the <a href=\"http://bueltge.de/wordpress-login-sicherheit-plugin/652/\">plugin homepage</a> for further information or to grab the latest version of this plugin."
+msgstr "للمزيد من المعلومات قم بزيارة <a href=\"http://bueltge.de/wordpress-login-sicherheit-plugin/652/\">صفحة الإضافة </a> أو <a href=\"http://www.r-sn.com/wp/archives/1848/\">مدونة رسين </a> وطرح الاستفسارات لمن يواجه مشكلة أو لمزيد من المعلومات"
+
+#@ secure_wp
+#: secure-wordpress.php:768
+msgid "You want to thank me? Visit my <a href=\"http://bueltge.de/wunschliste/\">wishlist</a>."
+msgstr "قم بزيارتي <a href=\"http://bueltge.de/wunschliste/\">wishlist</a>."
+
+#@ secure_wp
+#: secure-wordpress.php:654
+msgid "creates an <code>index.php</code> file in <code>/plugins/</code> and <code>/themes/</code> to keep it from showing your directory listing"
+msgstr "إنشاء <code>index.php</code> في <code>/plugins/</code> و <code>/themes/</code> مهم جداً لأجل أن لايتم استعراض المجلدات .."
+

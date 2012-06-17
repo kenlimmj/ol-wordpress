@@ -1,0 +1,246 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Secure WordPress\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-03-10 22:27+0100\n"
+"PO-Revision-Date: 2010-03-10 22:28+0100\n"
+"Last-Translator: JeoffreyLac <lascarduweb@hotmail.com>\n"
+"Language-Team: JeoffreyLac\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: secure-wordpress.php:337
+msgid "Settings"
+msgstr "Réglages"
+
+# @ secure_wp
+#: secure-wordpress.php:366
+#: secure-wordpress.php:413
+msgid "<a href=\"http://wordpress.org/extend/plugins/secure-wordpress/\">Documentation</a>"
+msgstr "<a href=\"http://wordpress.org/extend/plugins/secure-wordpress/\">Documentation</a>"
+
+# @ secure_wp
+#: secure-wordpress.php:389
+msgid "Options update."
+msgstr "Mettre à jour les options."
+
+# @ secure_wp
+#: secure-wordpress.php:391
+msgid "All entries in the database was cleared. Now deactivate this plugin."
+msgstr "Toutes les informations dans la base de données ont été effacées. Vous pouvez désormais désactiver le plugin."
+
+# @ secure_wp
+#: secure-wordpress.php:405
+#: secure-wordpress.php:416
+msgid "Secure WP"
+msgstr "Secure WP"
+
+# @ secure_wp
+#: secure-wordpress.php:412
+#: secure-wordpress.php:704
+msgid "Secure WordPress"
+msgstr "Secure WordPress"
+
+#: secure-wordpress.php:436
+msgid "Version"
+msgstr "Version"
+
+# @ secure_wp
+#: secure-wordpress.php:436
+msgid "History"
+msgstr "Historique"
+
+#: secure-wordpress.php:436
+msgid "Author"
+msgstr "Auteur"
+
+# @ secure_wp
+#: secure-wordpress.php:630
+msgid "Options not update - you don&lsquo;t have the privilidges to do this!"
+msgstr "Les options n'ont pas été mises à jour - vous n'avez pas les privilèges requis."
+
+# @ secure_wp
+#: secure-wordpress.php:650
+msgid "Entries was not delleted - you don&lsquo;t have the privilidges to do this!"
+msgstr "Les informations n'ont pas pu être supprimées - vous n'avez pas les privilèges requis."
+
+# @ secure_wp
+#: secure-wordpress.php:658
+msgid "Entries was not delleted - check the checkbox!"
+msgstr "Les informations n'ont pas pu être supprimées - vérifiez la case à cocher!"
+
+# @ secure_wp
+#: secure-wordpress.php:678
+msgid "All entries in the database was cleared."
+msgstr "Toutes les informations dans la base de données ont été effacées."
+
+# @ secure_wp
+#: secure-wordpress.php:682
+msgid "Entries was not delleted - check the checkbox or you don&lsquo;t have the privilidges to do this!"
+msgstr "Les informations n'ont pas été effacées - vérifiez la case à cocher et assurez-vous d'avoir les privilèges pour effectuer cette action."
+
+#: secure-wordpress.php:709
+#: secure-wordpress.php:844
+#: secure-wordpress.php:864
+msgid "Click to toggle"
+msgstr "Cliquer pour basculer"
+
+# @ secure_wp
+#: secure-wordpress.php:710
+msgid "Configuration"
+msgstr "Configuration"
+
+# @ secure_wp
+#: secure-wordpress.php:720
+msgid "Error-Messages"
+msgstr "Messages d'erreur"
+
+# @ secure_wp
+#: secure-wordpress.php:724
+msgid "Deactivates tooltip and error message at login of WordPress"
+msgstr "Désactive la suggestion et le message d'erreur à la connection de Wordpress"
+
+# @ secure_wp
+#: secure-wordpress.php:730
+msgid "WordPress Version"
+msgstr "Version WordPress"
+
+# @ secure_wp
+#: secure-wordpress.php:734
+msgid "Removes version of WordPress in all areas, including feed, not in admin"
+msgstr "Supprime la version WordPress dans toutes les zones, y compris le flux, mais pas dans la partie admin."
+
+# @ secure_wp
+#: secure-wordpress.php:740
+msgid "WordPress Version in Backend"
+msgstr "WordPres Version dans Backend"
+
+# @ secure_wp
+#: secure-wordpress.php:744
+msgid "Removes version of WordPress on admin-area for non-admins. Show WordPress version of your blog only to users with the rights to edit plugins."
+msgstr "Supprime la version de WordPress dans la zone d'administration pour les non-administrateurs. Montre la version de Wordpress uniquement aux utilisateurs avec les droits d'édition de vos plugins."
+
+# @ secure_wp
+#: secure-wordpress.php:750
+msgid "index.php"
+msgstr "index.php"
+
+# @ secure_wp
+#: secure-wordpress.php:754
+msgid "creates an <code>index.php</code> file in <code>/plugins/</code> and <code>/themes/</code> to keep it from showing your directory listing"
+msgstr "crée le fichier <code>index.php</code> dans les répertoires <code>/plugins/</code> et<code>/themes/</code> pour éviter de montrer votre liste de répertoire."
+
+# @ secure_wp
+#: secure-wordpress.php:760
+msgid "Really Simple Discovery"
+msgstr "Really Simple Discovery"
+
+# @ secure_wp
+#: secure-wordpress.php:764
+msgid "Remove Really Simple Discovery link in <code>wp_head</code> of the frontend"
+msgstr "Supprime le lien de Really Simple Discovery dans <code>wp_head</code> du frontend"
+
+# @ secure_wp
+#: secure-wordpress.php:770
+msgid "Windows Live Writer"
+msgstr "Windows Live Writer"
+
+# @ secure_wp
+#: secure-wordpress.php:774
+msgid "Remove Windows Live Writer link in <code>wp_head</code> of the frontend"
+msgstr "Supprime le lien de Windows Live Writer dans <code>wp_head</code> du frontend"
+
+# @ secure_wp
+#: secure-wordpress.php:780
+msgid "Core Update"
+msgstr "Mise à jour du noyau"
+
+# @ secure_wp
+#: secure-wordpress.php:784
+msgid "Remove WordPress Core update for non-admins. Show message of a new WordPress version only to users with the right to update."
+msgstr "Supprime la mise à jour du Noyau WordPress pour tout les utilisateurs sauf l'administrateur. Affiche un message lors de la disponibilité d'une nouvelle version WordPress seulement pour les utilisateurs possédant les droits de mettre à jour."
+
+# @ secure_wp
+#: secure-wordpress.php:790
+msgid "Plugin Update"
+msgstr "Mise à jour Plugin"
+
+# @ secure_wp
+#: secure-wordpress.php:794
+msgid "Remove the plugin update for non-admins. Show message for a new version of a plugin in the install of your blog only to users with the rights to edit plugins."
+msgstr "Supprime la mise à jour des plugins pour tout les utilisateurs sauf l'administrateur. Affiche un message lors de la disponibilité d'un plugin dans le panneau d'administration seulement aux utilisateurs possédants les droits d'éditer les plugins."
+
+# @ secure_wp
+#: secure-wordpress.php:801
+msgid "Theme Update"
+msgstr "Mise à jour du thème."
+
+# @ secure_wp
+#: secure-wordpress.php:805
+msgid "Remove the theme update for non-admins. Show message for a new version of a theme in the install of your blog only to users with the rights to edit themes."
+msgstr "Supprime la mise à jour du thème à tout les utilisateurs sauf l'administrateur. Affiche un message lors d'une nouvelle version de thème seulement aux utilisateurs avec les droits permettant d'éditer les thèmes."
+
+# @ secure_wp
+#: secure-wordpress.php:812
+msgid "WP Scanner"
+msgstr "WP Scanner"
+
+# @ secure_wp
+#: secure-wordpress.php:816
+msgid "WordPress scanner is a free online resource that blog administrators can use to provide a measure of their wordpress security level. To run wp-scanner check this option and is add <code>&lt;!-- wpscanner --&gt;</code> to your current WordPress template. After this go to <a href=\"http://blogsecurity.net/wpscan\">http://blogsecurity.net/wpscan</a> and scan your site."
+msgstr "Le scanner WordPress est une ressource gratuite en ligne permettant aux administrateurs de blog de mesurer le niveau de sécurité de leurs installations WordPress. Pour lancer wp-scanner, cochez cette option et ajouter <code>&lt;!-- wpscanner --&gt;</code> à votre template WordPress actuellement utilisé. Aller ensuite sur : <a href=\"http://blogsecurity.net/wpscan\">http://blogsecurity.net/wpscan</a> et scanner votre site."
+
+# @ secure_wp
+#: secure-wordpress.php:822
+msgid "Block bad queries"
+msgstr "Bloquer les mauvaises requêtes"
+
+# @ secure_wp
+#: secure-wordpress.php:826
+msgid "Protect WordPress against malicious URL requests, see more informations on the <a href=\"http://perishablepress.com/press/2009/12/22/protect-wordpress-against-malicious-url-requests/\" title=\"read this post\" >post from Jeff Starr</a>"
+msgstr "Protège WordPress contre les requêtes malicieuses d'URL, jettez un oeil à cet article pour de plus amples informations :  <a href=\"http://perishablepress.com/press/2009/12/22/protect-wordpress-against-malicious-url-requests/\" title=\"read this post\" >Jeff Starr - Malicious url req</a>"
+
+# @ secure_wp
+#: secure-wordpress.php:834
+msgid "Save Changes"
+msgstr "Sauvegarder les changements"
+
+# @ secure_wp
+#: secure-wordpress.php:845
+msgid "Clear Options"
+msgstr "Options de suppression"
+
+# @ secure_wp
+#: secure-wordpress.php:848
+msgid "Click this button to delete settings of this plugin. Deactivating Secure WordPress plugin remove any data that may have been created."
+msgstr "Cocher et cliquer sur ce bouton pour effacer toutes les configurations de ce plugin. La désactivation du plugin Secure WordPress supprime toutes les données du plugin."
+
+# @ secure_wp
+#: secure-wordpress.php:853
+msgid "Delete Options"
+msgstr "Options d'effacement"
+
+# @ secure_wp
+#: secure-wordpress.php:865
+msgid "About the plugin"
+msgstr "A propos du plugin"
+
+# @ secure_wp
+#: secure-wordpress.php:878
+msgid "Further information: Visit the <a href=\"http://bueltge.de/wordpress-login-sicherheit-plugin/652/\">plugin homepage</a> for further information or to grab the latest version of this plugin."
+msgstr "Complément d'information : Visitez la :  <a href=\"http://bueltge.de/wordpress-login-sicherheit-plugin/652/\"> page officielle du plugin</a> pour plus d'informations ou pour récupérer la dernière version du plugin."
+
+# @ secure_wp
+#: secure-wordpress.php:878
+msgid "You want to thank me? Visit my <a href=\"http://bueltge.de/wunschliste/\">wishlist</a>."
+msgstr "Vous voulez me dire merci ? Visitez ma <a href=\"http://bueltge.de/wunschliste/\">wishlist</a>."
+

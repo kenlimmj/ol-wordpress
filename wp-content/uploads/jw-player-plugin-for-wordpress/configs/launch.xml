@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<config>
+<hd.fullscreen>false</hd.fullscreen>
+<hd.state>true</hd.state>
+<icons>false</icons>
+<playlist.position>none</playlist.position>
+<playlistsize>180</playlistsize>
+<repeat>none</repeat>
+<shuffle>false</shuffle>
+<bufferlength>1</bufferlength>
+<smoothing>true</smoothing>
+<stretching>uniform</stretching>
+<wmode>transparent</wmode>
+<mute>false</mute>
+<volume>90</volume>
+<controlbar>bottom</controlbar>
+<dock>false</dock>
+<autostart>true</autostart>
+<height>450</height>
+<width>800</width>
+<plugins>hd-1,</plugins>
+</config>

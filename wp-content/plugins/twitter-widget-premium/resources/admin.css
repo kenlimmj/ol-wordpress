@@ -1,0 +1,11 @@
+.twitter-form th {
+	font-weight:bold;
+}
+
+input.button-primary, button.button-primary, a.button-primary {
+	margin-left: -8px;
+}
+
+.form-table {
+	margin-top: -8px;
+}

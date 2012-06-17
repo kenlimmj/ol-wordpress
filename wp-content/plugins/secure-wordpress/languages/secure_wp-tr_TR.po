@@ -1,0 +1,530 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Secure WordPress\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-05-16 12:34+0100\n"
+"PO-Revision-Date: 2011-07-30 23:40+0200\n"
+"Last-Translator: \n"
+"Language-Team: Nightmare17 <kdrcskn@windowslive.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ secure_wp
+#. translators: plugin header field 'Description'
+#: secure-wordpress.php:0
+msgid "Little basics for secure your WordPress-installation."
+msgstr "Wordpress kurullumu hakkında basit tavsiyeler."
+
+# @ default
+#: secure-wordpress.php:370
+msgid "Settings"
+msgstr "Ayarlar"
+
+# @ secure_wp
+#: secure-wordpress.php:399
+#: secure-wordpress.php:446
+msgid "<a href=\"http://wordpress.org/extend/plugins/secure-wordpress/\">Documentation</a>"
+msgstr "<a href=\"http://wordpress.org/extend/plugins/secure-wordpress/\">Dökümanlar</a>"
+
+# @ secure_wp
+#: secure-wordpress.php:422
+msgid "Options update."
+msgstr "Ayarlar güncellendi"
+
+# @ secure_wp
+#: secure-wordpress.php:424
+msgid "All entries in the database was cleared. Now deactivate this plugin."
+msgstr "Eklentiye ait tüm veriler temizlendi. Şimdi eklentiyi pasifleştirebilirsiniz."
+
+# @ secure_wp
+#: secure-wordpress.php:438
+#: secure-wordpress.php:449
+msgid "Secure WP"
+msgstr "Güvenli WP"
+
+# @ secure_wp
+#. translators: plugin header field 'Name'
+#: secure-wordpress.php:0
+#: secure-wordpress.php:445
+#: secure-wordpress.php:773
+msgid "Secure WordPress"
+msgstr "Güvenli WordPress"
+
+# @ default
+#: secure-wordpress.php:469
+msgid "Version"
+msgstr "Sürüm"
+
+# @ secure_wp
+#: secure-wordpress.php:469
+msgid "History"
+msgstr "Geçmiş"
+
+# @ default
+#: secure-wordpress.php:469
+msgid "Author"
+msgstr "Yazar"
+
+# @ secure_wp
+#: secure-wordpress.php:698
+msgid "Options not updated - you don&lsquo;t have the privileges to do this!"
+msgstr "Ayarlar ggüncelleştirilemedi - bunu yapmak için yetkiniz yok!"
+
+# @ secure_wp
+#: secure-wordpress.php:718
+msgid "Entries were not deleted - you don&lsquo;t have the privileges to do this!"
+msgstr "Veriler silinmedi - bunu yapmak için yetkiniz yok!"
+
+# @ secure_wp
+#: secure-wordpress.php:726
+msgid "Entries were not deleted - check the checkbox!"
+msgstr "Veriler silinmedi - inceleme kutusunu inceleyin!"
+
+# @ secure_wp
+#: secure-wordpress.php:746
+msgid "All entries in the database were cleared."
+msgstr "Veritabanındaki tüm girdiler temizlendi."
+
+# @ secure_wp
+#: secure-wordpress.php:750
+msgid "Entries were not deleted - check the checkbox or you don&lsquo;t have the privileges to do this!"
+msgstr "Girdiler temizlenmedi - inceleme kutusunu inceleyin veya bunu yapmak için yetkiniz yok!"
+
+# @ default
+#: secure-wordpress.php:778
+#: secure-wordpress.php:914
+#: secure-wordpress.php:1027
+#: secure-wordpress.php:1141
+msgid "Click to toggle"
+msgstr "Geçiş için tıklayın"
+
+# @ secure_wp
+#: secure-wordpress.php:779
+msgid "Configuration"
+msgstr "Yapılalndırma"
+
+# @ secure_wp
+#: secure-wordpress.php:789
+msgid "Error-Messages"
+msgstr "Hata-Mesajları"
+
+# @ secure_wp
+#: secure-wordpress.php:793
+msgid "Deactivates tooltip and error message at login of WordPress"
+msgstr "Wordpress giriş ekranındaki hata mesajını pasif hale getirir"
+
+# @ secure_wp
+#: secure-wordpress.php:799
+msgid "WordPress Version"
+msgstr "WordPress Sürümü"
+
+# @ secure_wp
+#: secure-wordpress.php:803
+msgid "Removes version of WordPress in all areas, including feed, not in admin"
+msgstr "Wordpress sürüm bilgilerini beslemeler de dahil olmak üzere her yerden siler, yöneticiler için değil"
+
+# @ secure_wp
+#: secure-wordpress.php:809
+msgid "WordPress Version in Backend"
+msgstr "Yönetim Panelinde WordPress Sürümü"
+
+# @ secure_wp
+#: secure-wordpress.php:813
+msgid "Removes version of WordPress on admin-area for non-admins. Show WordPress version of your blog only to users with the rights to edit plugins."
+msgstr "önetici panelindeki WordPress sürüm bilgilerini yönetici olmayanlar için gizler. WordPress sürüm bilgilerini sadece eklentileri yönetme izni olan kulanıcılar görebilir."
+
+# @ secure_wp
+#: secure-wordpress.php:819
+msgid "index.php"
+msgstr "index.php"
+
+# @ secure_wp
+#: secure-wordpress.php:823
+msgid "creates an <code>index.php</code> file in <code>/plugins/</code> and <code>/themes/</code> to keep it from showing your directory listing"
+msgstr "Dizin listelemeyi engellemek için <code>/plugins/</code> ve <code>/themes/</code> dizinlerinde <code>index.php</code> dosyası oluşturur"
+
+# @ secure_wp
+#: secure-wordpress.php:829
+msgid "Really Simple Discovery"
+msgstr "Really Simple Discovery"
+
+# @ secure_wp
+#: secure-wordpress.php:833
+msgid "Remove Really Simple Discovery link in <code>wp_head</code> of the frontend"
+msgstr "Really Simple Discovery bağlantısını <code>wp_head</code> böümünden kaldırır"
+
+# @ secure_wp
+#: secure-wordpress.php:839
+msgid "Windows Live Writer"
+msgstr "Windows Live Yazar"
+
+# @ secure_wp
+#: secure-wordpress.php:843
+msgid "Remove Windows Live Writer link in <code>wp_head</code> of the frontend"
+msgstr "Windows Live Writer bağlantısını <code>wp_head</code> bölümünden kaldırır"
+
+# @ secure_wp
+#: secure-wordpress.php:849
+msgid "Core Update"
+msgstr "Çekirdek Güncelleme"
+
+# @ secure_wp
+#: secure-wordpress.php:853
+msgid "Remove WordPress Core update for non-admins. Show message of a new WordPress version only to users with the right to update."
+msgstr "WordPress çekirdek güncellemesini yönetici yetkisi olmayanlar için kaldırır. Uyarıyı sadece gerekli yetkisi olan kulanıcılar görebilir."
+
+# @ secure_wp
+#: secure-wordpress.php:859
+msgid "Plugin Update"
+msgstr "Eklenti Güncelleme"
+
+# @ secure_wp
+#: secure-wordpress.php:863
+msgid "Remove the plugin update for non-admins. Show message for a new version of a plugin in the install of your blog only to users with the rights to edit plugins."
+msgstr "Eklenti güncellemesini yönetici yetkisi olmayanlar için kaldırır. Eklentinin yeni versiyonu olduğu uyarısını sadece eklenti düzenleme yetkisi olan kullanıcılar görebilir"
+
+# @ secure_wp
+#: secure-wordpress.php:870
+msgid "Theme Update"
+msgstr "Tema Güncelleme"
+
+# @ secure_wp
+#: secure-wordpress.php:874
+msgid "Remove the theme update for non-admins. Show message for a new version of a theme in the install of your blog only to users with the rights to edit themes."
+msgstr "Tema güncellemesini yönetici yetkisi olmayanlar için kaldırır. Temanın yeni versiyonun olduğu uyarısını sadece tema düzenleme yetkisi olan kullanıcılar görebilir"
+
+# @ secure_wp
+#: secure-wordpress.php:891
+msgid "Block bad queries"
+msgstr "Kötü kodları engelle"
+
+# @ secure_wp
+#: secure-wordpress.php:895
+msgid "Protect WordPress against malicious URL requests, read more information at the <a href=\"http://perishablepress.com/press/2009/12/22/protect-wordpress-against-malicious-url-requests/\" title=\"read this post\" >post from Jeff Starr</a>"
+msgstr "WordPress sitenizi zararlı adres isteklerine karşı koruyun daha fazla bilgi için <a href=\"http://perishablepress.com/press/2009/12/22/protect-wordpress-against-malicious-url-requests/\" title=\"bu yazıyı oku\" >Jeff Starr'ın yazısını okuyun</a>"
+
+# @ secure_wp
+#: secure-wordpress.php:903
+msgid "Save Changes"
+msgstr "Değişiklikleri Kaydet"
+
+# @ secure_wp
+#: secure-wordpress.php:915
+msgid "Validate your site with a free malware scan from www.sitesecuritymonitor.com"
+msgstr "Sitenizi  www.sitesecuritymonitor.com sitesinden zararlı taraması yaparak onaylatın"
+
+# @ secure_wp
+#: secure-wordpress.php:918
+msgid "Take us for a Test Drive - Free Scan"
+msgstr "Test Sürüşüne çıkın - Bedava Tarama"
+
+# @ secure_wp
+#: secure-wordpress.php:919
+msgid "We understand you may have questions:"
+msgstr "Sorularınız olabileceğini anlıyoruz:"
+
+# @ secure_wp
+#: secure-wordpress.php:920
+msgid "What does this do for me?"
+msgstr "Bu benim için ne yapar?"
+
+# @ secure_wp
+#: secure-wordpress.php:921
+msgid "Am I really safe? I need to be sure."
+msgstr "Gerçekten güvende miyim? Emin olmam gerekiyor."
+
+# @ secure_wp
+#: secure-wordpress.php:922
+msgid "Rest Assured, Site Security Monitor has you covered."
+msgstr "Arkanıza yaslanın, Site Security Monitoor sizi koruyor."
+
+# @ secure_wp
+#: secure-wordpress.php:924
+msgid "FREE scan looks for malware"
+msgstr "BEDAVA tarama zararlı yazılım arıyor"
+
+# @ secure_wp
+#: secure-wordpress.php:925
+msgid "FREE report of website vulnerabilities found"
+msgstr "BEDAVA site raporu site açıkları bulunduğunu belirtiyor."
+
+# @ secure_wp
+#: secure-wordpress.php:926
+msgid "No setup, tuning and installation on your site - scan begins immediately"
+msgstr "Kurulum yok, ayarlayın ve sitenize kurun - tarama anında başlar"
+
+# @ secure_wp
+#: secure-wordpress.php:928
+msgid "We will deliver to you a detailed malware and web vulnerability report - FREE of charge.  You are free to use the report to resolve issues, show your boss that you are clean, or show your clients that the site you built is safe!"
+msgstr "Biz size detaylı zararlı yazılım ve açık raporunu göndereceğiz - tamamen ÜCRETSİZ. Formu kullaranarak sorunları çözmede, patronunuza temiz olduğunuzu göstermenizde veya müşterilerinize sizin kurduğunuz sitenin güvenli olduğunu göstermede özgürsünüz!"
+
+# @ secure_wp
+#: secure-wordpress.php:929
+msgid "** Bonus: You will be able to use the Site Security Monitor \"Safe-Seal\" on your site after the scan - this shows the world that you are malware free!"
+msgstr "** Bonus: Taramadan sonra Site Security Monitor \"Safe-Seal\" (Güvenlik Amblemi) sitenizde kullanılabilir - bu dünyaya sizin zararlı yazılım barındırmadığınız gösterir!."
+
+# @ secure_wp
+#: secure-wordpress.php:931
+msgid "The form"
+msgstr "Form"
+
+# @ secure_wp
+#: secure-wordpress.php:932
+msgid "Use the follow form or use it on <a href=\"http://www.sitesecuritymonitor.com/free-scan-for-secure-wordpress\">our website</a>."
+msgstr "Takip eden formu veya <a href=\"http://www.sitesecuritymonitor.com/free-scan-for-secure-wordpress\">bizim sitemizdeki</a> kullanın."
+
+# @ secure_wp
+#: secure-wordpress.php:967
+msgid "Full Name"
+msgstr "Adınız, soyadınız"
+
+# @ secure_wp
+#: secure-wordpress.php:970
+#: secure-wordpress.php:978
+#: secure-wordpress.php:986
+#: secure-wordpress.php:994
+#: secure-wordpress.php:1010
+msgid "*required"
+msgstr "*gerekli"
+
+# @ secure_wp
+#: secure-wordpress.php:975
+msgid "eMail Adress"
+msgstr "E-Posta Adresiniz"
+
+# @ secure_wp
+#: secure-wordpress.php:978
+msgid ", eMail Address must match domain name"
+msgstr ", e-posta adresiniz domain adı ile eşleşmelidir."
+
+# @ secure_wp
+#: secure-wordpress.php:983
+msgid "Website"
+msgstr "İnternet Siteniz"
+
+# @ secure_wp
+#: secure-wordpress.php:991
+msgid "Phone"
+msgstr "Telefon"
+
+# @ secure_wp
+#: secure-wordpress.php:999
+msgid "Yes, I need help!"
+msgstr "Evet, yardıma ihtiyacım var!"
+
+# @ secure_wp
+#: secure-wordpress.php:1002
+msgid "Call me"
+msgstr "Beni ara"
+
+# @ secure_wp
+#: secure-wordpress.php:1007
+msgid "Terms and Conditions"
+msgstr "Hizmet Koşulları ve Şartlar"
+
+# @ secure_wp
+#: secure-wordpress.php:1010
+msgid ", I accept"
+msgstr ", Kabul ediyorum"
+
+# @ secure_wp
+#: secure-wordpress.php:1017
+msgid "Get my Free Web Scan"
+msgstr "BEdava web taramasını al"
+
+# @ secure_wp
+#: secure-wordpress.php:1028
+msgid "Safe Seal"
+msgstr "Güvenlik Amblemi"
+
+# @ secure_wp
+#: secure-wordpress.php:1058
+msgid "Color"
+msgstr "Renk"
+
+# @ secure_wp
+#: secure-wordpress.php:1062
+msgid "Green"
+msgstr "Yeşil"
+
+# @ secure_wp
+#: secure-wordpress.php:1063
+msgid "Blue"
+msgstr "Mavi"
+
+# @ secure_wp
+#: secure-wordpress.php:1064
+msgid "Red"
+msgstr "Kırmızı"
+
+# @ secure_wp
+#: secure-wordpress.php:1065
+msgid "Brown"
+msgstr "Kahverengi"
+
+# @ secure_wp
+#: secure-wordpress.php:1066
+msgid "Gray"
+msgstr "Gri"
+
+# @ secure_wp
+#: secure-wordpress.php:1075
+msgid "Text"
+msgstr "Yazı"
+
+# @ secure_wp
+#: secure-wordpress.php:1079
+msgid "Protected"
+msgstr "Korundu"
+
+# @ secure_wp
+#: secure-wordpress.php:1080
+msgid "Secured"
+msgstr "Güvenceye Alındı"
+
+# @ secure_wp
+#: secure-wordpress.php:1081
+msgid "Scanned"
+msgstr "Tarandı"
+
+# @ secure_wp
+#: secure-wordpress.php:1082
+msgid "Protected by"
+msgstr "Koruyan"
+
+# @ secure_wp
+#: secure-wordpress.php:1088
+msgid "Orientation"
+msgstr "Oryantasyon"
+
+# @ secure_wp
+#: secure-wordpress.php:1092
+msgid "Horizontal"
+msgstr "Yatay"
+
+# @ secure_wp
+#: secure-wordpress.php:1093
+msgid "Vertical"
+msgstr "Dikey"
+
+# @ secure_wp
+#: secure-wordpress.php:1099
+msgid "Image border"
+msgstr "Resim Bordurü"
+
+# @ secure_wp
+#: secure-wordpress.php:1107
+msgid "Language"
+msgstr "Dil"
+
+# @ secure_wp
+#: secure-wordpress.php:1111
+msgid "English (US)"
+msgstr "İngilizce (US)"
+
+# @ secure_wp
+#: secure-wordpress.php:1112
+msgid "English (UK)"
+msgstr "İngilizce  (UK)"
+
+# @ secure_wp
+#: secure-wordpress.php:1113
+msgid "Spanish"
+msgstr "İspanyolca"
+
+# @ secure_wp
+#: secure-wordpress.php:1114
+msgid "German"
+msgstr "Almanca"
+
+# @ secure_wp
+#: secure-wordpress.php:1115
+msgid "Italian"
+msgstr "İtalyanca"
+
+# @ secure_wp
+#: secure-wordpress.php:1116
+msgid "Japanese"
+msgstr "Japonca"
+
+# @ secure_wp
+#: secure-wordpress.php:1117
+msgid "Chinese (Simplified)"
+msgstr "Çince (Basitleştirilmiş)"
+
+# @ secure_wp
+#: secure-wordpress.php:1118
+msgid "Chinese (Traditional)"
+msgstr "Çince (Geleneksell)"
+
+# @ secure_wp
+#: secure-wordpress.php:1127
+msgid "Here is your generated code. Place it on your website (as html widget) to show that you are protected."
+msgstr "Oluşturulan kodunuz burada. Bunu internet sitenize (html bileşeni) olarak yerleştirerek korunduğunuzu gösterebilirsiniz."
+
+# @ secure_wp
+#: secure-wordpress.php:1142
+msgid "Clear Options"
+msgstr "Ayarları Temizle"
+
+# @ secure_wp
+#: secure-wordpress.php:1145
+msgid "Click this button to delete the settings of this plugin. Deactivating Secure WordPress plugin removes any data that may have been created."
+msgstr "Bu butona tıklayarak eklenti ayarlarını silebilirsiniz. Güvenli Wordpress eklentisini pasifleştirmek oluşturulmuş hiçbir ayarı silmez."
+
+# @ secure_wp
+#: secure-wordpress.php:1150
+msgid "Delete Options"
+msgstr "Ayarları Sil"
+
+# @ secure_wp
+#. translators: plugin header field 'PluginURI'
+#: secure-wordpress.php:0
+msgid "http://www.sitesecuritymonitor.com/secure-wordpress-plugin"
+msgstr ""
+
+# @ secure_wp
+#. translators: plugin header field 'Author'
+#: secure-wordpress.php:0
+msgid "jremillard"
+msgstr ""
+
+# @ secure_wp
+#. translators: plugin header field 'AuthorURI'
+#: secure-wordpress.php:0
+msgid "http://www.sitesecuritymonitor.com/"
+msgstr ""
+
+# @ secure_wp
+#: secure-wordpress.php:1031
+msgid "Thankyou for using our plugin! You are free to use the scan below (outputs HTML for easy copy-pasting) into your blog.  This seal does not give you scanning services - it simple does the basics of wordpress security - as recommended by the community and our own experiences with our customers.<br/>Should you wish to get regular vulnerability and malware scanning services, please <a href=\"http://www.sitesecuritymonitor.com/wordpress-secure-plugin/\">see our main page here...</a>"
+msgstr "Eklentimizi kullandığınız için teşekkürler! Aşağıdaki taramayı yapmakta serbestsiniz (HTML kodunu çıkararak kolayca kopyala-yapıştır ) ,le blogunuza ekleyebilirsiniz.. Bu amblem size tarama servisi vermez -wordpress güvenliği için basit şeyleri yapar - toplum ve müşteri tecrübelerimize dayanarak tavsiye ederiz.<br/>Düzenli olarak açık ve zararlı yazılım tarama testi için, lütfen <a href=\"http://www.sitesecuritymonitor.com/wordpress-secure-plugin/\">buradan anasayfanıza gözatın...</a>"
+
+# @ secure_wp
+#: secure-wordpress.php:1126
+msgid "Source"
+msgstr "Kaynak"
+
+# @ secure_wp
+#. translators: plugin header field 'Version'
+#: secure-wordpress.php:0
+msgid "1.0.5"
+msgstr ""
+
+# @ secure_wp
+#: secure-wordpress.php:881
+msgid "WP Version on Scripts/Styles"
+msgstr "WP Versiyonu Scriptler/Stiller"
+
+# @ secure_wp
+#: secure-wordpress.php:885
+msgid "Removes version of WordPress on the url form scripts and stylesheets only on frontend."
+msgstr "Sitenin ön kısmındaki Script ve stil dosyalarında WordPress sürüm bilgilerini kaldırır."
+

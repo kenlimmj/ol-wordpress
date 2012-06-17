@@ -1,0 +1,532 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Secure WordPress 1.0.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-05-16 12:34+0100\n"
+"PO-Revision-Date: 2011-01-31 11:12+0200\n"
+"Last-Translator: \n"
+"Language-Team: http://www.jibo.ro <contact@jibo.ro>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-Language: Romanian\n"
+"X-Poedit-Country: ROMANIA\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#@ secure_wp
+#. translators: plugin header field 'Description'
+#: secure-wordpress.php:0
+msgid "Little basics for secure your WordPress-installation."
+msgstr "Generalitati pentru securizarea instalarii unui blog WordPress."
+
+#@ default
+#: secure-wordpress.php:370
+msgid "Settings"
+msgstr "Setari"
+
+#@ secure_wp
+#: secure-wordpress.php:399
+#: secure-wordpress.php:446
+msgid "<a href=\"http://wordpress.org/extend/plugins/secure-wordpress/\">Documentation</a>"
+msgstr "<a href=\"http://wordpress.org/extend/plugins/secure-wordpress/\">Documentatie</a>"
+
+#@ secure_wp
+#: secure-wordpress.php:422
+msgid "Options update."
+msgstr "Actualizare optiuni."
+
+#@ secure_wp
+#: secure-wordpress.php:424
+msgid "All entries in the database was cleared. Now deactivate this plugin."
+msgstr "Toate intrarile din baza de date au fost sterse. Acum poti dezactiva acest plugin."
+
+#@ secure_wp
+#: secure-wordpress.php:438
+#: secure-wordpress.php:449
+msgid "Secure WP"
+msgstr "Securizeaza WordPress"
+
+#@ secure_wp
+#. translators: plugin header field 'Name'
+#: secure-wordpress.php:0
+#: secure-wordpress.php:445
+#: secure-wordpress.php:773
+msgid "Secure WordPress"
+msgstr "Securizeaza WordPress"
+
+#@ default
+#: secure-wordpress.php:469
+msgid "Version"
+msgstr "Versiune"
+
+#@ secure_wp
+#: secure-wordpress.php:469
+msgid "History"
+msgstr "Istoric"
+
+#@ default
+#: secure-wordpress.php:469
+msgid "Author"
+msgstr "Autor"
+
+#@ secure_wp
+#: secure-wordpress.php:698
+msgid "Options not updated - you don&lsquo;t have the privileges to do this!"
+msgstr "Optiunile nu au fost actualizate - nu ai permisiune pentru a face acest lucru!"
+
+#@ secure_wp
+#: secure-wordpress.php:718
+msgid "Entries were not deleted - you don&lsquo;t have the privileges to do this!"
+msgstr "Intrarile nu au fost sterse - nu ai permisiune pentru a face acest lucru!"
+
+#@ secure_wp
+#: secure-wordpress.php:726
+msgid "Entries were not deleted - check the checkbox!"
+msgstr "Intrarile nu au fost sterse - bifeaza casuta!"
+
+#@ secure_wp
+#: secure-wordpress.php:746
+msgid "All entries in the database were cleared."
+msgstr "Toate intrarile din baza de date au fost sterse."
+
+#@ secure_wp
+#: secure-wordpress.php:750
+msgid "Entries were not deleted - check the checkbox or you don&lsquo;t have the privileges to do this!"
+msgstr "Intrarile nu au fost sterse - bifeaza casuta sau nu ai permisiune pentru a face acest lucru!"
+
+#@ default
+#: secure-wordpress.php:778
+#: secure-wordpress.php:914
+#: secure-wordpress.php:1027
+#: secure-wordpress.php:1141
+msgid "Click to toggle"
+msgstr "Apasa pentru a muta"
+
+#@ secure_wp
+#: secure-wordpress.php:779
+msgid "Configuration"
+msgstr "Configuratie"
+
+#@ secure_wp
+#: secure-wordpress.php:789
+msgid "Error-Messages"
+msgstr "Mesaje de eroare"
+
+#@ secure_wp
+#: secure-wordpress.php:793
+msgid "Deactivates tooltip and error message at login of WordPress"
+msgstr "Dezactiveaza tooltip si erori la autentificarea in WordPress"
+
+#@ secure_wp
+#: secure-wordpress.php:799
+msgid "WordPress Version"
+msgstr "Versiune WordPress"
+
+#@ secure_wp
+#: secure-wordpress.php:803
+msgid "Removes version of WordPress in all areas, including feed, not in admin"
+msgstr "Inlatura versinea WordPress in toate zonele, inclusiv in flux, mai putin in zona de administrare"
+
+#@ secure_wp
+#: secure-wordpress.php:809
+msgid "WordPress Version in Backend"
+msgstr "Versiunea WordPress din spate"
+
+#@ secure_wp
+#: secure-wordpress.php:813
+msgid "Removes version of WordPress on admin-area for non-admins. Show WordPress version of your blog only to users with the rights to edit plugins."
+msgstr "Inlatura versiunea WordPress din zona de administrare pentru utilizatorii fara drepturi de administrator. Afiseaza versiunea WordPress a blog-ului tau doar pentru utilizatorii care au dreptul sa editeze plugin-uri."
+
+#@ secure_wp
+#: secure-wordpress.php:819
+msgid "index.php"
+msgstr "index.php"
+
+#@ secure_wp
+#: secure-wordpress.php:823
+msgid "creates an <code>index.php</code> file in <code>/plugins/</code> and <code>/themes/</code> to keep it from showing your directory listing"
+msgstr "creaza un fisier <code>index.php</code> in <code>/plugins/</code> si <code>/themes/</code> pentru a preveni afisarea continutului directoarelor."
+
+#@ secure_wp
+#: secure-wordpress.php:829
+msgid "Really Simple Discovery"
+msgstr "Really Simple Discovery"
+
+#@ secure_wp
+#: secure-wordpress.php:833
+msgid "Remove Really Simple Discovery link in <code>wp_head</code> of the frontend"
+msgstr "Sterge link-ul  Really Simple Discovery din <code>wp_head</code> al paginii principale"
+
+#@ secure_wp
+#: secure-wordpress.php:839
+msgid "Windows Live Writer"
+msgstr "Windows Live Writer"
+
+#@ secure_wp
+#: secure-wordpress.php:843
+msgid "Remove Windows Live Writer link in <code>wp_head</code> of the frontend"
+msgstr "Sterge link-ul  Windows Live Writer din <code>wp_head</code> al paginii principale"
+
+#@ secure_wp
+#: secure-wordpress.php:849
+msgid "Core Update"
+msgstr "Actualizare nucleu"
+
+#@ secure_wp
+#: secure-wordpress.php:853
+msgid "Remove WordPress Core update for non-admins. Show message of a new WordPress version only to users with the right to update."
+msgstr "Sterge mesajul de actualizare WordPress pentru utilizatorii fara drepturi de administrare. Afiseaza mesajul de actualizare a versiunii WordPress doar utilizatorilor care au acest drept."
+
+#@ secure_wp
+#: secure-wordpress.php:859
+msgid "Plugin Update"
+msgstr "Actualizare plugin"
+
+#@ secure_wp
+#: secure-wordpress.php:863
+msgid "Remove the plugin update for non-admins. Show message for a new version of a plugin in the install of your blog only to users with the rights to edit plugins."
+msgstr "Sterge mesajul de actualizare plugin pentru utilizatorii fara drepturi de administrare. Afiseaza mesajul de actualizare a versiunii pluginului doar utilizatorilor care au acest drept."
+
+#@ secure_wp
+#: secure-wordpress.php:870
+msgid "Theme Update"
+msgstr "Actualizare tema"
+
+#@ secure_wp
+#: secure-wordpress.php:874
+msgid "Remove the theme update for non-admins. Show message for a new version of a theme in the install of your blog only to users with the rights to edit themes."
+msgstr "Inlatura actualizarea temei pentru utilizatorii fara drepturi de administrare. Afiseaza mesajul de actualizare a versiunii temei doar utilizatorilor care au acest drept."
+
+#@ secure_wp
+#: secure-wordpress.php:891
+msgid "Block bad queries"
+msgstr "Blocheaza interogarile negative"
+
+#@ secure_wp
+#: secure-wordpress.php:895
+msgid "Protect WordPress against malicious URL requests, read more information at the <a href=\"http://perishablepress.com/press/2009/12/22/protect-wordpress-against-malicious-url-requests/\" title=\"read this post\" >post from Jeff Starr</a>"
+msgstr "Protejeaza WordPress impotriva cererilor URL malitioase, vezi mai multe informatii in <a href=\"http://perishablepress.com/press/2009/12/22/protect-wordpress-against-malicious-url-requests/\" title=\"citeste acest articol\" >articolul lui Jeff Starr</a>"
+
+#@ secure_wp
+#: secure-wordpress.php:903
+msgid "Save Changes"
+msgstr "Salveaza modificarile"
+
+#@ secure_wp
+#: secure-wordpress.php:915
+msgid "Validate your site with a free malware scan from www.sitesecuritymonitor.com"
+msgstr "Valideaza-ti site-ul cu scanarea gratuita de la www.sitesecuritymonitor.com"
+
+#@ secure_wp
+#: secure-wordpress.php:918
+msgid "Take us for a Test Drive - Free Scan"
+msgstr "Incearca un drive test - Scanare gratuita"
+
+#@ secure_wp
+#: secure-wordpress.php:919
+msgid "We understand you may have questions:"
+msgstr "Intelegem ca mai ai intrebari:"
+
+#@ secure_wp
+#: secure-wordpress.php:920
+msgid "What does this do for me?"
+msgstr "Cu ce ma ajuta asta?"
+
+#@ secure_wp
+#: secure-wordpress.php:921
+msgid "Am I really safe? I need to be sure."
+msgstr "Sunt cu adevarat in siguranta? Trebuie sa fiu sigur."
+
+#@ secure_wp
+#: secure-wordpress.php:922
+msgid "Rest Assured, Site Security Monitor has you covered."
+msgstr "Stai linistit, Site Security Monitor te protejeaza."
+
+#@ secure_wp
+#: secure-wordpress.php:924
+msgid "FREE scan looks for malware"
+msgstr "Scanarea gratuita cauta dupa vulnerabilitati"
+
+#@ secure_wp
+#: secure-wordpress.php:925
+msgid "FREE report of website vulnerabilities found"
+msgstr "Raport gratuit al vulnerabilitatilor gasite"
+
+#@ secure_wp
+#: secure-wordpress.php:926
+msgid "No setup, tuning and installation on your site - scan begins immediately"
+msgstr "Fara instalare sau modificare a site-ului tau - scanarea incepe imediat"
+
+#@ secure_wp
+#: secure-wordpress.php:928
+msgid "We will deliver to you a detailed malware and web vulnerability report - FREE of charge.  You are free to use the report to resolve issues, show your boss that you are clean, or show your clients that the site you built is safe!"
+msgstr "Iti vom trimite un raport detaliat cu privire la vulnerabilitatile site-ului - absolut gratuit. Esti liber sa folosesti acest raport pentru a-ti astupa gaurile, sa dovedesti sefilor ca site-ul este sigur, sau sa arati clientilor ca site-ul pe care il construiesti este securizat!"
+
+#@ secure_wp
+#: secure-wordpress.php:929
+msgid "** Bonus: You will be able to use the Site Security Monitor \"Safe-Seal\" on your site after the scan - this shows the world that you are malware free!"
+msgstr "** Bonus: Vei putea sa folosesti Site Security Monitor \"Safe-Seal\" pe site-ul tau dupa scanare - acesta arata lumii ca ai un site securizat!"
+
+#@ secure_wp
+#: secure-wordpress.php:931
+msgid "The form"
+msgstr "Formularul"
+
+#@ secure_wp
+#: secure-wordpress.php:932
+msgid "Use the follow form or use it on <a href=\"http://www.sitesecuritymonitor.com/free-scan-for-secure-wordpress\">our website</a>."
+msgstr "Foloseste formularul urmator sau foloseste-l pe cel de pe <a href=\"http://www.sitesecuritymonitor.com/free-scan-for-secure-wordpress\">site-ul nostru</a>."
+
+#@ secure_wp
+#: secure-wordpress.php:967
+msgid "Full Name"
+msgstr "Nume intreg"
+
+#@ secure_wp
+#: secure-wordpress.php:970
+#: secure-wordpress.php:978
+#: secure-wordpress.php:986
+#: secure-wordpress.php:994
+#: secure-wordpress.php:1010
+msgid "*required"
+msgstr "*Obligatoriu"
+
+#@ secure_wp
+#: secure-wordpress.php:975
+msgid "eMail Adress"
+msgstr "Adresa email"
+
+#@ secure_wp
+#: secure-wordpress.php:978
+msgid ", eMail Address must match domain name"
+msgstr ", Adresa de email trebuie sa fie in acelasi domeniu cu site-ul"
+
+#@ secure_wp
+#: secure-wordpress.php:983
+msgid "Website"
+msgstr "Website"
+
+#@ secure_wp
+#: secure-wordpress.php:991
+msgid "Phone"
+msgstr "Telefon"
+
+#@ secure_wp
+#: secure-wordpress.php:999
+msgid "Yes, I need help!"
+msgstr "DA, am nevoie de ajutor!"
+
+#@ secure_wp
+#: secure-wordpress.php:1002
+msgid "Call me"
+msgstr "Suna-ma"
+
+#@ secure_wp
+#: secure-wordpress.php:1007
+msgid "Terms and Conditions"
+msgstr "Termeni si conditii"
+
+#@ secure_wp
+#: secure-wordpress.php:1010
+msgid ", I accept"
+msgstr ", Accept"
+
+#@ secure_wp
+#: secure-wordpress.php:1017
+msgid "Get my Free Web Scan"
+msgstr "Incearca Scanarea Web Gratuita"
+
+#@ secure_wp
+#: secure-wordpress.php:1028
+msgid "Safe Seal"
+msgstr "Safe Seal"
+
+#@ secure_wp
+#: secure-wordpress.php:1058
+msgid "Color"
+msgstr "Culoare"
+
+#@ secure_wp
+#: secure-wordpress.php:1062
+msgid "Green"
+msgstr "Verde"
+
+#@ secure_wp
+#: secure-wordpress.php:1063
+msgid "Blue"
+msgstr "Albastru"
+
+#@ secure_wp
+#: secure-wordpress.php:1064
+msgid "Red"
+msgstr "Rosu"
+
+#@ secure_wp
+#: secure-wordpress.php:1065
+msgid "Brown"
+msgstr "Maro"
+
+#@ secure_wp
+#: secure-wordpress.php:1066
+msgid "Gray"
+msgstr "Gri"
+
+#@ secure_wp
+#: secure-wordpress.php:1075
+msgid "Text"
+msgstr "Text"
+
+#@ secure_wp
+#: secure-wordpress.php:1079
+msgid "Protected"
+msgstr "Protejat"
+
+#@ secure_wp
+#: secure-wordpress.php:1080
+msgid "Secured"
+msgstr "Securizat"
+
+#@ secure_wp
+#: secure-wordpress.php:1081
+msgid "Scanned"
+msgstr "Scanat"
+
+#@ secure_wp
+#: secure-wordpress.php:1082
+msgid "Protected by"
+msgstr "Protejat de"
+
+#@ secure_wp
+#: secure-wordpress.php:1088
+msgid "Orientation"
+msgstr "Orientare"
+
+#@ secure_wp
+#: secure-wordpress.php:1092
+msgid "Horizontal"
+msgstr "Orizontal"
+
+#@ secure_wp
+#: secure-wordpress.php:1093
+msgid "Vertical"
+msgstr "Vertical"
+
+#@ secure_wp
+#: secure-wordpress.php:1099
+msgid "Image border"
+msgstr "Chenar imagine"
+
+#@ secure_wp
+#: secure-wordpress.php:1107
+msgid "Language"
+msgstr "Limba"
+
+#@ secure_wp
+#: secure-wordpress.php:1111
+msgid "English (US)"
+msgstr "Engleza (US)"
+
+#@ secure_wp
+#: secure-wordpress.php:1112
+msgid "English (UK)"
+msgstr "Engleza (UK)"
+
+#@ secure_wp
+#: secure-wordpress.php:1113
+msgid "Spanish"
+msgstr "Spaniola"
+
+#@ secure_wp
+#: secure-wordpress.php:1114
+msgid "German"
+msgstr "Germana"
+
+#@ secure_wp
+#: secure-wordpress.php:1115
+msgid "Italian"
+msgstr "Italiana"
+
+#@ secure_wp
+#: secure-wordpress.php:1116
+msgid "Japanese"
+msgstr "Japoneza"
+
+#@ secure_wp
+#: secure-wordpress.php:1117
+msgid "Chinese (Simplified)"
+msgstr "Chineza (Simpla)"
+
+#@ secure_wp
+#: secure-wordpress.php:1118
+msgid "Chinese (Traditional)"
+msgstr "Chineza (Traditionala)"
+
+#@ secure_wp
+#: secure-wordpress.php:1127
+msgid "Here is your generated code. Place it on your website (as html widget) to show that you are protected."
+msgstr "Acesta este codul generat pentru tine. Plaseaza-l pe site-ul tau (ca widget html) pentru a demonstra ca esti protejat."
+
+#@ secure_wp
+#: secure-wordpress.php:1142
+msgid "Clear Options"
+msgstr "Curata optiunile"
+
+#@ secure_wp
+#: secure-wordpress.php:1145
+msgid "Click this button to delete the settings of this plugin. Deactivating Secure WordPress plugin removes any data that may have been created."
+msgstr "Apasa acest buton pentru a sterge optiunile acestui plugin. Dezactivand plugin-ul Secure Wordpress, sterge orice date care au fost create de acesta."
+
+#@ secure_wp
+#: secure-wordpress.php:1150
+msgid "Delete Options"
+msgstr "Sterge optiunile"
+
+#@ secure_wp
+#. translators: plugin header field 'PluginURI'
+#: secure-wordpress.php:0
+msgid "http://www.sitesecuritymonitor.com/secure-wordpress-plugin"
+msgstr "http://www.sitesecuritymonitor.com/secure-wordpress-plugin"
+
+#@ secure_wp
+#. translators: plugin header field 'Author'
+#: secure-wordpress.php:0
+msgid "jremillard"
+msgstr "jremillard"
+
+#@ secure_wp
+#. translators: plugin header field 'AuthorURI'
+#: secure-wordpress.php:0
+msgid "http://www.sitesecuritymonitor.com/"
+msgstr "http://www.sitesecuritymonitor.com/"
+
+#@ secure_wp
+#: secure-wordpress.php:1031
+msgid "Thankyou for using our plugin! You are free to use the scan below (outputs HTML for easy copy-pasting) into your blog.  This seal does not give you scanning services - it simple does the basics of wordpress security - as recommended by the community and our own experiences with our customers.<br/>Should you wish to get regular vulnerability and malware scanning services, please <a href=\"http://www.sitesecuritymonitor.com/wordpress-secure-plugin/\">see our main page here...</a>"
+msgstr "Iti multumim pentru ca folosesti plugin-ul nostru! Esti liber sa folosesti scanarea de mai jos (genereaza format HTML pentru a putea copia sau lipi mai usor) in blog-ul tau.  Acest sigiliu nu-ti ofera servicii de scanare, pur si simplu iti ofera securitatea de baza a blog-ului WordPress - recomandata de comunitate si din propria experienta a clientilor nostri.<br/>Daca doriti servicii complete de scanare a vulnerabilitatilor WordPress, viziteaza <a href=\"http://www.sitesecuritymonitor.com/wordpress-secure-plugin/\"> pagina noastra principala aici ...</a>"
+
+#@ secure_wp
+#: secure-wordpress.php:1126
+msgid "Source"
+msgstr "Sursa"
+
+#@ secure_wp
+#. translators: plugin header field 'Version'
+#: secure-wordpress.php:0
+msgid "1.0.5"
+msgstr "1.0.5"
+
+#@ secure_wp
+#: secure-wordpress.php:881
+msgid "WP Version on Scripts/Styles"
+msgstr "Versiune WordPress in scripturi/stiluri"
+
+#@ secure_wp
+#: secure-wordpress.php:885
+msgid "Removes version of WordPress on the url form scripts and stylesheets only on frontend."
+msgstr "Sterge versiunea Wordpress din adresele URL ale scripturilor js si stilurilor css doar de pe prima pagina."
+

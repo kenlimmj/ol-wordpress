@@ -1,0 +1,241 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: secure_wp\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-06-22 12:29+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Brian Flores <baflores@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: SPAIN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: secure-wordpress.php:337
+msgid "Settings"
+msgstr "Подешавања"
+
+# @ secure_wp
+#: secure-wordpress.php:366
+#: secure-wordpress.php:413
+msgid "<a href=\"http://wordpress.org/extend/plugins/secure-wordpress/\">Documentation</a>"
+msgstr "<a href=\"http://wordpress.org/extend/plugins/secure-wordpress/\">Документација</a> "
+
+# @ secure_wp
+#: secure-wordpress.php:389
+msgid "Options update."
+msgstr "Опције ажурирања."
+
+# @ secure_wp
+#: secure-wordpress.php:391
+msgid "All entries in the database was cleared. Now deactivate this plugin."
+msgstr "Сав унос у базу података је је избрисан. Сада деактивирај овај плагин."
+
+# @ secure_wp
+#: secure-wordpress.php:405
+#: secure-wordpress.php:416
+msgid "Secure WP"
+msgstr "Сигурни WP"
+
+# @ secure_wp
+#: secure-wordpress.php:412
+#: secure-wordpress.php:703
+msgid "Secure WordPress"
+msgstr "Сигурни Вордпрес"
+
+#: secure-wordpress.php:436
+msgid "Version"
+msgstr "Верзија"
+
+# @ secure_wp
+#: secure-wordpress.php:436
+msgid "History"
+msgstr "Историја"
+
+#: secure-wordpress.php:436
+msgid "Author"
+msgstr "Аутор"
+
+# @ secure_wp
+#: secure-wordpress.php:629
+msgid "Options not update - you don&lsquo;t have the privilidges to do this!"
+msgstr "Опције не ажурирање - немате привилегије да то урадите! "
+
+# @ secure_wp
+#: secure-wordpress.php:649
+msgid "Entries was not delleted - you don&lsquo;t have the privilidges to do this!"
+msgstr "Унесени подаци нису избрисани- немаш привилегију то да урадиш!"
+
+# @ secure_wp
+#: secure-wordpress.php:657
+msgid "Entries was not delleted - check the checkbox!"
+msgstr "Унесени подаци нису избрисани - провери поље!"
+
+# @ secure_wp
+#: secure-wordpress.php:677
+msgid "All entries in the database was cleared."
+msgstr "Сви подаци у бази података су избрисани."
+
+# @ secure_wp
+#: secure-wordpress.php:681
+msgid "Entries was not delleted - check the checkbox or you don&lsquo;t have the privilidges to do this!"
+msgstr "Унесени подаци нису избрисани - провери поље или немаш привилегију да то урадиш!"
+
+#: secure-wordpress.php:708
+#: secure-wordpress.php:843
+#: secure-wordpress.php:863
+msgid "Click to toggle"
+msgstr "Кликни да откључаш"
+
+# @ secure_wp
+#: secure-wordpress.php:709
+msgid "Configuration"
+msgstr "Конфигурација  "
+
+# @ secure_wp
+#: secure-wordpress.php:719
+msgid "Error-Messages"
+msgstr "Грешка у поруци"
+
+# @ secure_wp
+#: secure-wordpress.php:729
+msgid "WordPress Version"
+msgstr "Вордпрес верзија"
+
+# @ secure_wp
+#: secure-wordpress.php:733
+msgid "Removes version of WordPress in all areas, including feed, not in admin"
+msgstr "Уклања верзију Вордпреса у свим областима, укључујући feed, не у admin"
+
+# @ secure_wp
+#: secure-wordpress.php:759
+msgid "Really Simple Discovery"
+msgstr "Really Simple Discovery"
+
+# @ secure_wp
+#: secure-wordpress.php:763
+msgid "Remove Really Simple Discovery link in <code>wp_head</code> of the frontend"
+msgstr "Уkлања Real Simple Discovery линк у <code>wp_head</code> of the frontend "
+
+# @ secure_wp
+#: secure-wordpress.php:769
+msgid "Windows Live Writer"
+msgstr "Windows писац уживо"
+
+# @ secure_wp
+#: secure-wordpress.php:773
+msgid "Remove Windows Live Writer link in <code>wp_head</code> of the frontend"
+msgstr "Уклања Windows Live Writer линк у <code>wp_head</code> of the frontend "
+
+# @ secure_wp
+#: secure-wordpress.php:779
+msgid "Core Update"
+msgstr "Actualización del Core Срж ажурирања"
+
+# @ secure_wp
+#: secure-wordpress.php:783
+msgid "Remove WordPress Core update for non-admins. Show message of a new WordPress version only to users with the right to update."
+msgstr "Уклања Вордпрес Core ажурирање за non-admins. Показује поруке нове Вордпрес верзије само корисницима са правом на ажурирање."
+
+# @ secure_wp
+#: secure-wordpress.php:789
+msgid "Plugin Update"
+msgstr "Ажурирање плагина"
+
+# @ secure_wp
+#: secure-wordpress.php:793
+msgid "Remove the plugin update for non-admins. Show message for a new version of a plugin in the install of your blog only to users with the rights to edit plugins."
+msgstr "Уклања плагин ажурирање за non-admins. Показује поруку за нову верзију плагина у инсталацијама вашег блога само корисницима са правом на ажурирање плагина."
+
+# @ secure_wp
+#: secure-wordpress.php:800
+msgid "Theme Update"
+msgstr "Ажурирање времена"
+
+# @ secure_wp
+#: secure-wordpress.php:804
+msgid "Remove the theme update for non-admins. Show message for a new version of a theme in the install of your blog only to users with the rights to edit themes."
+msgstr "Уклања тему ажурирања за non-admins. Показује поруку нове верзије теме у инсталацијама башег блога само корисницима са правом на ажурирање тема."
+
+# @ secure_wp
+#: secure-wordpress.php:811
+msgid "WP Scanner"
+msgstr "WP Scanner"
+
+# @ secure_wp
+#: secure-wordpress.php:815
+msgid "WordPress scanner is a free online resource that blog administrators can use to provide a measure of their wordpress security level. To run wp-scanner check this option and is add <code>&lt;!-- wpscanner --&gt;</code> to your current WordPress template. After this go to <a href=\"http://blogsecurity.net/wpscan\">http://blogsecurity.net/wpscan</a> and scan your site."
+msgstr "Вордпрес скенер је бесплатан онлајн извор који блог администратори могу користити да оцене ниво сигурности Вордпреса. Да би користили wp-скенер провери ову опцију и додај  <code><!-- wpscanner -->;</code> у свој садашњи Вордпрес темплет. После овога иди на <a href=\"http://blogsecurity.net/wpscan\">http://blogsecurity.net/wpscan</a> и скенирај свој сајт. "
+
+# @ secure_wp
+#: secure-wordpress.php:833
+msgid "Save Changes"
+msgstr "Сачувај промене"
+
+# @ secure_wp
+#: secure-wordpress.php:844
+msgid "Clear Options"
+msgstr "Избриши опције"
+
+# @ secure_wp
+#: secure-wordpress.php:847
+msgid "Click this button to delete settings of this plugin. Deactivating Secure WordPress plugin remove any data that may have been created."
+msgstr "Кликни тастатуру да избришеш подешавања овог плагина. Деактивирај сигурни Вордпрес плагин, одстрани сваки податак који је креиран"
+
+# @ secure_wp
+#: secure-wordpress.php:852
+msgid "Delete Options"
+msgstr "Избриши опције"
+
+# @ secure_wp
+#: secure-wordpress.php:864
+msgid "About the plugin"
+msgstr "О плагину"
+
+# @ secure_wp
+#: secure-wordpress.php:877
+msgid "Further information: Visit the <a href=\"http://bueltge.de/wordpress-login-sicherheit-plugin/652/\">plugin homepage</a> for further information or to grab the latest version of this plugin."
+msgstr "За даље информације: Посети <a href=\"http://bueltge.de/wordpress-login-sicherheit-plugin/652/\">почетну старну плагина</a> за даље информације или да набавиш последњу верзију овог плагина."
+
+# @ secure_wp
+#: secure-wordpress.php:877
+msgid "You want to thank me? Visit my <a href=\"http://bueltge.de/wunschliste/\">wishlist</a>."
+msgstr "Желиш да ми се захвалиш? Посети моју <a href=\"http://bueltge.de/wunschliste/\">листу жеља</a>."
+
+# @ secure_wp
+#: secure-wordpress.php:753
+msgid "creates an <code>index.php</code> file in <code>/plugins/</code> and <code>/themes/</code> to keep it from showing your directory listing"
+msgstr "ствара <code>index.php</code> фајл у <code>/плагину/</code> и <code>/сам/</code> да би спречио приказивање твог каталога"
+
+# @ secure_wp
+#: secure-wordpress.php:739
+msgid "WordPress Version in Backend"
+msgstr "Вордпрес верзија је Backend "
+
+# @ secure_wp
+#: secure-wordpress.php:749
+msgid "index.php"
+msgstr "index.php"
+
+# @ secure_wp
+#: secure-wordpress.php:743
+msgid "Removes version of WordPress on admin-area for non-admins. Show WordPress version of your blog only to users with the rights to edit plugins."
+msgstr "Уклања верзију Вордпреса на admin-област за non-admins. Показује Вордпрес верзију твог блога само корисницима са правом да коригују плагин. "
+
+# @ secure_wp
+#: secure-wordpress.php:723
+msgid "Deactivates tooltip and error message at login of WordPress"
+msgstr "Деактивира tooltip и поруке са грашком на упису у Вордпрес"
+
+# @ secure_wp
+#: secure-wordpress.php:821
+msgid "Block bad queries"
+msgstr "Блокира лоша питања"
+
+# @ secure_wp
+#: secure-wordpress.php:825
+msgid "Protect WordPress against malicious URL requests, see more informations on the <a href=\"http://perishablepress.com/press/2009/12/22/protect-wordpress-against-malicious-url-requests/\" title=\"read this post\" >post from Jeff Starr</a>"
+msgstr "Заштити Вордпрес од злонамерних  URL  захтева, потражи више информација на <a href=\"http://perishablepress.com/press/2009/12/22/protect-wordpress-against-malicious-url-requests/\" title=\"прочитај овоај постt\" >post from Jeff Starr</a>"
+

@@ -1,0 +1,441 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: secure-wordpress-fa_IR\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-05-16 12:34+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: ALiRezaCH <alirezach70@gmail.com>\n"
+"Language-Team: AliRezaCH.co.cc\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-Basepath: C:\\xampp\\htdocs\\wp3\\wp-content\\plugins\\secure-wordpress\n"
+
+#: secure-wordpress.php:13
+msgid "Little basics for secure your WordPress-installation."
+msgstr "آموزشي كوچك براي براي امنيت در نصب وردپرس"
+
+#: secure-wordpress.php:364
+msgid "Settings"
+msgstr "تنظيمات"
+
+# @ secure_wp
+#: secure-wordpress.php:393
+#: secure-wordpress.php:440
+msgid "<a href=\"http://wordpress.org/extend/plugins/secure-wordpress/\">Documentation</a>"
+msgstr "<a href=\"http://wordpress.org/extend/plugins/secure-wordpress/\">افزونه</a>"
+
+# @ secure_wp
+#: secure-wordpress.php:416
+msgid "Options update."
+msgstr "گزينه‌ها به‌روز شد."
+
+# @ secure_wp
+#: secure-wordpress.php:418
+msgid "All entries in the database was cleared. Now deactivate this plugin."
+msgstr "تمامي ورودي‌هاي ديتابيس حذف شدند. اكنون افزونه غيرفعال هست."
+
+# @ secure_wp
+#: secure-wordpress.php:432
+#: secure-wordpress.php:443
+msgid "Secure WP"
+msgstr "وردپرس ايمن"
+
+# @ secure_wp
+#: secure-wordpress.php:439
+#: secure-wordpress.php:738
+msgid "Secure WordPress"
+msgstr "وردپرس ايمن"
+
+#: secure-wordpress.php:463
+msgid "Version"
+msgstr "نسخه"
+
+# @ secure_wp
+#: secure-wordpress.php:463
+msgid "History"
+msgstr "تاريخچه"
+
+#: secure-wordpress.php:463
+msgid "Author"
+msgstr "تهيه‌كننده"
+
+# @ secure_wp
+#: secure-wordpress.php:664
+msgid "Options not updated - you don&lsquo;t have the privileges to do this!"
+msgstr "گزينه‌ها به روز نشد. شما به گزينه‌اي ارجحيت داديد."
+
+# @ secure_wp
+#: secure-wordpress.php:684
+msgid "Entries were not deleted - you don&lsquo;t have the privileges to do this!"
+msgstr "ورودي‌ها پاك نشدند. شما داراي مزيتي براي اين هستيد."
+
+# @ secure_wp
+#: secure-wordpress.php:692
+msgid "Entries were not deleted - check the checkbox!"
+msgstr "ورودي‌ها پاك نشدند- چك‌باكس را چك كنيد."
+
+# @ secure_wp
+#: secure-wordpress.php:712
+msgid "All entries in the database were cleared."
+msgstr "تمامي ورودي‌هاي ديتابيس حذف شدند."
+
+# @ secure_wp
+#: secure-wordpress.php:716
+msgid "Entries were not deleted - check the checkbox or you don&lsquo;t have the privileges to do this!"
+msgstr "ورودي‌ها پاك نشدند. چك‌باكس خود را چك كنيد و يا شايد ارجحيتي ايجاد كرده‌ايد."
+
+#: secure-wordpress.php:743
+#: secure-wordpress.php:878
+#: secure-wordpress.php:988
+#: secure-wordpress.php:1101
+#: secure-wordpress.php:1121
+msgid "Click to toggle"
+msgstr "Click to toggle"
+
+# @ secure_wp
+#: secure-wordpress.php:744
+msgid "Configuration"
+msgstr "پيكربندي"
+
+# @ secure_wp
+#: secure-wordpress.php:754
+msgid "Error-Messages"
+msgstr "پيام‌هاي خطا"
+
+# @ secure_wp
+#: secure-wordpress.php:758
+msgid "Deactivates tooltip and error message at login of WordPress"
+msgstr "غيرفعال كردن پيغام‌هاي خطا در زمان ورود به وردپرس"
+
+# @ secure_wp
+#: secure-wordpress.php:764
+msgid "WordPress Version"
+msgstr "نسخه‌ي وردپرس"
+
+# @ secure_wp
+#: secure-wordpress.php:768
+msgid "Removes version of WordPress in all areas, including feed, not in admin"
+msgstr "حذف نسخه‌ وردپرس در تمام قسمت‌ها، كه شامل خوراك نيز مي‌شود، البته غير از مديريت."
+
+# @ secure_wp
+#: secure-wordpress.php:774
+msgid "WordPress Version in Backend"
+msgstr "عدم‌نمايش نسخه‌ وردپرس"
+
+# @ secure_wp
+#: secure-wordpress.php:778
+msgid "Removes version of WordPress on admin-area for non-admins. Show WordPress version of your blog only to users with the rights to edit plugins."
+msgstr "حذف نسخه‌ي وردپرس در قسمت‌هاي مديريت براي غيرمديرها. نشان دادن نسخه‌ي  وردپرس در وبلاگ شما فقط براي كاربران و ويرايش افزونه‌ها."
+
+# @ secure_wp
+#: secure-wordpress.php:784
+msgid "index.php"
+msgstr "index.php"
+
+# @ secure_wp
+#: secure-wordpress.php:788
+msgid "creates an <code>index.php</code> file in <code>/plugins/</code> and <code>/themes/</code> to keep it from showing your directory listing"
+msgstr "ساختن <code>index.php</code> در <code>/plugins/</code> und <code>/themes/</code> براي نگهداشتن آن از نشان دادن فهرست دايركتوري آن. "
+
+# @ secure_wp
+#: secure-wordpress.php:794
+msgid "Really Simple Discovery"
+msgstr "Really Simple Discovery"
+
+# @ secure_wp
+#: secure-wordpress.php:798
+msgid "Remove Really Simple Discovery link in <code>wp_head</code> of the frontend"
+msgstr "حذف پيوند  Really Simple Discovery  در <code>wp_head</code>"
+
+# @ secure_wp
+#: secure-wordpress.php:804
+msgid "Windows Live Writer"
+msgstr "Windows Live Writer"
+
+# @ secure_wp
+#: secure-wordpress.php:808
+msgid "Remove Windows Live Writer link in <code>wp_head</code> of the frontend"
+msgstr "حذف پيوند Windows Live Writer در <code>wp_head</code>"
+
+# @ secure_wp
+#: secure-wordpress.php:814
+msgid "Core Update"
+msgstr "به‌روز كردن هسته"
+
+# @ secure_wp
+#: secure-wordpress.php:818
+msgid "Remove WordPress Core update for non-admins. Show message of a new WordPress version only to users with the right to update."
+msgstr "حذف به‌روزكردن هسته‌ي وردپرس براي غير مدير سيستم. نشان دادن پيام نسخه‌ي جديد وردپرس به درستي به روز شد."
+
+# @ secure_wp
+#: secure-wordpress.php:824
+msgid "Plugin Update"
+msgstr "به روزكردن افزونه"
+
+# @ secure_wp
+#: secure-wordpress.php:828
+msgid "Remove the plugin update for non-admins. Show message for a new version of a plugin in the install of your blog only to users with the rights to edit plugins."
+msgstr "حذف به روز كردن افزونه‌ها براي غير مديرها. پيام افزونه‌ي جديد بر روي وبلاگ نصب شد براي كاربران نشان داده‌شود."
+
+# @ secure_wp
+#: secure-wordpress.php:835
+msgid "Theme Update"
+msgstr "به‌روز كردن پوسته"
+
+# @ secure_wp
+#: secure-wordpress.php:839
+msgid "Remove the theme update for non-admins. Show message for a new version of a theme in the install of your blog only to users with the rights to edit themes."
+msgstr "حذف به‌روز كردن پوسته براي غيرمدير‌يت. پيام نسخه‌ي جديد پوسته بر روي وبلاگ نصب شد براي كاربران نشان داده‌مي َود."
+
+# @ secure_wp
+#: secure-wordpress.php:846
+msgid "WP Scanner"
+msgstr "اسكنر وردپرس"
+
+# @ secure_wp
+#: secure-wordpress.php:850
+msgid "WordPress scanner is a free online resource that blog administrators can use to provide a measure of their wordpress security level. To run wp-scanner check this option and add <code>&lt;!-- wpscanner --&gt;</code> to your current WordPress template. After this go to <a href=\"http://blogsecurity.net/wpscan\">http://blogsecurity.net/wpscan</a> and scan your site."
+msgstr "اسكنر وردپرس، منبعي آنلاين و رايگان است كه مديريت وبلاگ مي‌تواند امنيت وردپرس خود را محاسبه كند كه در چه سطحي است.. براي برپايي اسكنر وردپرس گزينه‌ها را انتخاب كنيد و اين كد را در  <code>&lt;!-- wpscanner --&gt;</code>قالب كنوني وردپرس خود وارد كنيد.. بد از آن به اينجا برويد  <a href=\"http://blogsecurity.net/wpscan\">http://blogsecurity.net/wpscan</a> و سايت خود را اسكن كنيد."
+
+# @ secure_wp
+#: secure-wordpress.php:856
+msgid "Block bad queries"
+msgstr "بلوكه‌كردن جست‌و‌جوهاي بد"
+
+# @ secure_wp
+#: secure-wordpress.php:860
+msgid "Protect WordPress against malicious URL requests, read more information at the <a href=\"http://perishablepress.com/press/2009/12/22/protect-wordpress-against-malicious-url-requests/\" title=\"read this post\" >post from Jeff Starr</a>"
+msgstr "ايمن كردن وردپرس شما در برابر درخواست‌هاي مخالف، براي اطلاعات بيشتر اينجا را بخوانيد. <a href=\"http://perishablepress.com/press/2009/12/22/protect-wordpress-against-malicious-url-requests/\" title=\"read this post\" >نوشته‌اي از  Jeff Starr</a>"
+
+# @ secure_wp
+#: secure-wordpress.php:868
+msgid "Save Changes"
+msgstr "دخيره‌ي تنظيمات"
+
+#: secure-wordpress.php:879
+msgid "Validate your site with a free malware scan from www.sitesecuritymonitor.com"
+msgstr "معتبر ساختن تارنماي شما با اسكنر رايگان بدافزار در www.sitesecuritymonitor.com"
+
+#: secure-wordpress.php:882
+msgid "Take us for a Test Drive - Free Scan"
+msgstr "درخواست از ما براي آزمايش و اسكن رايگان"
+
+#: secure-wordpress.php:883
+msgid "We understand you may have questions:"
+msgstr "ما مي‌دانيم كه شما چند سؤال داريد:"
+
+#: secure-wordpress.php:884
+msgid "What does this do for me?"
+msgstr "چه كاري شما براي من انجام مي‌دهيد؟"
+
+#: secure-wordpress.php:885
+msgid "Am I really safe? I need to be sure."
+msgstr "آيا من واقعاً در امنيت هستم؟ من نياز دارم كه مطمئن شوم."
+
+#: secure-wordpress.php:886
+msgid "Rest Assured, Site Security Monitor has you covered."
+msgstr "در اطمينان باشيد، Site Security Monitor پشتيبان شما خواهد‌بود."
+
+#: secure-wordpress.php:888
+msgid "FREE scan looks for malware"
+msgstr "اسكن رايگان براي يافتم بدافزار"
+
+#: secure-wordpress.php:889
+msgid "FREE report of website vulnerabilities found"
+msgstr "گزارش رايگان تعداد آسيب‌پذيري تارنما"
+
+#: secure-wordpress.php:890
+msgid "No setup, tuning and installation on your site - scan begins immediately"
+msgstr "بدون نياز به نصب، ميزان‌سازي و نصب بر روي تارنماي شما - شروع اسكن سريعاً"
+
+#: secure-wordpress.php:892
+msgid "We will deliver to you a detailed malware and web vulnerability report - FREE of charge.  You are free to use the report to resolve issues, show your boss that you are clean, or show your clients that the site you built is safe!"
+msgstr "ما گزارش جزئيات بدافزار و آسيب‌پذيري تارنما به شما تخويل مي‌دهيم. به صورات رايگان. شما مجاني گزارش درخواستي خود  را دريافت مي كنيد. به رئيس شما نشان مي‌دهيم كه پاك هستيد، و يا به مشتري شما نشان مي‌دهيم كه تارنماي شما در امنيت كامل است. "
+
+#: secure-wordpress.php:893
+msgid "** Bonus: You will be able to use the Site Security Monitor \"Safe-Seal\" on your site after the scan - this shows the world that you are malware free!"
+msgstr "** جايزه:  شما پس از استفاده از Site Security Monitor و دريافت تضمين امنيت در سايت شما. به همه‌ي دنيا نشان مي‌دهيد كه عاري از هرگونه بدافزار هستيد."
+
+#: secure-wordpress.php:895
+msgid "The form"
+msgstr "اين فرم"
+
+#: secure-wordpress.php:896
+msgid "Use the follow form or use it on <a href=\"http://www.sitesecuritymonitor.com/free-scan-for-secure-wordpress\">our website</a>."
+msgstr "استفاده از فرم موجود در <a href=\"http://www.sitesecuritymonitor.com/free-scan-for-secure-wordpress\">وب‌سايت ما</a>."
+
+#: secure-wordpress.php:928
+msgid "Full Name"
+msgstr "نام كامل"
+
+#: secure-wordpress.php:931
+#: secure-wordpress.php:939
+#: secure-wordpress.php:947
+#: secure-wordpress.php:955
+#: secure-wordpress.php:971
+msgid "*required"
+msgstr "*لازم‌است"
+
+#: secure-wordpress.php:936
+msgid "eMail Adress"
+msgstr "رايانامه"
+
+#: secure-wordpress.php:939
+msgid ", eMail Address must match domain name"
+msgstr "، رايانامه شما بايد با دامنه ي شما مطابقت داشته‌باشد."
+
+#: secure-wordpress.php:944
+msgid "Website"
+msgstr "تارنما"
+
+#: secure-wordpress.php:952
+msgid "Phone"
+msgstr "تلفن"
+
+#: secure-wordpress.php:960
+msgid "Yes, I need help!"
+msgstr "بله، من به راهنمايي نياز دارم!"
+
+#: secure-wordpress.php:963
+msgid "Call me"
+msgstr "مرا صدابزن"
+
+#: secure-wordpress.php:968
+msgid "Terms and Conditions"
+msgstr "قوانين و مقررات"
+
+#: secure-wordpress.php:971
+msgid ", I accept"
+msgstr "، من مي پذيرم."
+
+#: secure-wordpress.php:978
+msgid "Get my Free Web Scan"
+msgstr "دريافت رايگان اسكن تارنماي من."
+
+#: secure-wordpress.php:989
+msgid "Safe Seal"
+msgstr "تضمين امنيت"
+
+#: secure-wordpress.php:992
+msgid "Thankyou for using our scan. You are free to use the scan below (outputs HTML for easy copy-pasting) into your blog.  This seal does not give you scanning services - it simple does the basics of wordpress security - as recommended by the community and our own experiences with our customers.<br/>Should you wish to get regular vulnerability and malware scanning services, please <a href=\"http://www.sitesecuritymonitor.com/wordpress-secure-plugin/\">see our main page here...</a>"
+msgstr "براي استفاده از اسكنر ما سپاسگذاريم. شما مي‌تواني اسكنر رايگان ما را در تارنماي خود قرار دهيد (از كد HTML زير رونشت برداريد و در تارنماي خود قرار دهيد).اگر اين سرويس اسكن براي ايمن كردن را نگرفته‌ايد- خيلي راحت وردپرس خود را امنيتي كنيد-اگر مايليد كه در انجمن ما شركت كنيد و از تجربه‌هاي ما استفاده‌كنيد.به صورت مستقيم از سرويس آسيب‌پذيري و اسكن بدافزار ما استفاد كنيد.<a href=\"http://www.sitesecuritymonitor.com/wordpress-secure-plugin/\">از تارنماي ما ديدن كنيد...</a>"
+
+#: secure-wordpress.php:1020
+msgid "Color"
+msgstr "رنگ"
+
+#: secure-wordpress.php:1024
+msgid "Green"
+msgstr "سبز"
+
+#: secure-wordpress.php:1025
+msgid "Blue"
+msgstr "آبي"
+
+#: secure-wordpress.php:1026
+msgid "Red"
+msgstr "قرمز"
+
+#: secure-wordpress.php:1027
+msgid "Brown"
+msgstr "قهوه‌اي"
+
+#: secure-wordpress.php:1028
+msgid "Gray"
+msgstr "خاكستري"
+
+#: secure-wordpress.php:1037
+msgid "Text"
+msgstr "متن"
+
+#: secure-wordpress.php:1041
+msgid "Protected"
+msgstr "محافظت شد."
+
+# @ secure_wp
+#: secure-wordpress.php:1042
+msgid "Secured"
+msgstr "ايمن شد."
+
+# @ secure_wp
+#: secure-wordpress.php:1043
+msgid "Scanned"
+msgstr "اسكن شد."
+
+#: secure-wordpress.php:1044
+msgid "Protected by"
+msgstr "محافظت شده توسط"
+
+#: secure-wordpress.php:1050
+msgid "Orientation"
+msgstr "آشناسازي"
+
+#: secure-wordpress.php:1054
+msgid "Horizontal"
+msgstr "افقي"
+
+#: secure-wordpress.php:1055
+msgid "Vertical"
+msgstr "عمودي"
+
+#: secure-wordpress.php:1061
+msgid "Image border"
+msgstr "حاشيه تصوير"
+
+#: secure-wordpress.php:1069
+msgid "Language"
+msgstr "زبان"
+
+#: secure-wordpress.php:1073
+msgid "English (US)"
+msgstr "Englisch (US)"
+
+#: secure-wordpress.php:1074
+msgid "English (UK)"
+msgstr "Englisch (UK)"
+
+#: secure-wordpress.php:1075
+msgid "Spanish"
+msgstr "Spanisch"
+
+#: secure-wordpress.php:1076
+msgid "German"
+msgstr "Deutsch"
+
+#: secure-wordpress.php:1077
+msgid "Italian"
+msgstr "Italienisch"
+
+#: secure-wordpress.php:1078
+msgid "Japanese"
+msgstr "Japanisch"
+
+#: secure-wordpress.php:1079
+msgid "Chinese (Simplified)"
+msgstr "Chinesisch (Einfach)"
+
+#: secure-wordpress.php:1080
+msgid "Chinese (Traditional)"
+msgstr "Chinesisch (Traditonell)"
+
+#: secure-wordpress.php:1089
+msgid "Here is your generated code. Place it on your website (as html widget) to show that you are protected."
+msgstr "اين كد براي شما توليد شده‌است. اين كد را در وبسايت خود قرار دهيد تا نشان دهيد كه از وبلاگ شما ايمن هست."
+
+# @ secure_wp
+#: secure-wordpress.php:1102
+msgid "Clear Options"
+msgstr "پاك‌ كردن گزينه‌ها"
+
+# @ secure_wp
+#: secure-wordpress.php:1105
+msgid "Click this button to delete the settings of this plugin. Deactivating Secure WordPress plugin removes any data that may have been created."
+msgstr "با كليك كردن بر روي اين دكمه تنظيمات اين افزونه حذف مي‌شود. افزونه‌ي وردپرس ايمن غيرفعال شده و تمامي داده‌هاي ساخته شده حذف مي‌شود."
+
+# @ secure_wp
+#: secure-wordpress.php:1110
+msgid "Delete Options"
+msgstr "حذف گزينه‌ها"
+
