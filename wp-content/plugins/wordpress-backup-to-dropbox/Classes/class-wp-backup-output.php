@@ -20,22 +20,33 @@
  */
 class WP_Backup_Output {
 
+	const MAX_ERRORS = 10;
+
 	private $dropbox;
 	private $config;
 	private $last_backup_time;
 	private $dropbox_location;
 	private $max_file_size;
+	private $error_count;
 
 	public function __construct($dropbox = false, $config = false) {
 		$this->dropbox = $dropbox ? $dropbox : new Dropbox_Facade();
 		$this->config = $config ? $config : new WP_Backup_Config();
 
 		$this->last_backup_time = $this->config->get_option('last_backup_time');
-		$this->dropbox_location = $this->config->get_option('dropbox_location');
+
+		$this->dropbox_location = null;
+		if ($this->config->get_option('store_in_subfolder'))
+			$this->dropbox_location = $this->config->get_option('dropbox_location');
+
 		$this->max_file_size = $this->config->get_max_file_size();
 	}
 
 	public function out($source, $file) {
+
+		if ($this->error_count > self::MAX_ERRORS) {
+			throw new Exception(sprintf(__('The backup is having trouble uploading files to Dropbox, it has failed %s times and is aborting the backup.'), self::MAX_ERRORS));
+		}
 
 		if (filesize($file) > $this->max_file_size) {
 			$this->config->log(WP_Backup_Config::BACKUP_STATUS_WARNING,
@@ -49,17 +60,16 @@ class WP_Backup_Output {
 			$dropbox_path = str_replace(DIRECTORY_SEPARATOR, '/', $dropbox_path);
 		}
 
-		$directory_contents = $this->dropbox->get_directory_contents(dirname($dropbox_path));
-		if (!in_array(basename($file), $directory_contents) || filemtime($file) > $this->last_backup_time) {
-			try {
-				$this->dropbox->upload_file($dropbox_path, $file);
-			} catch (Exception $e) {
-				if ($e->getMessage() == 'Unauthorized')
-					throw $e;
+		try {
 
-				$msg = sprintf(__("Could not upload '%s' due to the following error: %s", 'wpbtd'), $file, $e->getMessage());
-				$this->config->log(WP_Backup_Config::BACKUP_STATUS_WARNING, $msg);
-			}
+			$directory_contents = $this->dropbox->get_directory_contents(dirname($dropbox_path));
+			if (!in_array(basename($file), $directory_contents) || filemtime($file) > $this->last_backup_time)
+				$this->dropbox->upload_file($dropbox_path, $file);
+
+		} catch (Exception $e) {
+			$msg = sprintf(__("There was an error uploading '%s' to Dropbox", 'wpbtd'), $file);
+			$this->config->log(WP_Backup_Config::BACKUP_STATUS_WARNING, $msg);
+			$this->error_count++;
 		}
 	}
 

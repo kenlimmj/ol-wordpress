@@ -2,153 +2,153 @@
 # This file is distributed under the same license as the  package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Wordpress Backup to Dropbox\n"
+"Project-Id-Version: WPBTD\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/wordpress-backup-to-dropbox\n"
 "POT-Creation-Date: 2012-05-01 00:06:24+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2012-05-09 19:01+0100\n"
-"Last-Translator: Ren <r.querin@q-design.it>\n"
-"Language-Team: \n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"X-Poedit-Language: Italian\n"
-"X-Poedit-Country: ITALY\n"
+"PO-Revision-Date: 2012-05-18 13:28+0100\n"
+"Last-Translator: Laza <lacicsoki@gmail.com>\n"
+"Language-Team: Lazarevics <lacicsoki@gmail.com>\n"
+"X-Poedit-Language: Hungarian\n"
+"X-Poedit-Country: HUNGARY\n"
+"X-Poedit-SourceCharset: utf-8\n"
 
 #: Classes/class-dropbox-facade.php:92
 msgid "backup file (%s) does not exist."
-msgstr "il file di backup (%s) non esiste."
+msgstr "A biztonsági mentés fájlja  (%s) nem létezik."
 
 #: Classes/class-dropbox-facade.php:111
 msgid "HTTP Status %s received from Dropbox while uploading file %s."
-msgstr "Stato HTTP %s ricevuto da Dropbox mentre sto caricando il file %s."
+msgstr "HTTP Állapot: %s fogadva a Dropboxban a %s  fájlból."
 
 #: Classes/class-wp-backup-config.php:122
 msgid "This php installation is running in safe mode so the time limit cannot be set."
-msgstr "Questa installazione di php gira in <em>safe mode<&em> (modalit&agrave; sicura), pertanto non pu&ograve; essere impostato il limite di tempo."
+msgstr "A PHP sfae módban fut, így nem lehet az időkorlátot beállítani."
 
 #: Classes/class-wp-backup-config.php:123
 msgid "Click %s for more information."
-msgstr "Clicca %s per maggiori informazioni."
+msgstr "Kattints %s további információért."
 
 #: Classes/class-wp-backup-config.php:124
 msgid "here"
-msgstr "qui"
+msgstr "ide"
 
 #: Classes/class-wp-backup-config.php:208
 msgid "Invalid directory path. Path must only contain alphanumeric characters and the forward slash ('/') to separate directories."
-msgstr "Percorso cartella non valido. Il percorso deve contenere solo caratteri alfanumerici e la barra ('/') per separare le cartelle."
+msgstr "Nem létező mappa elérési útvonal. Az elérési út csak betűkből és számokból álló karaktereket tartalmazhat. "
 
 #: Classes/class-wp-backup-extension-manager.php:57
 msgid "There was an error getting the list of premium extensions"
-msgstr "Riscontrato un errore nella ricezione dell&#8217;elenco delle estensioni Premium"
+msgstr "Hiba történt a prémium bővítmények megjelenítésekor."
 
 #: Classes/class-wp-backup-extension-manager.php:83
 #: Classes/class-wp-backup-extension-manager.php:90
 msgid "There was an error installing your premium extension"
-msgstr "Si &egrave; verificato un errore installando l&#8217;estensione Premium"
+msgstr "Hiba történt a prémium bővítmények telepítésekor"
 
 #: Classes/class-wp-backup-output.php:42
 msgid "file '%s' exceeds 40 percent of your PHP memory limit. The limit must be increased to back up this file."
-msgstr "file %s eccede del 40% il limite di memoria del tuo PHP. Il limite deve essere aumentato per copiare questo file."
+msgstr "A fájl '%s' mérete meghaladja a PHP-ban beállított memória korlát 40%-át. Ezt az értéket meg kell növelni ha menteni szertné ezt a fájlt."
 
 #: Classes/class-wp-backup-output.php:60
 msgid "Could not upload '%s' due to the following error: %s"
-msgstr "Non posso caricare %s a causa del seguente errore: %s"
+msgstr "Nem sikerült feltölteni a '%s' a következő hiba miatt: %s"
 
 #: Classes/class-wp-backup.php:53
 msgid "Backing up WordPress path at (%s)"
-msgstr "Duplico percorso Wordpress a (%s)"
+msgstr "Biztonsági Mentés a WordPress elérési útvonalán - (%s)"
 
 #: Classes/class-wp-backup.php:95
 msgid "Error while accessing database."
-msgstr "Errore nell&#8217;accesso al database."
+msgstr "Hiba történt az adatbázis elérése közben."
 
 #: Classes/class-wp-backup.php:105
 msgid "A database backup cannot be created because WordPress does not have write access to '%s', please ensure this directory has write access."
-msgstr "Il backup del database non pu&ograve; essere realizzato perch&eacute; Wordpress non ha l&#8217;accesso alla scrittura di '%s'. Per favore, assicurati che questa cartella abbia il permesso di scrittura."
+msgstr "Az adatbázis mentés nem hozható létre, mert a WordPress nem rendelkezik írási jogosultsággal: '% s', ennek a könyvtárnak a jogosultságát ftp klienssel 777-re kell állítani."
 
 #: Classes/class-wp-backup.php:113
 msgid "Error creating sql dump file."
-msgstr "Errore nella creazione del file <em>dump</em> di sql."
+msgstr "Nem sikerült létrehozni az sql  fájlt."
 
 #: Classes/class-wp-backup.php:177
 msgid "Error closing sql dump file."
-msgstr "Errore nella chiusura del file <em>dump</em> di sql."
+msgstr "Az sql fájl lezárásakor hiba lépett fel."
 
 #: Classes/class-wp-backup.php:192
 msgid "Error writing to sql dump file."
-msgstr "Errore di scrittura nel file <em>dump</em> di sql."
+msgstr "Az sql fájl írása közben hiba lépett fel."
 
 #: Classes/class-wp-backup.php:216
 msgid "Your Dropbox account is not authorized yet."
-msgstr "Il tuo account Dropbox non &egrave; ancora stato autorizzato."
+msgstr "A Dropbox fiók nincs engedélyezve."
 
 #: Classes/class-wp-backup.php:226
 msgid "Creating SQL backup"
-msgstr "Creo il backup SQL"
+msgstr "SQL Mentés Létrehozása"
 
 #: Classes/class-wp-backup.php:245
 msgid "The plugin is no longer authorized with Dropbox."
-msgstr "Il plugin non ha pi&ugrave; l&#8217;autorizzazione di Dropbox."
+msgstr "A pluginnak nem sikerült összekapcsolódnia a Dropbox fiókkal."
 
 #: Classes/class-wp-backup.php:261
 msgid "Backup stopped by user."
-msgstr "Backup interrotto dall&#8217;utente."
+msgstr "A mentést leállította a felhasználó."
 
 #: Classes/class-wp-backup.php:279
 msgid "A database backup cannot be created because WordPress does not have write access to '%s', please create the folder '%s' manually."
-msgstr "Il backup del database non pu&ograve; essere realizzato perch&eacute; Wordpress non ha l&#8217;accesso alla scrittura di '%s'. Per favore, crea la cartella '%s' manualmente."
+msgstr "Az adatbázis mentés nem hozható létre, mert a WordPress nem rendelkezik írási hozzáféréssel a '% s', kérjük, hozza létre a '% s' mappát kézzel."
 
 #: Views/wp-backup-to-dropbox-monitor.php:61
 #: Views/wp-backup-to-dropbox-options.php:171
 #: Views/wp-backup-to-dropbox-premium.php:76
 msgid "WordPress Backup to Dropbox"
-msgstr "Wordpress Backup to Dropbox"
+msgstr "WordPress Backup to Dropbox"
 
 #: Views/wp-backup-to-dropbox-monitor.php:62
 #: Views/wp-backup-to-dropbox-options.php:172
 #: Views/wp-backup-to-dropbox-premium.php:77
 msgid "Version %s"
-msgstr "Versione %s"
+msgstr "Verzió %s"
 
 #: Views/wp-backup-to-dropbox-monitor.php:63
 msgid "Backup Progress"
-msgstr "Progresso Backup"
+msgstr "Mentési Folyamat"
 
 #: Views/wp-backup-to-dropbox-monitor.php:67
 msgid "Your backup has been scheduled and is waiting for WordPress to start it. This could take a few minutes, so now is a good time to go and grab a cup of coffee."
-msgstr "Il tuo backup &egrave; stato programmato e sta aspettando Wordpress per avviarsi. Questo potrebbe richiedere alcuni minuti, quindi &egrave; il momento giusto per una tazza di caff&eacute;."
+msgstr "A tervezett biztosnási mentés folyamata elindult.Ez most eltart egy ideig, ez egy jó alkalom arra hogy igyál egy kávét míg tart a folyamat :-)"
 
 #: Views/wp-backup-to-dropbox-monitor.php:69
 msgid "No backup in progess."
-msgstr "Nessun backup in corso."
+msgstr "Nincs biztonsági mentés folyamatban."
 
 #: Views/wp-backup-to-dropbox-monitor.php:74
 msgid "Stop Backup"
-msgstr "Ferma Backup"
+msgstr "Biztonsági Mentés Leállítása"
 
 #: Views/wp-backup-to-dropbox-monitor.php:76
 msgid "Start Backup"
-msgstr "Inizia Backup"
+msgstr "Biztonsági Mentés Indítása"
 
 #: Views/wp-backup-to-dropbox-options.php:24
 msgid "Your PHP version (%s) is too old for this plugin to function correctly please update to PHP 5.2 or higher."
-msgstr "La tua versione di PHP (%s) &egfrave; troppo vecchia per far funzionare correttamente il plugin. Per favore, aggiorna alla versione PHP 5.2 o superiore."
+msgstr "A PHP verzió (%s) túl régi, a plugin nem fog megfelelően működnifrissíteni kell legalább a PHP 5.2 vagy magasabb verzióra."
 
 #: Views/wp-backup-to-dropbox-options.php:92
 #: Views/wp-backup-to-dropbox-options.php:280
 #: Views/wp-backup-to-dropbox-options.php:341
 msgid "Daily"
-msgstr "Giornalmente"
+msgstr "Naponta"
 
 #: Views/wp-backup-to-dropbox-options.php:179
 msgid "Dropbox Account Details"
-msgstr "Dettagli Account Dropbox"
+msgstr "Dropbox Fiók Részletei"
 
 #: Views/wp-backup-to-dropbox-options.php:185
 msgid "you have"
-msgstr "tu hai"
+msgstr "jelenleg a"
 
 #: Views/wp-backup-to-dropbox-options.php:187
 msgid "Gigabyte"
@@ -156,237 +156,237 @@ msgstr "Gigabyte"
 
 #: Views/wp-backup-to-dropbox-options.php:188
 msgid "of"
-msgstr "di"
+msgstr "tárterületből"
 
 #: Views/wp-backup-to-dropbox-options.php:189
 msgid "free"
-msgstr "liberi"
+msgstr "szabad helyed van"
 
 #: Views/wp-backup-to-dropbox-options.php:191
 msgid "Unlink Account"
-msgstr "Scollega Account"
+msgstr "Fiók Leválasztása"
 
 #: Views/wp-backup-to-dropbox-options.php:193
 msgid "Next Scheduled"
-msgstr "Prossima programmazione"
+msgstr "Következő Futtatás"
 
 #: Views/wp-backup-to-dropbox-options.php:198
 msgid "Next backup scheduled for %s at %s"
-msgstr "Il prossimo backup avverr&agrave; il %s alle %s"
+msgstr "A következő biztonsági mentés  %s - %s-kor fog elindulni"
 
 #: Views/wp-backup-to-dropbox-options.php:200
 msgid "No backups are scheduled yet. Please select a day, time and frequency below. "
-msgstr "Ancora nessun backup programmato. Per favore, seleziona qui sotto un giorno, l&#8217;orario e la frequenza."
+msgstr "Még nincs ütemezett biztonsági mentés időzítés létrehozva. Kérjük, jelöljön ki egy napot, időt, és gyakoriságot."
 
 #: Views/wp-backup-to-dropbox-options.php:202
 msgid "History"
-msgstr "Storico"
+msgstr "Előzmények"
 
 #: Views/wp-backup-to-dropbox-options.php:213
 msgid "Backup started on %s at %s"
-msgstr "Backup iniziato il %s alle %s"
+msgstr "A biztonsági mentés elindítva %s - %s"
 
 #: Views/wp-backup-to-dropbox-options.php:216
 msgid "Backup completed on %s at %s"
-msgstr "Backup completato il %s alle %s"
+msgstr "A biztonsági mentés elkészült %s - %s"
 
 #: Views/wp-backup-to-dropbox-options.php:219
 msgid "Backup warning on %s at %s: %s"
-msgstr "Avviso Backup il %s alle %s: %s"
+msgstr "Biztonsági mentés hibák %s - %s: %s"
 
 #: Views/wp-backup-to-dropbox-options.php:222
 msgid "Backup error on %s at %s: %s"
-msgstr "Errore Backup il %s alle %s: %s"
+msgstr "A biztonsági mentés hiba %s - %s: %s"
 
 #: Views/wp-backup-to-dropbox-options.php:226
 msgid "Clear history"
-msgstr "Elimina storico"
+msgstr "Előmények törlése"
 
 #: Views/wp-backup-to-dropbox-options.php:228
 msgid "No history"
-msgstr "Nessuno storico"
+msgstr "Nincsenek előzmények"
 
 #: Views/wp-backup-to-dropbox-options.php:231
 msgid "Settings"
-msgstr "Impostazioni"
+msgstr "Beállítások"
 
 #: Views/wp-backup-to-dropbox-options.php:236
 msgid "Temporarily store your database backup in this folder"
-msgstr "Memorizza temporaneamente il Backup del database in questa cartella"
+msgstr "Az adatbázis mentésére használt ideiglenes mappa"
 
 #: Views/wp-backup-to-dropbox-options.php:240
 #: Views/wp-backup-to-dropbox-options.php:254
 msgid "Default is"
-msgstr "Valore predefinito"
+msgstr "Az alapértelmezett: "
 
 #: Views/wp-backup-to-dropbox-options.php:249
 msgid "Store backup in this folder within Dropbox"
-msgstr "Memorizza il Backup in questa cartella di Dropbox"
+msgstr "A Dropboxban használt biztonsági mentés mappája"
 
 #: Views/wp-backup-to-dropbox-options.php:262
 msgid "Day and Time"
-msgstr "Giorno e Ora"
+msgstr "Nap és Időpont"
 
 #: Views/wp-backup-to-dropbox-options.php:266
 msgid "Monday"
-msgstr "Luned&igrave;"
+msgstr "Hétfő"
 
 #: Views/wp-backup-to-dropbox-options.php:268
 msgid "Tuesday"
-msgstr "Marted&igrave;"
+msgstr "Kedd"
 
 #: Views/wp-backup-to-dropbox-options.php:270
 msgid "Wednesday"
-msgstr "Mercoled&igrave;"
+msgstr "Szerda"
 
 #: Views/wp-backup-to-dropbox-options.php:272
 msgid "Thursday"
-msgstr "Gioved&igrave;"
+msgstr "Csütörtök"
 
 #: Views/wp-backup-to-dropbox-options.php:274
 msgid "Friday"
-msgstr "Venerd&igrave;"
+msgstr "Péntek"
 
 #: Views/wp-backup-to-dropbox-options.php:276
 msgid "Saturday"
-msgstr "Sabato"
+msgstr "Szombat"
 
 #: Views/wp-backup-to-dropbox-options.php:278
 msgid "Sunday"
-msgstr "Domenica"
+msgstr "Vasárnap"
 
 #: Views/wp-backup-to-dropbox-options.php:282
 msgid "at"
-msgstr "alle"
+msgstr "-"
 
 #: Views/wp-backup-to-dropbox-options.php:333
 msgid "The day and time the backup to Dropbox is to be performed."
-msgstr "Il giorno e l&#8217;ora in cui viene realizzato il Backup su Dropbox."
+msgstr "A nap és az időpont amikor a biztonsági mentést a Dropbox fiókba elvégzi."
 
 #: Views/wp-backup-to-dropbox-options.php:337
 msgid "Frequency"
-msgstr "Frequenza"
+msgstr "Futtatás"
 
 #: Views/wp-backup-to-dropbox-options.php:344
 msgid "Weekly"
-msgstr "Settimanale"
+msgstr "Hetente"
 
 #: Views/wp-backup-to-dropbox-options.php:348
 msgid "Fortnightly"
-msgstr "Quindicinale"
+msgstr "Kéthetente"
 
 #: Views/wp-backup-to-dropbox-options.php:351
 msgid "Every 4 weeks"
-msgstr "Ogni 4 settimane"
+msgstr "4 Hetente"
 
 #: Views/wp-backup-to-dropbox-options.php:355
 msgid "Every 8 weeks"
-msgstr "Ogni 8 settimane"
+msgstr "8 Hetente"
 
 #: Views/wp-backup-to-dropbox-options.php:359
 msgid "Every 12 weeks"
-msgstr "Ogni 12 settimane"
+msgstr "12 Hetente"
 
 #: Views/wp-backup-to-dropbox-options.php:362
 msgid "How often the backup to Dropbox is to be performed."
-msgstr "Quanto spesso viene eseguito il Backup su Dropbox."
+msgstr "A biztonsági mentés gyakorisága a Dropboxban."
 
 #: Views/wp-backup-to-dropbox-options.php:368
 msgid "Excluded Files and Directories"
-msgstr "File e cartelle da escludere"
+msgstr "A mentésből kizárt fájlok és könyvtárak"
 
 #: Views/wp-backup-to-dropbox-options.php:371
 msgid "Select the files and directories that you wish to exclude from your backup. You can expand directories with contents by clicking its name."
-msgstr "Seleziona i file e le cartelle che desideri escludere dal backup. Puoi espandere le cartelle cliccando sul loro nome."
+msgstr "Válasszuk ki azokat a fájlokat és könyvtárakat amelyeket <b>KIszeretnénk</b> zárni a biztonsági mentésből.<br>Az egyes könyvtárak alkönyvtárainak kiválasztásához kattintsunk a könyvtár nevére."
 
 #: Views/wp-backup-to-dropbox-options.php:372
 msgid "Please Note:"
-msgstr "Nota Bene:"
+msgstr "Figyelem:"
 
 #: Views/wp-backup-to-dropbox-options.php:372
 msgid "Your SQL dump file will always be backed up regardless of what is selected below."
-msgstr "Il file <em>dump</em> SQL sar&agrave; sempre duplicato nonostante quanto sar&agrave; selezionato qui sotto."
+msgstr "Az SQL mentés mindig mentésre kerül, függetlenül a lent kiválasztottaktól."
 
 #: Views/wp-backup-to-dropbox-options.php:379
 msgid "Save Changes"
-msgstr "Salva le modifiche"
+msgstr "Változások Mentése"
 
 #: Views/wp-backup-to-dropbox-options.php:389
 msgid "Thank you for installing WordPress Backup to Dropbox!"
-msgstr "Grazie per aver installato Wordpress Backup to Dropbox!"
+msgstr "Köszönjük, hogy telepítette a WordPress Backup to Dropbox alkalmazást!"
 
 #: Views/wp-backup-to-dropbox-options.php:390
 msgid "In order to use this plugin you will need to authorized it with your Dropbox account."
-msgstr "Per utilizzare questo plugin devi autorizzare l&#8217;accesso al tuo account Dropbox."
+msgstr "A plugin használatához engedélyeznie kell a Dropbox felhasználói fiókját!"
 
 #: Views/wp-backup-to-dropbox-options.php:391
 msgid "Please click the authorize button below and follow the instructions inside the pop up window."
-msgstr "Per favore, clicca sul pulsante Autorizza qui sotto e segui le istruzioni contenute nella finestra."
+msgstr "Kérjük, kattintson az alábbi gombra, és kövesse az utasításokat a felugró ablakban."
 
 #: Views/wp-backup-to-dropbox-options.php:393
 msgid "There was an error authorizing the plugin with your Dropbox account. Please try again."
-msgstr "C&#8217;&egrave; un errore nell&#8217;autorizzazione del plugin al tuo account Dropbox. Per favore, prova nuovamente."
+msgstr "Hiba történt a Dropbox fiókhoz történő kapcsolódás közben. Kérjük, próbálja meg újból."
 
 #: Views/wp-backup-to-dropbox-options.php:398
 msgid "Authorize"
-msgstr "Autorizza"
+msgstr "Engedélyezés"
 
 #: Views/wp-backup-to-dropbox-options.php:401
 msgid "Continue"
-msgstr "Continua"
+msgstr "Folytatás"
 
 #: Views/wp-backup-to-dropbox-options.php:408
 msgid "There was a fatal error loading WordPress Backup to Dropbox"
-msgstr "Si &egrave; verificato un errore fatale caricando Wordpress Backup to Dropbox"
+msgstr "Egy végzetes hiba történt a WordPress Backup to Dropbox betöltése közben"
 
 #: Views/wp-backup-to-dropbox-premium.php:78
 #: wp-backup-to-dropbox.php:65
 msgid "Premium Extensions"
-msgstr "Estensioni Premium"
+msgstr "Prémium Kiegészítők"
 
 #: Views/wp-backup-to-dropbox-premium.php:80
 msgid "Welcome to Premium Extensions. Please choose an extension below to enhance WordPress Backup to Dropbox."
-msgstr "Benvenuto nelle Estensioni Premium. Per favore scegli un&#8217;estensione dall&#8217;elenco sottostante per migliorare Wordpress Backup to Dropbox."
+msgstr "Üdvözöljük a Prémium Kiegészítőkben!. Kérjük válassza ki hogy mely kiegészítőt szeretné megvásárolni."
 
 #: Views/wp-backup-to-dropbox-premium.php:81
 msgid "Installing a premium extensions is easy:"
-msgstr "Installare un&#8217;estensione Premium &egrave; semplice:"
+msgstr "A bővítmények telepítése egyszerű:"
 
 #: Views/wp-backup-to-dropbox-premium.php:83
 msgid "Click Buy Now and pay for your extension using PayPal"
-msgstr "Clicca Acquista Ora e paga l&#8217;estensione tramite PayPal"
+msgstr "Kattintson a Vásárlás Most gombra, és fizessen a PayPalon keresztül"
 
 #: Views/wp-backup-to-dropbox-premium.php:84
 msgid "Click Install & Acitvate to download and install the extension"
-msgstr "Clicca Installa &amp; Attiva per scaricare e installare l&#8217;estensione"
+msgstr "Kattintson a telepítés & aktíválásra a plugin letöltéséhez és a telepítéshez"
 
 #: Views/wp-backup-to-dropbox-premium.php:85
 msgid "Thats it, options for your extension will be available in the menu on the left"
-msgstr "&Egrave; tutto, le opzioni per le tue estensioni saranno disponibili nel menu di sinistra"
+msgstr "A bővítmények elérhetőek lesznek a menüben, a bal oldalon"
 
 #: Views/wp-backup-to-dropbox-premium.php:100
 msgid "Name"
-msgstr "Nome"
+msgstr "Név"
 
 #: Views/wp-backup-to-dropbox-premium.php:101
 msgid "Description"
-msgstr "Descrizione"
+msgstr "Leírás"
 
 #: Views/wp-backup-to-dropbox-premium.php:102
 msgid "Price"
-msgstr "Prezzo"
+msgstr "Ár"
 
 #: Views/wp-backup-to-dropbox-premium.php:120
 msgid "Download & Install"
-msgstr "Scarica &amp; Installa"
+msgstr "Letöltés és Telepítés"
 
 #: Views/wp-backup-to-dropbox-premium.php:120
 msgid "Buy Now"
-msgstr "Acquista Adesso"
+msgstr "Vedd Meg Most!"
 
 #: Views/wp-backup-to-dropbox-progress.php:35
 msgid "Processed %d files."
-msgstr "Elaborati %d file."
+msgstr "Lementve %d fájl."
 
 #: wp-backup-to-dropbox.php:52
 msgid "WPB2D"
@@ -394,27 +394,13 @@ msgstr "WPB2D"
 
 #: wp-backup-to-dropbox.php:55
 msgid "Backup Settings"
-msgstr "Impostazioni Backup"
+msgstr "Mentés Beállítások"
 
 #: wp-backup-to-dropbox.php:59
 msgid "Monitor Backup"
-msgstr "Monitora Backup"
+msgstr "A Mentési Folyamat Figyelemmel Kísérése"
 
 #: wp-backup-to-dropbox.php:59
 msgid "Backup Now"
-msgstr "Esegui Backup"
+msgstr "Mentés - Most!"
 
-#~ msgid "Error while uploading %s to Dropbox. HTTP Status: %s"
-#~ msgstr "Errore nel caricamento di %s in Dropbox. Status HTTP: %s"
-
-#~ msgid "Uploading"
-#~ msgstr "In caricamento"
-
-#~ msgid "Backup complete."
-#~ msgstr "Backup completato."
-
-#~ msgid "Backup"
-#~ msgstr "Backup"
-
-#~ msgid "The backup process appears to have gone away. Resuming backup."
-#~ msgstr "Il processo di backup sembra essere cessato. RIpristina il backup."

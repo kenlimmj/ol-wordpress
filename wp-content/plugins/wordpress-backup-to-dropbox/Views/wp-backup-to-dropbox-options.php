@@ -38,8 +38,8 @@ try {
 	if (array_key_exists('save_changes', $_POST)) {
 		check_admin_referer('backup_to_dropbox_options_save');
 		$config->set_schedule($_POST['day'], $_POST['time'], $_POST['frequency']);
-
 		$options = array(
+			'store_in_subfolder' => $_POST['store_in_subfolder'] == "on",
 			'dump_location' => $_POST['dump_location'],
 			'dropbox_location' => $_POST['dropbox_location'],
 		);
@@ -60,16 +60,10 @@ try {
 
 	$dump_location = $config->get_option('dump_location');
 	$dropbox_location = $config->get_option('dropbox_location');
+	$store_in_subfolder = $config->get_option('store_in_subfolder');
 
-	try
-	{
-		$backup->create_dump_dir();
-	}
-	catch (Exception $e)
-	{
-		$validation_errors['dump_location']['original'] = $dump_location;
-		$validation_errors['dump_location']['message'] = $e->getMessage();
-	}
+	$backup->create_dump_dir();
+	$backup->create_silence_file();
 
 	if (!empty($validation_errors)) {
 		$dump_location = array_key_exists('dump_location', $validation_errors)
@@ -100,7 +94,7 @@ try {
 
 		//Display the file tree with a call back to update the clicked on check box and white list
 		$('#file_tree').fileTree({
-			root: '<?php echo ABSPATH; ?>',
+			root: '<?php echo addslashes(ABSPATH); ?>',
 			script: ajaxurl,
 			expandSpeed: 500,
 			collapseSpeed: 500,
@@ -110,6 +104,13 @@ try {
 		$('#toggle-all').click(function (e) {
 			$('.checkbox').click();
 			e.preventDefault();
+		});
+
+		$('#store_in_subfolder').click(function (e) {
+			if ($('#store_in_subfolder').is(':checked'))
+				$('.dropbox_location').show();
+			else
+				$('.dropbox_location').hide();
 		});
 	});
 
@@ -163,6 +164,12 @@ try {
 	.bump {
 		margin: 10px 0 0 10px;
 	}
+
+	<?php if (!$store_in_subfolder): ?>
+	.dropbox_location {
+		display: none;
+	}
+	<?php endif; ?>
 </style>
 	<div class="wrap">
 	<div class="icon32"><img width="36px" height="36px"
@@ -233,31 +240,24 @@ try {
 		<tbody>
 		<tr valign="top">
 			<th scope="row"><label
-					for="dump_location"><?php _e('Temporarily store your database backup in this folder', 'wpbtd'); ?></label></th>
-			<td>
-				<input name="dump_location" type="text" id="dump_location" value="<?php echo $dump_location; ?>"
-					   class="regular-text code">
-				<span class="description"><?php _e('Default is', 'wpbtd'); ?><code><?php echo basename(WP_CONTENT_DIR) ?>/backups</code></span>
-				<?php if ($validation_errors && array_key_exists('dump_location', $validation_errors)) { ?>
-				<br/><span class="description"
-						   style="color: red"><?php echo $validation_errors['dump_location']['message'] ?></span>
-				<?php } ?>
-			</td>
-		</tr>
-		<tr valign="top">
-			<th scope="row"><label
-					for="dropbox_location"><?php _e('Store backup in this folder within Dropbox', 'wpbtd'); ?></label>
+					for="dropbox_location"><?php _e("Store backup in a subfolder of the wpb2d app folder", 'wpbtd'); ?></label>
 			</th>
 			<td>
-				<input name="dropbox_location" type="text" id="dropbox_location"
-					   value="<?php echo $dropbox_location; ?>" class="regular-text code">
-				<span class="description"><?php _e('Default is', 'wpbtd'); ?><code>WordPressBackup</code></span>
-				<?php if ($validation_errors && array_key_exists('dropbox_location', $validation_errors)) { ?>
-				<br/><span class="description"
-						   style="color: red"><?php echo $validation_errors['dropbox_location']['message'] ?></span>
-				<?php } ?>
+				<input name="store_in_subfolder" type="checkbox" id="store_in_subfolder"
+					   <?php echo $store_in_subfolder ? 'checked="checked"' : ''; ?> >
+
+				<span class="dropbox_location">
+					<input name="dropbox_location" type="text" id="dropbox_location"
+						   value="<?php echo $dropbox_location; ?>" class="regular-text code">
+					<span class="description"><?php _e('Default is', 'wpbtd'); ?><code>WordPressBackup</code></span>
+					<?php if ($validation_errors && array_key_exists('dropbox_location', $validation_errors)) { ?>
+					<br/><span class="description"
+							   style="color: red"><?php echo $validation_errors['dropbox_location']['message'] ?></span>
+					<?php } ?>
+				</span>
 			</td>
 		</tr>
+
 		<tr valign="top">
 			<th scope="row"><label for="time"><?php _e('Day and Time', 'wpbtd'); ?></label></th>
 			<td>

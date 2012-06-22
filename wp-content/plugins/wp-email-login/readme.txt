@@ -32,6 +32,9 @@ Translations available for:
 1. Log out, log in again using the email address associated with your WordPress account.
 
 == Changelog ==
+= 4.3.1 =
+* Add Brazilian Portuguese translation, props Alysson http://profiles.wordpress.org/alyssonweb
+
 = 4.3 =
 * Check user_status to confirm the user is verified before allowing authentication (used in BuddyPress). Props Steve Holland. If you have a plugin which is using user_status to store some non-zero value, then those users will *not* be able to log in using their email address with this update.
 

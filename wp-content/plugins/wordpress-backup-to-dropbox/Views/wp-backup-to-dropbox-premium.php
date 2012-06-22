@@ -27,10 +27,10 @@ $buyUrl = $manager->get_buy_url();
 
 $error = $title = null;
 if (isset($_REQUEST['error']))
-	$error = __(sprintf('There was an error with your payment, please contact %s to resolve.', '<a href="mailto:michael.dewildt+wpb2d@gmail.com">Mikey</a>'));
+	$error = sprintf(__('There was an error with your payment, please contact %s to resolve.'), '<a href="mailto:michael.dewildt@gmail.com">Mikey</a>');
 
 if (isset($_REQUEST['title']))
-	$successs = __(sprintf('You have succesfully purchased the %s premium extension, please install it below.', "<strong>{$_REQUEST['title']}</strong>"));
+	$success = sprintf(__('You have succesfully purchased the %s premium extension, please install it below.'), "<strong>{$_REQUEST['title']}</strong>");
 
 try {
 	if (isset($_POST['name'])) {
@@ -68,6 +68,13 @@ table {
 .success {
 	color: green;
 }
+.paypal, .instructions {
+	float: left;
+	margin-right: 20px;
+}
+.errors {
+	clear: both;
+}
 </style>
 <div class="wrap">
 	<div class="icon32"><img width="36px" height="36px"
@@ -76,26 +83,37 @@ table {
 	<h2><?php _e('WordPress Backup to Dropbox', 'wpbtd'); ?></h2>
 	<p class="description"><?php printf(__('Version %s', 'wpbtd'), BACKUP_TO_DROPBOX_VERSION) ?></p>
 	<h3><?php _e('Premium Extensions', 'wpbtd'); ?></h3>
-	<p>
-		<?php _e('Welcome to Premium Extensions. Please choose an extension below to enhance WordPress Backup to Dropbox.', 'wpbtd'); ?>
-		<?php _e('Installing a premium extensions is easy:', 'wpbtd'); ?>
-		<ol>
+	<div>
+		<p>
+			<?php _e('Welcome to Premium Extensions. Please choose an extension below to enhance WordPress Backup to Dropbox.', 'wpbtd'); ?>
+			<?php _e('Installing a premium extensions is easy:', 'wpbtd'); ?>
+		</p>
+		<ol class="instructions">
 			<li><?php _e('Click Buy Now and pay for your extension using PayPal', 'wpbtd'); ?></li>
 			<li><?php _e('Click Install & Acitvate to download and install the extension', 'wpbtd'); ?></li>
 			<li><?php _e('Thats it, options for your extension will be available in the menu on the left', 'wpbtd'); ?></li>
 		</ol>
-	</p>
-	<?php if ($error): ?>
-		<p class="error">
-			<?php echo $error ?>
-		</p>
-	<?php elseif ($success): ?>
-		<p class="success">
-			<?php echo $success ?>
-		</p>
-	<?php endif; ?>
-	<table id="extensions">
+		<a class="paypal" href="#" onclick="javascript:window.open('https://www.paypal.com/au/cgi-bin/webscr?cmd=xpt/Marketing/popup/OLCWhatIsPayPal-outside','olcwhatispaypal','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=400, height=350');">
+			<img  src="https://www.paypalobjects.com/en_AU/i/bnr/horizontal_solution_PP.gif" border="0" alt="Solution Graphics">
+		</a>
 
+		<a class="moneyback" href="http://wpb2d.com/money-back-guarantee">
+			<img src="<?php echo $uri ?>/Images/guarantee.gif" alt="<?php _e('100% money back guarantee') ?>"/>
+		</a>
+
+	</div>
+	<div class="errors">
+		<?php if ($error): ?>
+			<p class="error">
+				<?php echo $error ?>
+			</p>
+		<?php elseif ($success): ?>
+			<p class="success">
+				<?php echo $success ?>
+			</p>
+		<?php endif; ?>
+	</div>
+	<table id="extensions">
 		<tr>
 			<th><?php _e('Name') ?></th>
 			<th><?php _e('Description') ?></th>
@@ -123,6 +141,9 @@ table {
 			</td>
 		</tr>
 		<?php endforeach; ?>
-
 	</table>
+	<p>
+		<strong><?php _e('Please Note:') ?></strong>&nbsp;
+		<?php echo sprintf(__('Each extension can only be activated on a single website for one year. If you manage multiple websites please %s.'), '<a href="http://wpb2d.com/buy-subscription">' . __('purchase a subscription') . '</a>') ?>
+	</p>
 </div>

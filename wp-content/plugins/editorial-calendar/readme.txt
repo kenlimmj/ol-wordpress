@@ -2,8 +2,8 @@
 Contributors: cvernon, justinstresslimit, jkudish, MaryVogt, zgrossbart
 Tags: posts, post, calendar, AJAX, admin, administration
 Requires at least: 2.8.5
-Tested up to: 3.3.2
-Stable tag: 2.0
+Tested up to: 3.4
+Stable tag: 2.1
 
 The Editorial Calendar makes it possible to see all your posts and drag and drop them to manage your blog.
 
@@ -172,6 +172,12 @@ Moving published posts can cause problems with some RSS feeds and is generally n
 7. Use the new unscheduled drafts section to manage drafts before you schedule them.
 
 == Changelog ==
+
+= 2.1 =
+
+The calendar now moves posts from the drafts drawer to the main calendar properly on blogs with the alternate functionality of the date function.
+
+The calendar can now display up to eight weeks at a time instead of just five.
 
 = 2.0 =
 

@@ -40,16 +40,13 @@ class WP_Backup_Config {
 		$options = get_option('backup-to-dropbox-options');
 		if (!$options) {
 			$options = array(
-				'dump_location' => basename(WP_CONTENT_DIR) . '/backups',
 				'dropbox_location' => 'WordPressBackup',
 				'last_backup_time' => false,
 				'in_progress' => false,
+				'store_in_subfolder' => false,
 			);
 			add_option('backup-to-dropbox-options', $options, null, 'no');
 		}
-
-		if (!$this->get_option('dump_location'))
-			$this->set_option('dump_location', basename(WP_CONTENT_DIR) . '/backups');
 
 		if (!$this->get_option('dropbox_location'))
 			$this->set_option('dropbox_location', 'WordPressBackup');
@@ -81,7 +78,14 @@ class WP_Backup_Config {
 		if ($suhosin_memory_limit && $suhosin_memory_limit < $memory_limit) {
 			$memory_limit = $suhosin_memory_limit;
 		}
-		return $memory_limit / 2.5;
+
+		$memory_limit /= 2.5;
+
+		return $memory_limit < Dropbox_Facade::MAX_UPLOAD_SIZE ? $memory_limit : Dropbox_Facade::MAX_UPLOAD_SIZE;
+	}
+
+	public static function get_backup_dir() {
+		return WP_CONTENT_DIR . DIRECTORY_SEPARATOR . 'backups';
 	}
 
 	public function set_option($option, $value) {
@@ -126,6 +130,11 @@ class WP_Backup_Config {
 		} else {
 			@set_time_limit(0);
 		}
+	}
+
+	public function set_memory_limit() {
+		if (function_exists('memory_get_usage'))
+			@ini_set('memory_limit', '256M');
 	}
 
 	public function set_current_action($msg) {

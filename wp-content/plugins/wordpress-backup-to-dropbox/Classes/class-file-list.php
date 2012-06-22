@@ -30,6 +30,8 @@ class File_List {
 	}
 
 	public function __construct() {
+		WP_Backup_Config::construct()->set_memory_limit();
+
 		delete_option('backup-to-dropbox-file-list');
 
 		$file_list = get_option('backup-to-dropbox-excluded-files');
@@ -107,7 +109,7 @@ class File_List {
 
 	private function is_partial_dir($dir) {
 		if (is_dir($dir)) {
-			$files = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($dir), RecursiveIteratorIterator::SELF_FIRST);
+			$files = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($dir), RecursiveIteratorIterator::SELF_FIRST, RecursiveIteratorIterator::CATCH_GET_CHILD);
 			foreach ($files as $file) {
 				if ($file == $dir)
 					continue;

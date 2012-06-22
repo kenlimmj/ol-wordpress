@@ -3,7 +3,7 @@
 Plugin Name: WordPress Backup to Dropbox
 Plugin URI: http://wpb2d.com
 Description: Keep your valuable WordPress website, its media and database backed up to Dropbox in minutes with this sleek, easy to use plugin.
-Version: 1.0
+Version: 1.1
 Author: Michael De Wildt
 Author URI: http://www.mikeyd.com.au
 License: Copyright 2011  Michael De Wildt  (email : michael.dewildt@gmail.com)
@@ -22,10 +22,11 @@ License: Copyright 2011  Michael De Wildt  (email : michael.dewildt@gmail.com)
 		Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 define('USE_BUNDLED_PEAR', true);
-define('BACKUP_TO_DROPBOX_VERSION', '1.0');
-define('EXTENSIONS_DIR', WP_CONTENT_DIR . '/plugins/wordpress-backup-to-dropbox/Extensions/');
+define('BACKUP_TO_DROPBOX_VERSION', '1.1');
+define('BACKUP_TO_DROPBOX_ERROR_TIMEOUT', 5); //seconds
+define('EXTENSIONS_DIR', implode(array(WP_CONTENT_DIR, 'plugins', 'wordpress-backup-to-dropbox', 'Extensions'), DIRECTORY_SEPARATOR) . DIRECTORY_SEPARATOR);
 
-require_once('Dropbox_API/autoload.php');
+require_once('Dropbox_API/src/Dropbox/autoload.php');
 require_once('Classes/class-file-list.php');
 require_once('Classes/class-dropbox-facade.php');
 require_once('Classes/class-wp-backup-config.php');
@@ -36,9 +37,9 @@ require_once('Classes/class-wp-backup-extension-manager.php');
 
 //We need to set the PEAR_Includes folder in the path
 if (USE_BUNDLED_PEAR)
-	set_include_path(dirname(__FILE__) . '/PEAR_Includes' . PATH_SEPARATOR . get_include_path());
+	set_include_path(dirname(__FILE__) . DIRECTORY_SEPARATOR . 'PEAR_Includes' . PATH_SEPARATOR . get_include_path());
 else
-	set_include_path(get_include_path() . PATH_SEPARATOR . dirname(__FILE__) . '/PEAR_Includes');
+	set_include_path(get_include_path() . PATH_SEPARATOR . dirname(__FILE__) . DIRECTORY_SEPARATOR . 'PEAR_Includes');
 
 WP_Backup_Extension_Manager::construct()->init();
 
@@ -50,20 +51,20 @@ function backup_to_dropbox_admin_menu() {
 	$imgUrl = rtrim(WP_PLUGIN_URL, '/') . '/wordpress-backup-to-dropbox/Images/WordPressBackupToDropbox_16.png';
 
 	$text = __('WPB2D', 'wpbtd');
-	add_utility_page($text, $text, 'edit_plugins', 'backup-to-dropbox', 'backup_to_dropbox_admin_menu_contents', $imgUrl);
+	add_utility_page($text, $text, 'activate_plugins', 'backup-to-dropbox', 'backup_to_dropbox_admin_menu_contents', $imgUrl);
 
 	$text = __('Backup Settings', 'wpbtd');
-	add_submenu_page('backup-to-dropbox', $text, $text, 'edit_plugins', 'backup-to-dropbox', 'backup_to_dropbox_admin_menu_contents');
+	add_submenu_page('backup-to-dropbox', $text, $text, 'activate_plugins', 'backup-to-dropbox', 'backup_to_dropbox_admin_menu_contents');
 
 	$backup = new WP_Backup_Config();
 	$text = $backup->is_scheduled() ? __('Monitor Backup', 'wpbtd') : __('Backup Now', 'wpbtd');
 
-	add_submenu_page('backup-to-dropbox', $text, $text, 'edit_plugins', 'backup-to-dropbox-monitor', 'backup_to_dropbox_monitor');
+	add_submenu_page('backup-to-dropbox', $text, $text, 'activate_plugins', 'backup-to-dropbox-monitor', 'backup_to_dropbox_monitor');
 
 	WP_Backup_Extension_Manager::construct()->add_menu_items();
 
 	$text = __('Premium Extensions', 'wpbtd');
-	add_submenu_page('backup-to-dropbox', $text, $text, 'edit_plugins', 'backup-to-dropbox-premium', 'backup_to_dropbox_premium');
+	add_submenu_page('backup-to-dropbox', $text, $text, 'activate_plugins', 'backup-to-dropbox-premium', 'backup_to_dropbox_premium');
 }
 
 /**

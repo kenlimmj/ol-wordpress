@@ -18,7 +18,7 @@
 /*
 Plugin Name: WordPress Editorial Calendar
 Description: The Editorial Calendar makes it possible to see all your posts and drag and drop them to manage your blog.
-Version: 2.0
+Version: 2.1
 Author: Colin Vernon, Justin Evans, Joachim Kudish, Mary Vogt, and Zack Grossbart
 Author URI: http://www.zackgrossbart.com
 Plugin URI: http://stresslimitdesign.com/editorial-calendar-plugin
@@ -317,7 +317,7 @@ class EdCal {
                 edcal.str_opt_time = <?php echo($this->edcal_json_encode(__('Time of day', 'editorial-calendar'))) ?>;
                 edcal.str_fatal_error = <?php echo($this->edcal_json_encode(__('An error occurred while loading the calendar: ', 'editorial-calendar'))) ?>;
                 
-                edcal.str_weekserror = <?php echo($this->edcal_json_encode(__('The calendar can only show between 1 and 5 weeks at a time.', 'editorial-calendar'))) ?>;
+                edcal.str_weekserror = <?php echo($this->edcal_json_encode(__('The calendar can only show between 1 and 8 weeks at a time.', 'editorial-calendar'))) ?>;
                 edcal.str_weekstt = <?php echo($this->edcal_json_encode(__('Select the number of weeks for the calendar to show.', 'editorial-calendar'))) ?>;
 
                 edcal.str_showdrafts = <?php echo($this->edcal_json_encode(__('Show Unscheduled Drafts'))) ?>;
@@ -388,7 +388,7 @@ class EdCal {
                 </div>
 
                 <div id="topright" class="tablenav-pages alignright">
-	                <a class="save button" title="<?php echo(__('Show unscheduled posts', 'editorial-calendar')) ?>" id="showdraftsdrawer"><?php echo(__('Show Drafts', 'editorial-calendar')) ?></a>
+	                <a class="save button" title="<?php echo(__('Show unscheduled posts', 'editorial-calendar')) ?>" id="showdraftsdrawer"><?php echo(__('Show Unscheduled Drafts', 'editorial-calendar')) ?></a>
                 </div>
             </div>
             
@@ -738,6 +738,17 @@ class EdCal {
         if ($post_date_gmt == '01011970') {
             $post_date_gmt = '00000000';
         }
+        
+        /*
+         * The date function in PHP isn't consistent in the way it handles
+         * formatting dates that are all zeros.  In that case we can manually
+         * format the all zeros date so it shows up properly.
+         */
+        if ($post->post_date_gmt == '0000-00-00 00:00:00') {
+            $post_date_gmt = '00000000';
+        }
+        
+        
         ?>
             {
                 "date" : "<?php the_time('d') ?><?php the_time('m') ?><?php the_time('Y') ?>", 

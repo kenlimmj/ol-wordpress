@@ -84,7 +84,7 @@ var edcal = {
        This is a preference value indicating if you see the post author
      */
     authorPref: false,
-
+    
     /*
        This is a preference value indicating if you see the post time
      */
@@ -2390,7 +2390,7 @@ var edcal = {
                                 '<select id="edcal_weeks_pref" ' + 'class="screen-per-page" title="' + edcal.str_weekstt + '"> ';
 
              var weeks = parseInt(edcal.weeksPref, 10);
-             for (i = 1; i < 6; i++) {
+             for (i = 1; i < 9; i++) {
                  if (i === weeks) {
                      optionsHtml += '<option selected="true">' + i + '</option>';
                  } else {
@@ -2491,11 +2491,8 @@ var edcal = {
             We start by validating the number of weeks.  We only allow
             1, 2, 3, 4, or 5 weeks at a time.
           */
-         if (jQuery('#edcal_weeks_pref').val() !== '1' &&
-             jQuery('#edcal_weeks_pref').val() !== '2' &&
-             jQuery('#edcal_weeks_pref').val() !== '3' &&
-             jQuery('#edcal_weeks_pref').val() !== '4' &&
-             jQuery('#edcal_weeks_pref').val() !== '5') {
+         var weeks = parseInt(jQuery('#edcal_weeks_pref').val(), 10);
+         if (weeks < 1 || weeks > 8) {
              humanMsg.displayMsg(edcal.str_weekserror);
              return;
          }
