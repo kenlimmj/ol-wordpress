@@ -12,15 +12,38 @@ wp_enqueue_script('bootstrap', '/wp-content/themes/olresponsive/js/bootstrap.min
 // if (is_category() || is_page('about-us') || is_page('docs')) {
 // wp_enqueue_script('list', '/wp-content/themes/olresponsive/js/list.min.js', array(), null, true); // Script for realtime list search
 // wp_enqueue_script('subnav', '/wp-content/themes/olresponsive/js/subnav.js', array('jquery'), null, true);  } // jQuery script to collapse and make persistent subnav bar
-if (is_page('linking') || is_page('docs')) {
-wp_enqueue_script('prettify', '/wp-content/themes/olresponsive/js/prettify.js', array('jquery'), null, true); // Google Code Prettifier
-echo '<link rel="stylesheet" href="/wp-content/themes/olresponsive/prettify.css">'; }
-if (is_single() || is_home() || is_page('standards') || is_author() || is_page('ol2')) {
-wp_enqueue_script('jwplayer', '/wp-content/themes/olresponsive/jwplayer/jwplayer.js', array('jquery'), null, false); } // JWPlayer core JS
-if (is_single()) {
+if (is_single() || is_home()) {
+wp_enqueue_script('jwplayer', '/wp-content/themes/olresponsive/jwplayer/jwplayer.js', array('jquery'), null, false); // JWPlayer core JS
 wp_enqueue_script('lecture', '/wp-content/themes/olresponsive/js/lecture.js', array('jquery'), null, true); } // JWEmbedder configuration file for lecture pages
-if (is_home()) {
+if (is_home() || is_404()) {
+wp_enqueue_script('typeahead', '/wp-content/themes/olresponsive/js/bootstrap-typeahead.min.js', array('bootstrap'), null, false);
+// wp_enqueue_script('twitter-blogger', 'http://twitter.com/javascripts/blogger.js', array(), null, true);
+// wp_enqueue_script('twitter-json', 'http://twitter.com/statuses/user_timeline/OpenLecturesUpd.json?callback=twitterCallback2&count=1"', array('jquery'), null, true);
 echo '<link rel="stylesheet" href="/wp-content/themes/olresponsive/all.css">'; }
+}
+
+// Converts comma-delimited CSV to arrays
+function csvToArray($file) {
+  if (($handle = fopen($file, 'r')) !== FALSE) {
+    $i = 0;
+    while (($lineArray = fgetcsv($handle, 4000, ',', '"')) !== FALSE) {
+      for ($j = 0; $j < count($lineArray); $j++) {
+        $arr[$i][$j] = $lineArray[$j];
+      }
+      $i++;
+    }
+    fclose($handle);
+  }
+  $count = count($arr) - 1;
+  $labels = array_shift($arr);
+  foreach ($labels as $label) {
+    $keys[] = $label;
+  }
+  for ($j = 0; $j < $count; $j++) {
+    $d = array_combine($keys, $arr[$j]);
+    $newArray[$j] = $d;
+  }
+  return $newArray;
 }
 
 // Calls YouTuBe API to get Video Title and Description based on ID
@@ -32,7 +55,16 @@ function get_youtube($link_ID) {
   $output = curl_exec($ch);
   return $foo=objectToArray(json_decode($output));
 }
-
+// Redirect user to post if search query returns only one result
+add_action('template_redirect', 'one_match_redirect');
+function one_match_redirect() {
+   if (is_search()) {
+       global $wp_query;
+       if ($wp_query->post_count == 1) {
+           wp_redirect( get_permalink( $wp_query->posts['0']->ID ) );
+       }
+   }
+}
 // Prevent WP from automatically encapsulating line-breaks and <img> tags with <p>
 remove_filter( 'the_content', 'wpautop' );
 

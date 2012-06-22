@@ -10,9 +10,8 @@
 	<?php while ( have_posts() ) : the_post() ?>
 	<?php
       $title = the_title('','',false);
-      $title_short = substr($title,5);
 	?>
-	<li><a href="<?php the_permalink(); ?>"><?php echo $title_short ?></a></li>
+	<li><a href="<?php the_permalink(); ?>"><?php echo $title; ?></a></li>
 	<?php endwhile; ?>
 	</ul>
 	</div><!--span6-->

@@ -1,40 +1,48 @@
 <?php get_header(); ?>
-<div class="container" style="padding-top:40px;">
-	<h1 class="fuckingbig">Stop!</h1>
-	<h6 style="font-size:200%; padding-top:30px; padding-bottom:10px;">Stop! Or we'll shoot!</h6>
-	<div class="alert alert-error">What you seek does not exist. Go no further. You have three choices ahead of you. Choose wisely.</div>
-<hr>
-<div class="row">
+<div class="container padtop20">
+	<div class="row-fluid">
+		<div class="span2 aligncenter">
+		<h1 class="bloat6 line6"><i class="icon-user-md icon-large"></i></h1>
+		</div><!--span4-->
+		<div class="span10">
+<h1 class="bloat4 line2">oh no!</h1>
+<h6 class="bloat2 line2">We have a crisis. A matter of life and death.</h6>
+</div><!--span8-->
+</div><!--row-fluid-->
+<div class="padtop40">
+<div class="alert alert-error">At <?php echo current_time('mysql'); ?> today, an intergalactic wormhole opened and swallowed the stuff you were looking for. What are your orders, Commander?</div>
+</div><!--padtop20-->
+<div class="row-fluid">
 	<div class="span4 aligncenter">
-			<h1 style="font-size:400%;">A</h1>
-			<h3>Return</h3>
-			<hr>
-			<a href="javascript:history.back()"><span>
-			<h1 style="font-size:400%;"><i class="icon-arrow-left"></i></h1>
-			<span>
-			<p class="medium">Go back to the previous page</p>
-			</span></a>
-			<h2>or</h2>
-			<a href=<?php bloginfo('url'); ?>><span>
-			<h1 style="font-size:400%;"><i class="icon-home"></i></h1>
-			<p class="medium">Start over from the beginning</p>
-			</span></a>
-	</div><!--1/3col-->
+		<h1 class="bloat4 padtop40">A</h1>
+		<h3>Reverse Space Time</h3>
+		<hr class="soften">
+		<a href="javascript:history.back()"><span>
+		<h1 class="bloat4"><i class="icon-arrow-left"></i></h1>
+		<p>Go back to the previous page</p>
+		</span></a>
+		<h2 class="padbot40">or</h2>
+		<a href="http://sg.openlectures.org"><span>
+		<h1 class="bloat4"><i class="icon-home"></i></h1>
+		<p>Start over from the beginning</p>
+		</span></a>
+	</div><!--span4-->
 	<div class="span4 aligncenter">
-		<h1 style="font-size:400%;">B</h1>
-		<h3>Explore</h3>
-		<hr>
-		<p class="medium">Choose a subject. Any subject.</p>
-		<ul class="nav nav-pills nav-stacked">
+		<h1 class="bloat4 padtop40">B</h1>
+		<h3>Triangulate their Position</h3>
+		<hr class="soften">
+		<?php get_search_form(); ?>
+		<p>Browse by Subject</p>
+		<ul class="nav nav-tabs nav-stacked">
 			<?php wp_list_categories('depth=1&exclude=200&title_li=&order=desc'); ?>
 		</ul>
-	</div><!--1/3col-->
+	</div><!--span4-->
 	<div class="span4 aligncenter">
-		<h1 style="font-size:400%;">C</h1>
-		<h3>Fight!</h3>
-		<hr>
-		<p>There's a chance we might have gotten something wrong. Let us know?</p>
-		<?php echo do_shortcode('[gravityform id="2" name="Feedback" title="false" description="false" ajax="true"]'); ?>
-	</div><!--1/3col-->
-</div><!--row-->
+		<h1 class="bloat4 padtop40">C</h1>
+		<h3>Fire the Photon Blaster</h3>
+		<hr class="soften">
+		<p>Let us know if we've messed up.</p>
+	</div><!--span4-->
+</div><!--row-fluid-->
+</div><!--container-->
 <?php get_footer(); ?>

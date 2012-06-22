@@ -1,1 +1,0 @@
-jQuery(".fuckingbig").fitText(1.2);

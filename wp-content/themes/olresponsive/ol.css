@@ -6,18 +6,24 @@ body {
   background-image:url('texture.png');
   background-repeat:repeat;
 }
-/* Additional push for pages that don't implement .page-header */
-.pushdown {
-  padding-top:30px;
+/* Additional push for any purpose necessary */
+.padtop20 {
+  padding-top:20px
 }
-.lectures {
-  overflow-y:auto;
-  height:150px;
+.padtop40 {
+  padding-top:40px
 }
-/* Sets height of lecture sidebar to match video player height. Used on single.php*/
-.sidebar {
-  overflow-y:auto;
-  padding: 8px 0 !important;
+.padtop60 {
+  padding-top:60px;
+}
+.padbot20 {
+  padding-bottom:20px;
+}
+.padbot40 {
+  padding-bottom:40px;
+}
+.padbot60 {
+  padding-bottom:60px;
 }
 /* Implementation of the Intrinsic Ratio Method to make the video player responsive */
 /* Temporary hack until JWPlayer itself comes up with a responsive solution. Used whenever JWPlayer is displayed.*/
@@ -35,73 +41,84 @@ body {
 .cbar-bottom {
   padding-bottom:62%;
 }
-/* Creates a more exact column width for the pictures on press>leadership */
-.spanpic {
-  width:100px;
-}
-/* Creates a more exact column width for the biographies on press>leadership */
-.spanbio {
-  width: 620px;
-}
-/* Sets the width of TimelineXML to be dependent on the enclosing div so it becomes responsive. Used on /press Temporary hack */
-#my-timeline, .timeline-events {
-  width:100%;
-}
 /* Prevents large images from causing the modal to scroll */
 .modal-body>img {
   max-width:100%;
 }
-.picture>img {
-  border: 1px solid #33CCCC !important;
-  border-radius: 10px !important;
-  -webkit-border-radius: 10px !important;
-  -moz-border-radius: 10px !important;
-  margin-right: 20px !important;
-}
 /* FORMATTING */
-p small {
-  font-size: 13px !important;
-  color: #404040 !important;
-  text-transform: uppercase !important;
-}
 /* Left, right, and center align classes for convenience */
 .alignright { text-align:right; }
 .alignleft { text-align:left; }
 .aligncenter { text-align:center; }
 .alignjustify { text-align:justify; }
-/* Used to decrease the font size of the blockquote style for the press>leadership page */
-blockquote p.bio {
-  font-size:14px !important;
-}
+a.clean:hover {text-decoration: none; }
+.bloat2 {font-size:200%;}
+.bloat4 {font-size:400%;}
+.bloat6 {font-size:600%;}
+.line2 {line-height:110%}
+.line4 {line-height:120%}
+.line6 {line-height:130%}
 /* Sets font families for header and body text */
 @font-face {
-  font-family: 'cmunbmr';
-  src: url('/wp-content/themes/olresponsive/font/cmunbmr.eot');
-  src: url('/wp-content/themes/olresponsive/font/cmunbmr.eot?#iefix') format('embedded-opentype'),
-  url('/wp-content/themes/olresponsive/font/cmunbmr.woff') format('woff'),
-  url('/wp-content/themes/olresponsive/font/cmunbmr.ttf') format('truetype'),
-  url('/wp-content/themes/olresponsive/font/cmunbmr.svg#webfont') format('svg');
+    font-family: 'DroidSansRegular';
+    src: url('/wp-content/themes/olresponsive/font/DroidSans-webfont.eot');
+    src: url('/wp-content/themes/olresponsive/font/DroidSans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/wp-content/themes/olresponsive/font/DroidSans-webfont.woff') format('woff'),
+         url('/wp-content/themes/olresponsive/font/DroidSans-webfont.ttf') format('truetype'),
+         url('/wp-content/themes/olresponsive/font/DroidSans-webfont.svg#DroidSansRegular') format('svg');
+}
+@font-face {
+    font-family: 'DroidSansBold';
+    src: url('/wp-content/themes/olresponsive/font/DroidSans-Bold-webfont.eot');
+    src: url('/wp-content/themes/olresponsive/font/DroidSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/wp-content/themes/olresponsive/font/DroidSans-Bold-webfont.woff') format('woff'),
+         url('/wp-content/themes/olresponsive/font/DroidSans-Bold-webfont.ttf') format('truetype'),
+         url('/wp-content/themes/olresponsive/font/DroidSans-Bold-webfont.svg#DroidSansBold') format('svg');
+}
+@font-face {
+    font-family: 'InsigniaRegular';
+    src: url('/wp-content/themes/olresponsive/font/insignia-webfont.eot');
+    src: url('/wp-content/themes/olresponsive/font/insignia-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/wp-content/themes/olresponsive/font/insignia-webfont.woff') format('woff'),
+         url('/wp-content/themes/olresponsive/font/insignia-webfont.ttf') format('truetype'),
+         url('/wp-content/themes/olresponsive/font/insignia-webfont.svg#InsigniaRegular') format('svg');
 }
 /* Allows rendering of the ol logo in the correct font */
-.openlectures { font-family: "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif; }
-
-/* Changes the color of the default progress bar from blue to #33CCCC. Used on single.php. */
-.progress .bar {
-  background-color: #33CCCC !important;
-  background-image: -moz-linear-gradient(top, #33CCCC, #33CCCC) !important;
-  background-image: -ms-linear-gradient(top, #33CCCC, #33CCCC) !important;
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#33CCCC), to(#33CCCC)) !important;
-  background-image: -webkit-linear-gradient(top, #33CCCC, #33CCCC) !important;
-  background-image: -o-linear-gradient(top, #33CCCC, #33CCCC) !important;
-  background-image: linear-gradient(top, #33CCCC, #33CCCC) !important;
-  background-repeat: repeat-x !important;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#33CCCC', endColorstr='#33CCCC', GradientType=0);
+[class^="openlectures"]:before, [class*=" openlectures"]:before, [class^="openlectures"]:after, [class*=" openlectures"]:after {
+  font-family: "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  text-decoration: inherit;
 }
+a [class^="openlectures"], a [class*=" openlectures"] {
+  display: inline-block;
+  text-decoration: inherit;
+}
+.openlectures:before { content: "open"; font-weight: bold}
+.openlectures:after { content: "lectures"; font-weight: normal}
+[class^="ol"]:before, [class*=" ol"]:before {
+  font-family: "InsigniaRegular", "HelveticaNeue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  text-decoration: inherit;
+}
+a [class^="ol"], a [class*=" ol"] {
+  display: inline-block;
+  text-decoration: inherit;
+}
+.ol:before { content: "ol";}
 /* Adds a fade effect to the edges of the normal <hr> class */
 hr.soften {
-  background-image: -moz-linear-gradient(left center , transparent, rgba(0, 0, 0, 0.1), transparent) !important;
+  background-color: rgba(0, 0, 0, 0.1); /* fallback color if gradients are not supported */
+  background: -webkit-linear-gradient(left center , transparent, rgba(0, 0, 0, 0.1), transparent) !important;
+  background: -moz-linear-gradient(left center , transparent, rgba(0, 0, 0, 0.1), transparent) !important;
+  background: -o-linear-gradient(left center , transparent, rgba(0, 0, 0, 0.1), transparent) !important;
+  background: -ms-linear-gradient(left center , transparent, rgba(0, 0, 0, 0.1), transparent) !important;
+  background: linear-gradient(left center , transparent, rgba(0, 0, 0, 0.1), transparent) !important;
   border: 0 none  !important;
-  height: 1px  !important;
+  height: 2px  !important;
 }
 
 /* NAVIGATION */
@@ -254,37 +271,3 @@ hr.soften {
   .subnav-fixed .nav {
     width: 1168px; /* 2px less to account for left/right borders being removed when in fixed mode */
   }
-
-}
-
-/* Enlarges the size of the default button so it looks good. Used on /opportunities.  */
-.btn-fuckingbig {
-    border-radius: 6px 6px 6px 6px !important;
-    font-size: 20px !important;
-    font-weight: normal !important;
-    margin-right: 10px !important;
-    padding: 14px 24px !important;
-}
-/* Widens the default button to span 90% of the enclosing div width. Used on /opportunities. */
-.btn-wide {
-  width:90%;
-  margin:10px 0 0;
-}
-
-.tweet {
-  text-align: center;
-  background-color:#33CCCC;
-  padding:5px 10px;
-  border-radius: 0 0 20px 20px;
-  -webkit-border-radius: 0 0 20px 20px;
-  -moz-border-radius: 0 0 20px 20px;
-  margin-left: 630px;
-}
-@media (min-width: 768px) and (max-width: 979px) {
-  .tweet {display:none;}
-}
-
-@media (max-width: 767px) {
-  .tweet {display:none;}
-  .nav, .nav-pills {margin-bottom:0 !important;}
-}
